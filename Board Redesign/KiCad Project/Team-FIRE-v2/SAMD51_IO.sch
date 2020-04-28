@@ -854,7 +854,7 @@ Text GLabel 1260 2190 0    50   Input ~ 0
 IO-DSR
 Text GLabel 1260 2390 0    50   Input ~ 0
 IO-DCD
-Text GLabel 3510 3350 0    50   Input ~ 0
+Text GLabel 3980 2630 0    50   Input ~ 0
 IO-RI
 Text GLabel 1260 2590 0    50   Input ~ 0
 IO-TX

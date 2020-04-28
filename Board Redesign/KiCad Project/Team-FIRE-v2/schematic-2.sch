@@ -22,7 +22,7 @@ Wire Notes Line
 Text Notes 3920 2170 0    79   ~ 16
 uC Support
 $Comp
-L Connector:Conn_ARM_JTAG_SWD_10 J5
+L Connector:Conn_ARM_JTAG_SWD_10 J?
 U 1 1 5E6DB242
 P 6220 3020
 F 0 "J?" V 5639 3020 50  0000 C CNN
@@ -33,7 +33,7 @@ F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresigh
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0125
+L power:+3.3V #PWR?
 U 1 1 5E6DD1DD
 P 6970 2770
 F 0 "#PWR?" H 6970 2620 50  0001 C CNN
@@ -48,7 +48,7 @@ Wire Wire Line
 Wire Wire Line
 	6970 3020 6820 3020
 $Comp
-L power:GND #PWR0126
+L power:GND #PWR?
 U 1 1 5E6E026F
 P 5520 3270
 F 0 "#PWR?" H 5520 3020 50  0001 C CNN
@@ -83,7 +83,7 @@ Wire Wire Line
 Text Notes 6570 3820 0    50   ~ 0
 Keep reset button?
 $Comp
-L Connector:USB_B_Mini J3
+L Connector:USB_B_Mini J?
 U 1 1 5E6EF352
 P 4470 2920
 F 0 "J?" H 4527 3387 50  0000 C CNN
@@ -94,7 +94,7 @@ F 3 "~" H 4620 2870 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0127
+L power:GND #PWR?
 U 1 1 5E6F0DA3
 P 4370 3570
 F 0 "#PWR?" H 4370 3320 50  0001 C CNN
@@ -122,7 +122,7 @@ Wire Wire Line
 Wire Wire Line
 	5070 3020 4770 3020
 $Comp
-L Device:LED_Small D2
+L Device:LED_Small D?
 U 1 1 5E707545
 P 7670 2920
 F 0 "D?" V 7620 2770 50  0000 L CNN
@@ -133,7 +133,7 @@ F 3 "~" V 7670 2920 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED_Small D3
+L Device:LED_Small D?
 U 1 1 5E7081BA
 P 8170 2920
 F 0 "D?" V 8120 2770 50  0000 L CNN
@@ -144,7 +144,7 @@ F 3 "~" V 8170 2920 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED_Small D4
+L Device:LED_Small D?
 U 1 1 5E7085D2
 P 8670 3270
 F 0 "D?" V 8720 3470 50  0000 R CNN
@@ -155,7 +155,7 @@ F 3 "~" V 8670 3270 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small D5
+L Device:LED_Small D?
 U 1 1 5E709852
 P 9170 3270
 F 0 "D?" V 9220 3470 50  0000 R CNN
@@ -166,7 +166,7 @@ F 3 "~" V 9170 3270 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0128
+L power:+3.3V #PWR?
 U 1 1 5E709BE1
 P 8670 2670
 F 0 "#PWR?" H 8670 2520 50  0001 C CNN
@@ -177,7 +177,7 @@ F 3 "" H 8670 2670 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0129
+L power:+3.3V #PWR?
 U 1 1 5E70A194
 P 9170 2670
 F 0 "#PWR?" H 9170 2520 50  0001 C CNN
@@ -188,7 +188,7 @@ F 3 "" H 9170 2670 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0130
+L power:GND #PWR?
 U 1 1 5E70A4EC
 P 7670 2670
 F 0 "#PWR?" H 7670 2420 50  0001 C CNN
@@ -199,7 +199,7 @@ F 3 "" H 7670 2670 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0131
+L power:GND #PWR?
 U 1 1 5E70B5A5
 P 8170 2670
 F 0 "#PWR?" H 8170 2420 50  0001 C CNN
@@ -210,7 +210,7 @@ F 3 "" H 8170 2670 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R11
+L Device:R R?
 U 1 1 5E70B7B8
 P 7670 3320
 F 0 "R?" H 7770 3370 50  0000 L CNN
@@ -221,7 +221,7 @@ F 3 "~" H 7670 3320 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R13
+L Device:R R?
 U 1 1 5E70C353
 P 8170 3320
 F 0 "R?" H 8270 3370 50  0000 L CNN
@@ -232,7 +232,7 @@ F 3 "~" H 8170 3320 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R15
+L Device:R R?
 U 1 1 5E7177B2
 P 8670 2920
 F 0 "R?" H 8770 2970 50  0000 L CNN
@@ -243,7 +243,7 @@ F 3 "~" H 8670 2920 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R16
+L Device:R R?
 U 1 1 5E717AD1
 P 9170 2920
 F 0 "R?" H 9270 2970 50  0000 L CNN
