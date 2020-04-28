@@ -15,6 +15,10 @@ D Switching Voltage Regulators Wide Input Voltage Range Boost/SEPIC/Inverting Co
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3959fa.pdf
 $ENDCMP
 #
+$CMP SAMD51
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf
+$ENDCMP
+#
 $CMP SX1509BIULTRT
 D Interface - I/O Expanders 16 CHAN LOW VOLT I2C GPIO +PWM
 F https://componentsearchengine.com/Datasheets/1/SX1509BIULTRT.pdf
