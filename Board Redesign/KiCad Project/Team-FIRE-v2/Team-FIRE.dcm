@@ -10,6 +10,11 @@ D MICROCHIP - ATSAMD51N20A-AU - 120MHZ 1024KB FLASH 100 TQFP PKG INTRAY
 F https://componentsearchengine.com/Datasheets/1/ATSAMD51N20A-AU.pdf
 $ENDCMP
 #
+$CMP EEE-FK1H390SV
+D Aluminium Electrolytic Capacitors - SMD 50VDC 39uF 20% Anti-Vibe AEC-Q200
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/3102
+$ENDCMP
+#
 $CMP LT3959EUHE#PBF
 D Switching Voltage Regulators Wide Input Voltage Range Boost/SEPIC/Inverting Converter with 5A, 40V Switch
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3959fa.pdf

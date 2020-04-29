@@ -1022,45 +1022,32 @@ F 3 "" H 2250 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C11
-U 1 1 5ED7F879
-P 6100 3550
-F 0 "C11" H 6150 3650 50  0000 L CNN
-F 1 "39uF" H 6150 3450 50  0000 L CNN
-F 2 "" H 6138 3400 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/315/ABA0000C1247-1144552.pdf" H 6100 3550 50  0001 C CNN
-F 4 "EEE-FK1H390SV" H 6100 3550 50  0001 C CNN "MPN"
-F 5 "Panasonic" H 6100 3550 50  0001 C CNN "Manufacturer"
-F 6 "Mouser" H 6100 3550 50  0001 C CNN "Supplier"
-F 7 "667-EEE-FK1H390SV" H 6100 3550 50  0001 C CNN "Supplier PN"
-F 8 "https://www.mouser.com/ProductDetail/Panasonic/EEE-FK1H390SV?qs=sGAEpiMZZMsh%252B1woXyUXj34sxNWs20QAUY71LHOgMEw%3D" H 6100 3550 50  0001 C CNN "Link"
-F 9 "Aluminum Electrolytic Capacitors" H 6100 3550 50  0001 C CNN "Type"
-F 10 "20%" H 6100 3550 50  0001 C CNN "Tolerance"
-F 11 "50 VDC" H 6100 3550 50  0001 C CNN "Voltage Rating"
-F 12 "AEC-Q200" H 6100 3550 50  0001 C CNN "Qualification"
-	1    6100 3550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C13
 U 1 1 5ED8008F
 P 6450 3550
 F 0 "C13" H 6500 3650 50  0000 L CNN
 F 1 "2.2uF" H 6500 3450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6488 3400 50  0001 C CNN
-F 3 "~" H 6450 3550 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 6450 3550 50  0001 C CNN
+F 4 "GRM188R61H225KE11D" H 6450 3550 50  0001 C CNN "MPN"
+F 5 "Murata" H 6450 3550 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 6450 3550 50  0001 C CNN "Supplier"
+F 7 "81-GRM188R61H225KE1D" H 6450 3550 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R61H225KE11D?qs=sGAEpiMZZMs0AnBnWHyRQKFZIQ7b73cd5p1cvIMBXrTOTAbV%2F8mfyA%3D%3D" H 6450 3550 50  0001 C CNN "Link"
+F 9 "Ceramic X5R Capacitor" H 6450 3550 50  0001 C CNN "Type"
+F 10 "50 VDC" H 6450 3550 50  0001 C CNN "Voltage Rating"
 	1    6450 3550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0123
 U 1 1 5ED80FA2
-P 6100 3700
-F 0 "#PWR0123" H 6100 3450 50  0001 C CNN
-F 1 "GND" H 6105 3527 50  0000 C CNN
-F 2 "" H 6100 3700 50  0001 C CNN
-F 3 "" H 6100 3700 50  0001 C CNN
-	1    6100 3700
+P 6100 4300
+F 0 "#PWR0123" H 6100 4050 50  0001 C CNN
+F 1 "GND" H 6105 4127 50  0000 C CNN
+F 2 "" H 6100 4300 50  0001 C CNN
+F 3 "" H 6100 4300 50  0001 C CNN
+	1    6100 4300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1092,7 +1079,7 @@ Wire Wire Line
 	5500 2200 5500 2350
 Connection ~ 6100 3300
 Wire Wire Line
-	6100 3300 6450 3300
+	6100 3300 6200 3300
 Wire Wire Line
 	6200 2200 6450 2200
 Wire Wire Line
@@ -1164,8 +1151,6 @@ Wire Wire Line
 	3950 2850 3950 2650
 Wire Wire Line
 	3950 2650 3850 2650
-Text Notes 6150 4500 1    50   ~ 0
-GET FOOTPRINT
 Connection ~ 4100 2950
 Wire Wire Line
 	5500 2950 5500 3050
@@ -1207,11 +1192,9 @@ Wire Wire Line
 Wire Wire Line
 	3850 3450 3850 3650
 Wire Wire Line
-	3850 3650 5850 3650
+	3850 3650 5800 3650
 Wire Wire Line
-	5850 3650 5850 3300
-Wire Wire Line
-	5850 3300 6100 3300
+	5800 3650 5800 3300
 Wire Wire Line
 	2650 3450 3850 3450
 Wire Wire Line
@@ -1360,4 +1343,59 @@ Text Notes 6200 1750 2    50   ~ 0
 FIND COMPONENT
 Text Notes 5450 6100 2    50   ~ 0
 FIND COMPONENT
+$Comp
+L Team-FIRE:EEE-FK1H390SV C?
+U 1 1 5EAA6D91
+P 6500 3400
+F 0 "C?" V 6950 2650 50  0000 L CNN
+F 1 "39uF" V 7050 2600 50  0000 L CNN
+F 2 "Team-FIRE:EEEFK1H390SV" H 7250 3500 50  0001 L CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/3102" H 7250 3400 50  0001 L CNN
+F 4 "667-EEE-FK1H390SV" H 7250 3100 50  0001 L CNN "Supplier PN"
+F 5 "Panasonic" H 7250 2900 50  0001 L CNN "Manufacturer"
+F 6 "EEE-FK1H390SV" V 7250 3100 50  0000 L CNN "MPN"
+F 7 "Digikey" H 6500 3400 50  0001 C CNN "Supplier"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEE-FK1H390SV/P124697CT-ND/10290639" H 6500 3400 50  0001 C CNN "Link"
+F 9 "Aluminum Electrolytic Capacitor" H 6500 3400 50  0001 C CNN "Type"
+F 10 "20%" H 6500 3400 50  0001 C CNN "Tolerance"
+F 11 "50 VDC" H 6500 3400 50  0001 C CNN "Voltage Rating"
+	1    6500 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 3400 6000 3300
+Connection ~ 6000 3300
+Wire Wire Line
+	6000 3300 6100 3300
+Wire Wire Line
+	6200 3400 6200 3300
+Connection ~ 6200 3300
+Wire Wire Line
+	6200 3300 6450 3300
+$Comp
+L power:GND #PWR?
+U 1 1 5EAC5511
+P 6000 4300
+F 0 "#PWR?" H 6000 4050 50  0001 C CNN
+F 1 "GND" H 6005 4127 50  0000 C CNN
+F 2 "" H 6000 4300 50  0001 C CNN
+F 3 "" H 6000 4300 50  0001 C CNN
+	1    6000 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EAC5A93
+P 6200 4300
+F 0 "#PWR?" H 6200 4050 50  0001 C CNN
+F 1 "GND" H 6205 4127 50  0000 C CNN
+F 2 "" H 6200 4300 50  0001 C CNN
+F 3 "" H 6200 4300 50  0001 C CNN
+	1    6200 4300
+	1    0    0    -1  
+$EndComp
+Text Notes 4750 4300 0    50   ~ 0
+An atypical Capacitor\nsymbol is used here\nbecause the EEE-FK1H390SV\ncapacitor is a *technically*\na six-pad footprint
+Wire Wire Line
+	5800 3300 6000 3300
 $EndSCHEMATC

@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 39uF
+D Aluminium Electrolytic Capacitors - SMD 50VDC 39uF 20% Anti-Vibe AEC-Q200
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/3102
+$ENDCMP
+#
 $CMP 53885-0408
 D Board to Board & Mezzanine Connectors
 F https://componentsearchengine.com/Datasheets/1/53885-0408.pdf
@@ -8,6 +13,11 @@ $ENDCMP
 $CMP ATSAMD51N20A-AU
 D MICROCHIP - ATSAMD51N20A-AU - 120MHZ 1024KB FLASH 100 TQFP PKG INTRAY
 F https://componentsearchengine.com/Datasheets/1/ATSAMD51N20A-AU.pdf
+$ENDCMP
+#
+$CMP EEE-FK1H390SV
+D Aluminium Electrolytic Capacitors - SMD 50VDC 39uF 20% Anti-Vibe AEC-Q200
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/3102
 $ENDCMP
 #
 $CMP LT3959EUHE#PBF
