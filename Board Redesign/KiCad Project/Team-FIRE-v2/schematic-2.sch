@@ -236,7 +236,7 @@ Wire Notes Line
 Text Notes 6000 1460 0    50   ~ 0
 SAMD51 Checklist:\n- From https://www.mouser.com/datasheet/2/268/60001507E-1660031.pdf#page=2096&zoom=100,0,0\n- Voltage of [1.71, 3.63] V must be applied to VDDIO and VDDANA.\n- Voltage VDDIOB must be lower or equal to VDDIO / VDDANA.\n- Verify the power supply is appropriately set for Switching / Linear mode.\n+ We need a pull-up resistor on the SWCLK pin\n+ We need a RC filter on ~RESET\n-  We need to eliminate or attenuate noise in\norder to avoid that it reaches supply pins, I/O pins and crystals.
 NoConn ~ 6020 3520
-Text Notes 2350 4000 0    50   ~ 0
+Text Notes 2300 3350 0    50   ~ 0
 VCCB is typically\ntied to 3.3V
 Connection ~ 2100 3600
 Wire Wire Line
@@ -267,17 +267,6 @@ F 3 "" H 2100 3200 50  0001 C CNN
 	1    2100 3200
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:C C19
-U 1 1 5E579B86
-P 2100 3350
-F 0 "C19" H 2000 3250 50  0000 C CNN
-F 1 "0.1uF" H 1950 3450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2138 3200 50  0001 C CNN
-F 3 "~" H 2100 3350 50  0001 C CNN
-	1    2100 3350
-	-1   0    0    1   
-$EndComp
 Wire Notes Line
 	600  5500 3350 5500
 Wire Notes Line
@@ -302,8 +291,15 @@ P 2850 3600
 F 0 "J4" V 2950 3650 50  0000 R CNN
 F 1 "Conn_01x03" V 2950 3750 50  0001 R CNN
 F 2 "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Horizontal" H 2850 3600 50  0001 C CNN
-F 3 "~" H 2850 3600 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 2850 3600 50  0001 C CNN
 F 4 "S3B-PH-SM4-TB(LF)(SN)" V 2850 3600 50  0001 C CNN "MPN"
+F 5 "JST Sales America Inc." V 2850 3600 50  0001 C CNN "Manufacturer"
+F 6 "Digikey" V 2850 3600 50  0001 C CNN "Supplier"
+F 7 "455-1750-1-ND" V 2850 3600 50  0001 C CNN "Supplier PN"
+F 8 "https://www.digikey.com/product-detail/en/jst-sales-america-inc/S3B-PH-SM4-TB-LF-SN/455-1750-1-ND/926847" V 2850 3600 50  0001 C CNN "Link"
+F 9 "100 V" V 2850 3600 50  0001 C CNN "Voltage Rating"
+F 10 "2 A" V 2850 3600 50  0001 C CNN "Current Rating"
+F 11 "PA6T voltage pin header" V 2850 3600 50  0001 C CNN "Description"
 	1    2850 3600
 	1    0    0    -1  
 $EndComp
@@ -365,17 +361,6 @@ Wire Wire Line
 Connection ~ 1900 3600
 Wire Wire Line
 	1800 3600 1900 3600
-$Comp
-L Device:C C18
-U 1 1 5E561EFE
-P 1650 3600
-F 0 "C18" V 1500 3500 50  0000 C CNN
-F 1 "0.1uF" V 1600 3450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1688 3450 50  0001 C CNN
-F 3 "~" H 1650 3600 50  0001 C CNN
-	1    1650 3600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1900 3700 1900 3600
 $Comp
@@ -385,7 +370,15 @@ P 1500 4950
 F 0 "R10" H 1250 5000 50  0000 L CNN
 F 1 "10k" H 1250 4900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1430 4950 50  0001 C CNN
-F 3 "~" H 1500 4950 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/mcx0x0xpre-1762843.pdf" H 1500 4950 50  0001 C CNN
+F 4 "MCT06030E1002BP100" H 1500 4950 50  0001 C CNN "MPN"
+F 5 "Vishay" H 1500 4950 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 1500 4950 50  0001 C CNN "Supplier"
+F 7 "594-MCT06030E1002BP1" H 1500 4950 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT06030E1002BP100?qs=sGAEpiMZZMtlubZbdhIBIHIEm3drdiPa32EPxwxqfD0%3D" H 1500 4950 50  0001 C CNN "Link"
+F 9 "Thin Film Resistor" H 1500 4950 50  0001 C CNN "Type"
+F 10 "0.1%" H 1500 4950 50  0001 C CNN "Tolerance"
+F 11 "75 V" H 1500 4950 50  0001 C CNN "Voltage Rating"
 	1    1500 4950
 	1    0    0    -1  
 $EndComp
@@ -423,6 +416,13 @@ F 0 "U7" H 2150 3700 50  0000 C CNN
 F 1 "TXB0104RUT" H 2300 3600 50  0000 C CNN
 F 2 "Package_DFN_QFN:Texas_R_PUQFN-N12" H 2000 3650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" H 2110 4495 50  0001 C CNN
+F 4 "TXB0104RUTR" H 2000 4400 50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 2000 4400 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 2000 4400 50  0001 C CNN "Supplier"
+F 7 "595-TXB0104RUTR" H 2000 4400 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/TXB0104RUTR?qs=EuM%2FBx4ov4Sspadi61aUCA%3D%3D" H 2000 4400 50  0001 C CNN "Link"
+F 9 "1.2/1.65 V to 5.5 V" H 2000 4400 50  0001 C CNN "Voltage Rating"
+F 10 "5V or 3V voltage shifter" H 2000 4400 50  0001 C CNN "Description"
 	1    2000 4400
 	1    0    0    -1  
 $EndComp
@@ -478,17 +478,6 @@ Wire Wire Line
 	1500 1350 1400 1350
 Wire Wire Line
 	2500 1350 2600 1350
-$Comp
-L Device:C C17
-U 1 1 5E508BEB
-P 1650 1350
-F 0 "C17" V 1500 1450 50  0000 C CNN
-F 1 "0.1uF" V 1600 1500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1688 1200 50  0001 C CNN
-F 3 "~" H 1650 1350 50  0001 C CNN
-	1    1650 1350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1900 1350 1800 1350
 Wire Wire Line
@@ -507,17 +496,6 @@ F 1 "GND" H 1350 2900 50  0000 C CNN
 F 2 "" H 1500 2950 50  0001 C CNN
 F 3 "" H 1500 2950 50  0001 C CNN
 	1    1500 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 5E5071DF
-P 1500 2800
-F 0 "R9" H 1300 2850 50  0000 L CNN
-F 1 "10k" H 1300 2750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1430 2800 50  0001 C CNN
-F 3 "~" H 1500 2800 50  0001 C CNN
-	1    1500 2800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -541,17 +519,6 @@ Wire Wire Line
 Wire Wire Line
 	1400 1850 1600 1850
 $Comp
-L Device:C C20
-U 1 1 5E502C68
-P 2350 1350
-F 0 "C20" V 2200 1450 50  0000 C CNN
-F 1 "0.1uF" V 2300 1500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2388 1200 50  0001 C CNN
-F 3 "~" H 2350 1350 50  0001 C CNN
-	1    2350 1350
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR0149
 U 1 1 5E503AC6
 P 2600 1350
@@ -569,17 +536,6 @@ Wire Wire Line
 	2100 1350 2200 1350
 Wire Wire Line
 	2100 1250 2100 1350
-$Comp
-L Logic_LevelTranslator:TXB0108DQSR U4
-U 1 1 5E4FCEC1
-P 2000 2150
-F 0 "U4" H 2150 1450 50  0000 C CNN
-F 1 "TXB0108DQSR" H 2350 1350 50  0000 C CNN
-F 2 "Package_SON:USON-20_2x4mm_P0.4mm" H 2000 1400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/txb0108.pdf" H 2000 2050 50  0001 C CNN
-	1    2000 2150
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3.3V #PWR0150
 U 1 1 5E500FDB
@@ -733,4 +689,132 @@ Wire Wire Line
 	4450 2750 4550 2750
 NoConn ~ 4450 2550
 NoConn ~ 4450 2950
+$Comp
+L Device:C C?
+U 1 1 5EAFA1C0
+P 1650 3600
+AR Path="/5E4D0D8F/5EAFA1C0" Ref="C?"  Part="1" 
+AR Path="/5E759307/5EAFA1C0" Ref="C?"  Part="1" 
+AR Path="/5E4F8378/5EAFA1C0" Ref="C?"  Part="1" 
+F 0 "C?" V 1700 3650 50  0000 L CNN
+F 1 "0.1uF" V 1600 3650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1688 3450 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 1650 3600 50  0001 C CNN
+F 4 "C0603C104K5RAC3121" H 1650 3600 50  0001 C CNN "MPN"
+F 5 "KEMET" H 1650 3600 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 1650 3600 50  0001 C CNN "Supplier"
+F 7 "80-C603C104K5RAC3121" H 1650 3600 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0603C104K5RAC3121?qs=sGAEpiMZZMsh%252B1woXyUXj43ra3vb5rmC4HvwNgfLi7o%3D" H 1650 3600 50  0001 C CNN "Link"
+F 9 "Ceramic X7R Capacitor" H 1650 3600 50  0001 C CNN "Type"
+F 10 "10%" H 1650 3600 50  0001 C CNN "Tolerance"
+F 11 "50 VDC" H 1650 3600 50  0001 C CNN "Voltage Rating"
+F 12 "AEC-Q200" H 1650 3600 50  0001 C CNN "Qualification"
+	1    1650 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EB0548C
+P 2100 3350
+AR Path="/5E4D0D8F/5EB0548C" Ref="C?"  Part="1" 
+AR Path="/5E759307/5EB0548C" Ref="C?"  Part="1" 
+AR Path="/5E4F8378/5EB0548C" Ref="C?"  Part="1" 
+F 0 "C?" H 2150 3450 50  0000 L CNN
+F 1 "0.1uF" H 2150 3250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2138 3200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 2100 3350 50  0001 C CNN
+F 4 "C0603C104K5RAC3121" H 2100 3350 50  0001 C CNN "MPN"
+F 5 "KEMET" H 2100 3350 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 2100 3350 50  0001 C CNN "Supplier"
+F 7 "80-C603C104K5RAC3121" H 2100 3350 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0603C104K5RAC3121?qs=sGAEpiMZZMsh%252B1woXyUXj43ra3vb5rmC4HvwNgfLi7o%3D" H 2100 3350 50  0001 C CNN "Link"
+F 9 "Ceramic X7R Capacitor" H 2100 3350 50  0001 C CNN "Type"
+F 10 "10%" H 2100 3350 50  0001 C CNN "Tolerance"
+F 11 "50 VDC" H 2100 3350 50  0001 C CNN "Voltage Rating"
+F 12 "AEC-Q200" H 2100 3350 50  0001 C CNN "Qualification"
+	1    2100 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logic_LevelTranslator:TXB0108DQSR U4
+U 1 1 5E4FCEC1
+P 2000 2150
+F 0 "U4" H 2150 1450 50  0000 C CNN
+F 1 "TXB0108DQSR" H 2350 1350 50  0000 C CNN
+F 2 "Package_SON:USON-20_2x4mm_P0.4mm" H 2000 1400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/txb0108.pdf" H 2000 2050 50  0001 C CNN
+F 4 "Texas Instruments" H 2000 2150 50  0001 C CNN "Manufacturer"
+F 5 "Mouser" H 2000 2150 50  0001 C CNN "Supplier"
+F 6 "595-TXB0108DQSR" H 2000 2150 50  0001 C CNN "Supplier PN"
+F 7 "https://www.mouser.com/ProductDetail/Texas-Instruments/TXB0108DQSR?qs=%2Fha2pyFadujaOGhpga6aqWJB%2FOU4nmuuEFiHYX7W5oybuilijLXCBg%3D%3D" H 2000 2150 50  0001 C CNN "Link"
+F 8 "1.2/1.65 V to 5.5 V" H 2000 2150 50  0001 C CNN "Voltage Rating"
+F 9 "Voltage bus shifter" H 2000 2150 50  0001 C CNN "Description"
+	1    2000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EB0F922
+P 1500 2800
+F 0 "R?" H 1250 2850 50  0000 L CNN
+F 1 "10k" H 1250 2750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1430 2800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/mcx0x0xpre-1762843.pdf" H 1500 2800 50  0001 C CNN
+F 4 "MCT06030E1002BP100" H 1500 2800 50  0001 C CNN "MPN"
+F 5 "Vishay" H 1500 2800 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 1500 2800 50  0001 C CNN "Supplier"
+F 7 "594-MCT06030E1002BP1" H 1500 2800 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT06030E1002BP100?qs=sGAEpiMZZMtlubZbdhIBIHIEm3drdiPa32EPxwxqfD0%3D" H 1500 2800 50  0001 C CNN "Link"
+F 9 "Thin Film Resistor" H 1500 2800 50  0001 C CNN "Type"
+F 10 "0.1%" H 1500 2800 50  0001 C CNN "Tolerance"
+F 11 "75 V" H 1500 2800 50  0001 C CNN "Voltage Rating"
+	1    1500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EB1A931
+P 2350 1350
+AR Path="/5E4D0D8F/5EB1A931" Ref="C?"  Part="1" 
+AR Path="/5E759307/5EB1A931" Ref="C?"  Part="1" 
+AR Path="/5E4F8378/5EB1A931" Ref="C?"  Part="1" 
+F 0 "C?" V 2400 1400 50  0000 L CNN
+F 1 "0.1uF" V 2400 1100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2388 1200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 2350 1350 50  0001 C CNN
+F 4 "C0603C104K5RAC3121" H 2350 1350 50  0001 C CNN "MPN"
+F 5 "KEMET" H 2350 1350 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 2350 1350 50  0001 C CNN "Supplier"
+F 7 "80-C603C104K5RAC3121" H 2350 1350 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0603C104K5RAC3121?qs=sGAEpiMZZMsh%252B1woXyUXj43ra3vb5rmC4HvwNgfLi7o%3D" H 2350 1350 50  0001 C CNN "Link"
+F 9 "Ceramic X7R Capacitor" H 2350 1350 50  0001 C CNN "Type"
+F 10 "10%" H 2350 1350 50  0001 C CNN "Tolerance"
+F 11 "50 VDC" H 2350 1350 50  0001 C CNN "Voltage Rating"
+F 12 "AEC-Q200" H 2350 1350 50  0001 C CNN "Qualification"
+	1    2350 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EB10E41
+P 1650 1350
+AR Path="/5E4D0D8F/5EB10E41" Ref="C?"  Part="1" 
+AR Path="/5E759307/5EB10E41" Ref="C?"  Part="1" 
+AR Path="/5E4F8378/5EB10E41" Ref="C?"  Part="1" 
+F 0 "C?" V 1700 1400 50  0000 L CNN
+F 1 "0.1uF" V 1700 1100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1688 1200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 1650 1350 50  0001 C CNN
+F 4 "C0603C104K5RAC3121" H 1650 1350 50  0001 C CNN "MPN"
+F 5 "KEMET" H 1650 1350 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 1650 1350 50  0001 C CNN "Supplier"
+F 7 "80-C603C104K5RAC3121" H 1650 1350 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0603C104K5RAC3121?qs=sGAEpiMZZMsh%252B1woXyUXj43ra3vb5rmC4HvwNgfLi7o%3D" H 1650 1350 50  0001 C CNN "Link"
+F 9 "Ceramic X7R Capacitor" H 1650 1350 50  0001 C CNN "Type"
+F 10 "10%" H 1650 1350 50  0001 C CNN "Tolerance"
+F 11 "50 VDC" H 1650 1350 50  0001 C CNN "Voltage Rating"
+F 12 "AEC-Q200" H 1650 1350 50  0001 C CNN "Qualification"
+	1    1650 1350
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
