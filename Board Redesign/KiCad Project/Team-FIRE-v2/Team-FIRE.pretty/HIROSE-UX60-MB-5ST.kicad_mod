@@ -1,4 +1,4 @@
-(module HIROSE-UX60-MB-5ST (layer F.Cu) (tedit 5EAA379B)
+(module HIROSE-UX60-MB-5ST (layer F.Cu) (tedit 5EAA497C)
   (descr "240-0001-9 (MINI B TYPE)(METAL SHIELD SMT TYPE WITH POSITIONING POST)")
   (tags Connector)
   (fp_text reference J** (at -0.025 5.2) (layer F.SilkS)
