@@ -395,71 +395,26 @@ Wire Notes Line
 	6180 5300 6180 4090
 Text Notes 6190 4060 0    50   ~ 10
 SAMD51 Power decoupling capacitors
-$Comp
-L Memory_Flash:AT25DF041x-UxN-x U?
-U 1 1 5F15C396
-P 2620 4970
-AR Path="/5E4F8378/5EA71818/5F15C396" Ref="U?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5ED7D75E/5F15C396" Ref="U?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5F15C396" Ref="U6"  Part="1" 
-F 0 "U6" H 2770 4550 50  0000 L CNN
-F 1 "AT25DF041x-UxN-x" H 2770 4450 50  0000 L CNN
-F 2 "Package_CSP:WLCSP-8_1.58x1.63x0.35mm_Layout3x5_P0.35x0.4mm_Ball0.25mm_Pad0.25mm_NSMD" H 2420 4370 50  0001 C CNN
-F 3 "http://www.adestotech.com/wp-content/uploads/DS-AT25DF041B_040.pdf" H 2620 5670 50  0001 C CNN
-	1    2620 4970
-	1    0    0    -1  
-$EndComp
-Text GLabel 3220 4770 2    50   Input ~ 0
+Text GLabel 2900 4800 2    50   Input ~ 0
 FLASH_MISO
-Text GLabel 2020 4870 0    50   Input ~ 0
+Text GLabel 1500 4900 0    50   Input ~ 0
 FLASH_SCK
-Text GLabel 2020 4770 0    50   Input ~ 0
+Text GLabel 1500 4800 0    50   Input ~ 0
 FLASH_MOSI
-Wire Wire Line
-	2620 5490 2620 5470
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5F15C3A7
-P 2620 4380
+P 2200 4300
 AR Path="/5E4F8378/5EA71818/5F15C3A7" Ref="#PWR?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5ED7D75E/5F15C3A7" Ref="#PWR?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5F15C3A7" Ref="#PWR0138"  Part="1" 
-F 0 "#PWR0138" H 2620 4230 50  0001 C CNN
-F 1 "+3.3V" H 2635 4553 50  0000 C CNN
-F 2 "" H 2620 4380 50  0001 C CNN
-F 3 "" H 2620 4380 50  0001 C CNN
-	1    2620 4380
+F 0 "#PWR0138" H 2200 4150 50  0001 C CNN
+F 1 "+3.3V" H 2215 4473 50  0000 C CNN
+F 2 "" H 2200 4300 50  0001 C CNN
+F 3 "" H 2200 4300 50  0001 C CNN
+	1    2200 4300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2620 4380 2620 4460
-Wire Wire Line
-	2020 4970 1920 4970
-Wire Wire Line
-	2020 5070 1920 5070
-Wire Wire Line
-	1920 5070 1920 4970
-Connection ~ 1920 4970
-Wire Wire Line
-	1920 5070 1670 5070
-Connection ~ 1920 5070
-Connection ~ 2620 4460
-Wire Wire Line
-	2620 4460 2620 4470
-Wire Wire Line
-	1270 4820 1270 4970
-Wire Wire Line
-	1270 4520 1270 4460
-Wire Wire Line
-	2020 5170 1920 5170
-Wire Wire Line
-	1920 5170 1920 5070
-Wire Wire Line
-	1270 4460 2620 4460
-Wire Wire Line
-	1270 4970 1920 4970
-Text Notes 970  4020 0    50   ~ 10
-Flash Memory
 $Comp
 L Device:Crystal Y?
 U 1 1 5F15C3C7
@@ -557,201 +512,108 @@ Wire Wire Line
 Wire Wire Line
 	1100 6970 1100 7070
 Connection ~ 1100 6970
-Wire Notes Line
-	4150 7020 2950 7020
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5F15C3F5
-P 3400 6520
+P 4000 6150
 AR Path="/5E4F8378/5F15C3F5" Ref="#PWR?"  Part="1" 
 AR Path="/5E4F8378/5EA71818/5F15C3F5" Ref="#PWR?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5ED7D75E/5F15C3F5" Ref="#PWR?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5F15C3F5" Ref="#PWR0153"  Part="1" 
-F 0 "#PWR0153" H 3400 6370 50  0001 C CNN
-F 1 "+3.3V" H 3415 6693 50  0000 C CNN
-F 2 "" H 3400 6520 50  0001 C CNN
-F 3 "" H 3400 6520 50  0001 C CNN
-	1    3400 6520
+F 0 "#PWR0153" H 4000 6000 50  0001 C CNN
+F 1 "+3.3V" H 4015 6323 50  0000 C CNN
+F 2 "" H 4000 6150 50  0001 C CNN
+F 3 "" H 4000 6150 50  0001 C CNN
+	1    4000 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5F15C3FB
-P 3400 6670
+P 4000 6300
 AR Path="/5E4F8378/5F15C3FB" Ref="R?"  Part="1" 
 AR Path="/5E4F8378/5EA71818/5F15C3FB" Ref="R?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5ED7D75E/5F15C3FB" Ref="R?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5F15C3FB" Ref="R18"  Part="1" 
-F 0 "R18" H 3470 6716 50  0000 L CNN
-F 1 "1k" H 3470 6625 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3330 6670 50  0001 C CNN
-F 3 "~" H 3400 6670 50  0001 C CNN
-	1    3400 6670
+F 0 "R18" H 4070 6346 50  0000 L CNN
+F 1 "1k" H 4070 6255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3930 6300 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/mcat_pre-1762846.pdf" H 4000 6300 50  0001 C CNN
+F 4 "MCT0603MD1001BP500" H 4000 6300 50  0001 C CNN "MPN"
+F 5 "Vishay" H 4000 6300 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 4000 6300 50  0001 C CNN "Supplier"
+F 7 "594-MCT0603MD1001BP5" H 4000 6300 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT0603MD1001BP500?qs=sGAEpiMZZMtlubZbdhIBIGdRHMDLYLBRm8iT5mwvY8c%3D" H 4000 6300 50  0001 C CNN "Link"
+F 9 "Thin Film Resistor" H 4000 6300 50  0001 C CNN "Type"
+F 10 "0.1%" H 4000 6300 50  0001 C CNN "Tolerance"
+F 11 "75 V" H 4000 6300 50  0001 C CNN "Voltage Rating"
+	1    4000 6300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3400 6870 3500 6870
-Wire Wire Line
-	3400 6820 3400 6870
-Text GLabel 3500 6870 2    50   Input ~ 0
+Text GLabel 4100 6550 2    50   Input ~ 0
 SWCLK
-Text Notes 3000 6270 0    20   ~ 4
-This shouldn't be block, just here as a note to add a pull-up resistor\nto ensure reliable operation
-Text Notes 2950 6170 0    20   ~ 4
-SWCLK Pin
-Wire Notes Line
-	2950 6170 2950 7020
-Wire Notes Line
-	4150 6170 4150 7020
-Wire Notes Line
-	2950 6170 4150 6170
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5F15C409
-P 5090 4480
+P 4800 4350
 AR Path="/5E4F8378/5F15C409" Ref="#PWR?"  Part="1" 
 AR Path="/5E4F8378/5EA71818/5F15C409" Ref="#PWR?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5ED7D75E/5F15C409" Ref="#PWR?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5F15C409" Ref="#PWR0154"  Part="1" 
-F 0 "#PWR0154" H 5090 4330 50  0001 C CNN
-F 1 "+3.3V" H 5105 4653 50  0000 C CNN
-F 2 "" H 5090 4480 50  0001 C CNN
-F 3 "" H 5090 4480 50  0001 C CNN
-	1    5090 4480
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F15C40F
-P 5090 4780
-AR Path="/5E4F8378/5F15C40F" Ref="R?"  Part="1" 
-AR Path="/5E4F8378/5EA71818/5F15C40F" Ref="R?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5ED7D75E/5F15C40F" Ref="R?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5F15C40F" Ref="R16"  Part="1" 
-F 0 "R16" H 5160 4826 50  0000 L CNN
-F 1 "10k" H 5160 4735 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5020 4780 50  0001 C CNN
-F 3 "~" H 5090 4780 50  0001 C CNN
-	1    5090 4780
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F15C415
-P 4840 5030
-AR Path="/5E4F8378/5F15C415" Ref="R?"  Part="1" 
-AR Path="/5E4F8378/5EA71818/5F15C415" Ref="R?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5ED7D75E/5F15C415" Ref="R?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5F15C415" Ref="R17"  Part="1" 
-F 0 "R17" V 4633 5030 50  0000 C CNN
-F 1 "330" V 4724 5030 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4770 5030 50  0001 C CNN
-F 3 "~" H 4840 5030 50  0001 C CNN
-	1    4840 5030
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5F15C41B
-P 4390 5030
-AR Path="/5E4F8378/5F15C41B" Ref="SW?"  Part="1" 
-AR Path="/5E4F8378/5EA71818/5F15C41B" Ref="SW?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5ED7D75E/5F15C41B" Ref="SW?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5F15C41B" Ref="SW1"  Part="1" 
-F 0 "SW1" H 4390 5315 50  0000 C CNN
-F 1 "RESET" H 4390 5224 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_EVQQ2" H 4390 5230 50  0001 C CNN
-F 3 "~" H 4390 5230 50  0001 C CNN
-F 4 "EVQ-Q2Y03W" H 4390 5030 50  0001 C CNN "MPN"
-	1    4390 5030
+F 0 "#PWR0154" H 4800 4200 50  0001 C CNN
+F 1 "+3.3V" H 4815 4523 50  0000 C CNN
+F 2 "" H 4800 4350 50  0001 C CNN
+F 3 "" H 4800 4350 50  0001 C CNN
+	1    4800 4350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP1 C?
 U 1 1 5F15C421
-P 5090 5280
+P 4800 5000
 AR Path="/5E4F8378/5F15C421" Ref="C?"  Part="1" 
 AR Path="/5E4F8378/5EA71818/5F15C421" Ref="C?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5ED7D75E/5F15C421" Ref="C?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5F15C421" Ref="C29"  Part="1" 
-F 0 "C29" H 5205 5326 50  0000 L CNN
-F 1 "100nF" H 5205 5235 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5090 5280 50  0001 C CNN
-F 3 "~" H 5090 5280 50  0001 C CNN
-	1    5090 5280
+F 0 "C29" H 4915 5046 50  0000 L CNN
+F 1 "100nF" H 4915 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4800 5000 50  0001 C CNN
+F 3 "~" H 4800 5000 50  0001 C CNN
+	1    4800 5000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5090 4930 5090 5030
-Wire Wire Line
-	4990 5030 5090 5030
-Connection ~ 5090 5030
-Wire Wire Line
-	5090 5030 5090 5130
-Wire Wire Line
-	4590 5030 4690 5030
 $Comp
 L power:GND #PWR?
 U 1 1 5F15C42C
-P 4140 5230
+P 3900 4850
 AR Path="/5E4F8378/5F15C42C" Ref="#PWR?"  Part="1" 
 AR Path="/5E4F8378/5EA71818/5F15C42C" Ref="#PWR?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5ED7D75E/5F15C42C" Ref="#PWR?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5F15C42C" Ref="#PWR0155"  Part="1" 
-F 0 "#PWR0155" H 4140 4980 50  0001 C CNN
-F 1 "GND" H 4145 5057 50  0000 C CNN
-F 2 "" H 4140 5230 50  0001 C CNN
-F 3 "" H 4140 5230 50  0001 C CNN
-	1    4140 5230
+F 0 "#PWR0155" H 3900 4600 50  0001 C CNN
+F 1 "GND" H 3905 4677 50  0000 C CNN
+F 2 "" H 3900 4850 50  0001 C CNN
+F 3 "" H 3900 4850 50  0001 C CNN
+	1    3900 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F15C432
-P 5090 5530
+P 4800 5150
 AR Path="/5E4F8378/5F15C432" Ref="#PWR?"  Part="1" 
 AR Path="/5E4F8378/5EA71818/5F15C432" Ref="#PWR?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5ED7D75E/5F15C432" Ref="#PWR?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5F15C432" Ref="#PWR0156"  Part="1" 
-F 0 "#PWR0156" H 5090 5280 50  0001 C CNN
-F 1 "GND" H 5095 5357 50  0000 C CNN
-F 2 "" H 5090 5530 50  0001 C CNN
-F 3 "" H 5090 5530 50  0001 C CNN
-	1    5090 5530
+F 0 "#PWR0156" H 4800 4900 50  0001 C CNN
+F 1 "GND" H 4805 4977 50  0000 C CNN
+F 2 "" H 4800 5150 50  0001 C CNN
+F 3 "" H 4800 5150 50  0001 C CNN
+	1    4800 5150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4190 5030 4140 5030
-Wire Wire Line
-	4140 5030 4140 5230
-Wire Wire Line
-	5090 5430 5090 5530
-Wire Wire Line
-	5090 5030 5590 5030
-Wire Wire Line
-	5090 4480 5090 4630
-Wire Notes Line
-	3990 4080 3990 5780
-Wire Notes Line
-	3990 5780 5940 5780
-Wire Notes Line
-	5940 4080 5940 5780
-Text Notes 3990 4080 0    50   ~ 10
-Reset button
-Text GLabel 5590 5030 2    50   Input ~ 0
+Text GLabel 4900 4750 2    50   Input ~ 0
 RST
-Text Notes 4040 4230 0    40   ~ 0
-A software reset is nice. But, we might need to\n manually reset the SAMD.
-Wire Notes Line
-	3990 4080 5940 4080
-Wire Notes Line
-	990  4050 3750 4050
-Wire Notes Line
-	3750 4050 3750 5730
-Wire Notes Line
-	3750 5730 990  5730
-Wire Notes Line
-	990  5730 990  4060
 Connection ~ 8620 4640
 Wire Wire Line
 	8620 4640 8620 4510
@@ -864,20 +726,6 @@ F 5 "ATSAMD51N20A-AU" H 960 190 28  0001 C CNN "MPN"
 	3    2060 2240
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5F15C3AE
-P 1270 4670
-AR Path="/5E4F8378/5EA71818/5F15C3AE" Ref="R?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5ED7D75E/5F15C3AE" Ref="R?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5F15C3AE" Ref="R15"  Part="1" 
-F 0 "R15" H 1340 4716 50  0000 L CNN
-F 1 "10k" H 1340 4625 50  0000 L CNN
-F 2 "" V 1200 4670 50  0001 C CNN
-F 3 "~" H 1270 4670 50  0001 C CNN
-	1    1270 4670
-	1    0    0    -1  
-$EndComp
 NoConn ~ 1260 990 
 NoConn ~ 1260 1090
 NoConn ~ 1260 1190
@@ -889,17 +737,183 @@ XIN32
 $Comp
 L power:GND #PWR?
 U 1 1 5F15C3A0
-P 2620 5490
+P 2200 5500
 AR Path="/5E4F8378/5EA71818/5F15C3A0" Ref="#PWR?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5ED7D75E/5F15C3A0" Ref="#PWR?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5F15C3A0" Ref="#PWR0137"  Part="1" 
-F 0 "#PWR0137" H 2620 5240 50  0001 C CNN
-F 1 "GND" H 2625 5317 50  0000 C CNN
-F 2 "" H 2620 5490 50  0001 C CNN
-F 3 "" H 2620 5490 50  0001 C CNN
-	1    2620 5490
+F 0 "#PWR0137" H 2200 5250 50  0001 C CNN
+F 1 "GND" H 2205 5327 50  0000 C CNN
+F 2 "" H 2200 5500 50  0001 C CNN
+F 3 "" H 2200 5500 50  0001 C CNN
+	1    2200 5500
 	1    0    0    -1  
 $EndComp
-Text GLabel 1670 5070 0    50   Input ~ 0
+Text GLabel 1400 5000 0    50   Input ~ 0
 FLASH_CS
+$Comp
+L Memory_Flash:AT25DF041x-UxN-x U?
+U 1 1 5EAF1DA3
+P 2200 5000
+F 0 "U?" H 2400 5400 50  0000 L CNN
+F 1 "AT25DF041x-UxN-x" H 2844 4955 50  0001 L CNN
+F 2 "Package_CSP:WLCSP-8_1.58x1.63x0.35mm_Layout3x5_P0.35x0.4mm_Ball0.25mm_Pad0.25mm_NSMD" H 2000 4400 50  0001 C CNN
+F 3 "http://www.adestotech.com/wp-content/uploads/DS-AT25DF041B_040.pdf" H 2200 5700 50  0001 C CNN
+	1    2200 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 4800 2800 4800
+Wire Wire Line
+	2200 4500 2200 4400
+Wire Wire Line
+	1600 4800 1500 4800
+Wire Wire Line
+	1600 4900 1500 4900
+Wire Wire Line
+	1400 5000 1500 5000
+Wire Wire Line
+	1500 5000 1500 5100
+Wire Wire Line
+	1500 5200 1600 5200
+Connection ~ 1500 5000
+Wire Wire Line
+	1500 5000 1600 5000
+Wire Wire Line
+	1600 5100 1500 5100
+Connection ~ 1500 5100
+Wire Wire Line
+	1500 5100 1500 5200
+Wire Wire Line
+	1500 5100 900  5100
+$Comp
+L Device:R R?
+U 1 1 5EB1AA30
+P 900 4750
+AR Path="/5E4F8378/5EB1AA30" Ref="R?"  Part="1" 
+AR Path="/5E4F8378/5ED4DEFC/5EB1AA30" Ref="R?"  Part="1" 
+F 0 "R?" H 750 4800 50  0000 L CNN
+F 1 "10k" H 700 4700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 830 4750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/mcx0x0xpre-1762843.pdf" H 900 4750 50  0001 C CNN
+F 4 "MCT06030E1002BP100" H 900 4750 50  0001 C CNN "MPN"
+F 5 "Vishay" H 900 4750 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 900 4750 50  0001 C CNN "Supplier"
+F 7 "594-MCT06030E1002BP1" H 900 4750 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT06030E1002BP100?qs=sGAEpiMZZMtlubZbdhIBIHIEm3drdiPa32EPxwxqfD0%3D" H 900 4750 50  0001 C CNN "Link"
+F 9 "Thin Film Resistor" H 900 4750 50  0001 C CNN "Type"
+F 10 "0.1%" H 900 4750 50  0001 C CNN "Tolerance"
+F 11 "75 V" H 900 4750 50  0001 C CNN "Voltage Rating"
+	1    900  4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  4400 2200 4400
+Connection ~ 2200 4400
+Wire Wire Line
+	2200 4400 2200 4300
+Wire Wire Line
+	900  4600 900  4400
+Wire Wire Line
+	900  4900 900  5100
+Text Notes 650  4050 0    79   ~ 16
+Flash Memory\n
+Wire Notes Line
+	650  4050 3500 4050
+Wire Notes Line
+	3500 4050 3500 5750
+Wire Notes Line
+	3500 5750 650  5750
+Wire Notes Line
+	650  5750 650  4050
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5EB396AB
+P 4200 4750
+F 0 "SW?" H 4200 5035 50  0000 C CNN
+F 1 "RESET" H 4200 4944 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_EVQQ2" H 4200 4950 50  0001 C CNN
+F 3 "~" H 4200 4950 50  0001 C CNN
+F 4 "EVQ-Q2Y03W" H 4200 4750 50  0001 C CNN "MPN"
+	1    4200 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4750 3900 4750
+Wire Wire Line
+	3900 4750 3900 4850
+$Comp
+L Device:R R?
+U 1 1 5EB3FAD9
+P 4550 4750
+AR Path="/5E4F8378/5EB3FAD9" Ref="R?"  Part="1" 
+AR Path="/5E4F8378/5ED4DEFC/5EB3FAD9" Ref="R?"  Part="1" 
+F 0 "R?" V 4650 4700 50  0000 L CNN
+F 1 "330" V 4450 4700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 4750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-SR_D_F_tol_RoHS_L_4-1670154.pdf" H 4550 4750 50  0001 C CNN
+F 4 "SR0603FR-7T330RL" H 4550 4750 50  0001 C CNN "MPN"
+F 5 "Yageo" H 4550 4750 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 4550 4750 50  0001 C CNN "Supplier"
+F 7 "603-SR0603FR-7T330RL" H 4550 4750 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Yageo/SR0603FR-7T330RL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdAr1tt8LFCas%3D" H 4550 4750 50  0001 C CNN "Link"
+F 9 "Thick Film Resistor" H 4550 4750 50  0001 C CNN "Type"
+F 10 "1%" H 4550 4750 50  0001 C CNN "Tolerance"
+F 11 "75 V" H 4550 4750 50  0001 C CNN "Voltage Rating"
+	1    4550 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 4750 4800 4750
+Wire Wire Line
+	4800 4750 4800 4850
+$Comp
+L Device:R R?
+U 1 1 5EB4EDCD
+P 4800 4500
+AR Path="/5E4F8378/5EB4EDCD" Ref="R?"  Part="1" 
+AR Path="/5E4F8378/5ED4DEFC/5EB4EDCD" Ref="R?"  Part="1" 
+F 0 "R?" H 4850 4550 50  0000 L CNN
+F 1 "10k" H 4850 4450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4730 4500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/mcx0x0xpre-1762843.pdf" H 4800 4500 50  0001 C CNN
+F 4 "MCT06030E1002BP100" H 4800 4500 50  0001 C CNN "MPN"
+F 5 "Vishay" H 4800 4500 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 4800 4500 50  0001 C CNN "Supplier"
+F 7 "594-MCT06030E1002BP1" H 4800 4500 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT06030E1002BP100?qs=sGAEpiMZZMtlubZbdhIBIHIEm3drdiPa32EPxwxqfD0%3D" H 4800 4500 50  0001 C CNN "Link"
+F 9 "Thin Film Resistor" H 4800 4500 50  0001 C CNN "Type"
+F 10 "0.1%" H 4800 4500 50  0001 C CNN "Tolerance"
+F 11 "75 V" H 4800 4500 50  0001 C CNN "Voltage Rating"
+	1    4800 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4650 4800 4750
+Connection ~ 4800 4750
+Wire Wire Line
+	4900 4750 4800 4750
+Text Notes 3750 4050 0    79   ~ 16
+Reset Button
+Wire Notes Line
+	3750 4050 5250 4050
+Wire Notes Line
+	5250 4050 5250 5450
+Wire Notes Line
+	5250 5450 3750 5450
+Wire Notes Line
+	3750 5450 3750 4050
+Wire Wire Line
+	4000 6450 4000 6550
+Wire Wire Line
+	4000 6550 4100 6550
+Text Notes 3750 5850 0    79   ~ 16
+SWCLK Pullup\n
+Wire Notes Line
+	3750 5850 4550 5850
+Wire Notes Line
+	4550 5850 4550 6700
+Wire Notes Line
+	4550 6700 3750 6700
+Wire Notes Line
+	3750 6700 3750 5850
 $EndSCHEMATC

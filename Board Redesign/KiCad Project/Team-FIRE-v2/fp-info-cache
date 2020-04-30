@@ -1,148 +1,92 @@
-32827765656627
-Jumper
-SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
-solder jumper open
-0
-2
-2
-Jumper
-SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 2 copper strips
-solder jumper open
-0
-2
-2
-Jumper
-SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 1 copper strip
-solder jumper open
-0
-2
-2
-Jumper
-SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip
-solder jumper open
-0
-2
-2
-Jumper
-SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open
-solder jumper open
-0
-2
-2
-Jumper
-SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
-solder jumper open
-0
-2
-2
-Jumper
-SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
-solder jumper open
-0
-2
-2
-Jumper
-SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip
-solder jumper open
+20620890976730
+Team-FIRE
+43650-0200
+43650-0200
+Connector
 0
 3
 3
-Jumper
-SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm_NumberLabels
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip, labeled with numbers
-solder jumper open
+Team-FIRE
+538850408
+53885-0408-1
+Connector
 0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm_NumberLabels
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip, labeled with numbers
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, open
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open, labeled with numbers
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open, labeled with numbers
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
-solder jumper open
+40
+40
+Team-FIRE
+BTS500601TEAAUMA2
+BTS500601TEAAUMA2-1
+Integrated Circuit
 0
 5
-3
-Jumper
-SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels
-SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open, labeled with numbers
-solder jumper open
+5
+Team-FIRE
+EEEFK1H390SV
+EEE-FK1H390SV-5
+Capacitor Polarised
+0
+6
+6
+Team-FIRE
+HIROSE-UX60-MB-5ST
+240-0001-9 (MINI B TYPE)(METAL SHIELD SMT TYPE WITH POSITIONING POST)
+Connector
+0
+9
+9
+Team-FIRE
+LT3959EUHEPBF
+UHE Package Variation: UHE36(28)MA
+Integrated Circuit
+0
+30
+30
+Team-FIRE
+MCP1826T-3302E&slash_DC
+
+
 0
 5
+5
+Team-FIRE
+PCBMMCXFSTSMTJACKHT
+PCB.MMCX.F.ST.SMT.JACK.HT-2
+Connector
+0
+5
+5
+Team-FIRE
+QFN40P400X400X60-29N-D
+QFN-UT
+Integrated Circuit
+0
+29
+29
+Team-FIRE
+SAMD51
+100-Lead Plastic Thin Quad Flatpack (PF) – 14x14x1 mm Body, 2.00 mm Footprint [TQFP]_1
+Integrated Circuit
+0
+100
+100
+Team-FIRE
+SOT127P706X180-6N
+5-Lead(DC)SOT-223
+Integrated Circuit
+0
+6
+6
+Team-FIRE
+TPS40210DGQR
+
+
+0
+10
+10
+Team-FIRE
+UFLRSMT10
+U.FL-R-SMT(10)-2
+Connector
+0
+3
 3

@@ -541,27 +541,6 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# Team-FIRE-v2-rescue_U.FL-R-SMT_10_-Team-FIRE
-#
-DEF Team-FIRE-v2-rescue_U.FL-R-SMT_10_-Team-FIRE J 0 30 Y Y 1 F N
-F0 "J" 950 300 50 H V L CNN
-F1 "Team-FIRE-v2-rescue_U.FL-R-SMT_10_-Team-FIRE" 950 200 50 H V L CNN
-F2 "UFLRSMT10" 950 100 50 H I L CNN
-F3 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf" 950 0 50 H I L CNN
-F4 "RF Connectors / Coaxial Connectors U.FL RECEPTACLE SMT GLD M CONT REEL" 950 -100 50 H I L CNN "Description"
-F5 "1.25" 950 -200 50 H I L CNN "Height"
-F6 "Hirose" 950 -300 50 H I L CNN "Manufacturer_Name"
-F7 "U.FL-R-SMT(10)" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "798-U.FL-R-SMT10" 950 -500 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=798-U.FL-R-SMT10" 950 -600 50 H I L CNN "Mouser Price/Stock"
-DRAW
-P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
-X GND_1 1 1100 0 200 L 50 50 0 0 U
-X GND_2 2 1100 -100 200 L 50 50 0 0 U
-X SIG 3 0 0 200 R 50 50 0 0 U
-ENDDRAW
-ENDDEF
-#
 # Team-FIRE_53885-0408
 #
 DEF Team-FIRE_53885-0408 J 0 30 Y Y 1 F N
@@ -946,6 +925,27 @@ X GND 6 2000 -400 300 L 59 59 1 1 W
 X ISNS 7 2000 -300 300 L 59 59 1 1 I
 X GDRV 8 2000 -200 300 L 59 59 1 1 O
 X BP 9 2000 -100 300 L 59 59 1 1 O
+ENDDRAW
+ENDDEF
+#
+# Team-FIRE_U.FL-R-SMT_10_
+#
+DEF Team-FIRE_U.FL-R-SMT_10_ J 0 30 Y Y 1 F N
+F0 "J" 950 300 50 H V L CNN
+F1 "Team-FIRE_U.FL-R-SMT_10_" 950 200 50 H V L CNN
+F2 "UFLRSMT10" 950 100 50 H I L CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf" 950 0 50 H I L CNN
+F4 "RF Connectors / Coaxial Connectors U.FL RECEPTACLE SMT GLD M CONT REEL" 950 -100 50 H I L CNN "Description"
+F5 "1.25" 950 -200 50 H I L CNN "Height"
+F6 "Hirose" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "U.FL-R-SMT(10)" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "798-U.FL-R-SMT10" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=798-U.FL-R-SMT10" 950 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 f
+X GND 1 1100 0 200 L 50 50 0 0 W
+X GND 2 1100 -100 200 L 50 50 0 0 W
+X SIG 3 0 0 200 R 50 50 0 0 I
 ENDDRAW
 ENDDEF
 #
