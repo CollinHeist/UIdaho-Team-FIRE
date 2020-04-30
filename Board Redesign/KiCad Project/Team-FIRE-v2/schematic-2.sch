@@ -38,9 +38,15 @@ L Device:LED_Small D2
 U 1 1 5E707545
 P 7350 3150
 F 0 "D2" V 7300 3000 50  0000 L CNN
-F 1 "Blue" V 7400 2900 50  0000 L CNN
-F 2 "" V 7350 3150 50  0001 C CNN
-F 3 "~" V 7350 3150 50  0001 C CNN
+F 1 "Blue" H 7250 3300 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 7350 3150 50  0001 C CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-5455914/KB%20DELPS2.12_EN.pdf" V 7350 3150 50  0001 C CNN
+F 4 "KB DELPS2.12-QHRI-24-Z555-10-S" V 7350 3150 50  0001 C CNN "MPN"
+F 5 "Osram Opto Semiconductor" V 7350 3150 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" V 7350 3150 50  0001 C CNN "Supplier"
+F 7 "720-KBDELPS212A6350" V 7350 3150 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/OSRAM-Opto-Semiconductors/KB-DELPS212-QHRI-24-Z555-10-S?qs=sGAEpiMZZMseGfSY3csMkXiJOH5X%252BfXwwcjMMWonTAhZIqH765egag%3D%3D" V 7350 3150 50  0001 C CNN "Link"
+F 9 "Blue I2 LED" V 7350 3150 50  0001 C CNN "Description"
 	1    7350 3150
 	0    -1   -1   0   
 $EndComp
@@ -49,9 +55,15 @@ L Device:LED_Small D3
 U 1 1 5E7081BA
 P 7850 3150
 F 0 "D3" V 7800 3000 50  0000 L CNN
-F 1 "Blue" V 7900 2950 50  0000 L CNN
-F 2 "" V 7850 3150 50  0001 C CNN
-F 3 "~" V 7850 3150 50  0001 C CNN
+F 1 "Green" H 7700 3300 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 7850 3150 50  0001 C CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-5667035/KG%20DELMS1.22_EN.pdf" V 7850 3150 50  0001 C CNN
+F 4 "KG DELMS1.22-PHQI-24-E6L6" V 7850 3150 50  0001 C CNN "MPN"
+F 5 "Osram Opto Semiconductor" V 7850 3150 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" V 7850 3150 50  0001 C CNN "Supplier"
+F 7 "720-KGDELMS122A4854" V 7850 3150 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/OSRAM-Opto-Semiconductors/KG-DELMS122-PHQI-24-E6L6?qs=sGAEpiMZZMseGfSY3csMkXiJOH5X%252BfXw2hz5dPhSTuoMKPqIbYvs3A%3D%3D" V 7850 3150 50  0001 C CNN "Link"
+F 9 "Green SYS LED" V 7850 3150 50  0001 C CNN "Description"
 	1    7850 3150
 	0    -1   -1   0   
 $EndComp
@@ -59,10 +71,16 @@ $Comp
 L Device:LED_Small D4
 U 1 1 5E7085D2
 P 8350 3150
-F 0 "D4" V 8400 3350 50  0000 R CNN
-F 1 "Orange" V 8300 3500 50  0000 R CNN
-F 2 "" V 8350 3150 50  0001 C CNN
-F 3 "~" V 8350 3150 50  0001 C CNN
+F 0 "D4" V 8300 3100 50  0000 R CNN
+F 1 "Orange" H 8450 3300 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 8350 3150 50  0001 C CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-5667035/KG%20DELMS1.22_EN.pdf" V 8350 3150 50  0001 C CNN
+F 4 "KO DELLS1.22-KHLI-24" V 8350 3150 50  0001 C CNN "MPN"
+F 5 "Osram Opto Semiconductor" V 8350 3150 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" V 8350 3150 50  0001 C CNN "Supplier"
+F 7 "720-KODELLS122A4850" V 8350 3150 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/OSRAM-Opto-Semiconductors/KO-DELLS122-KHLI-24?qs=sGAEpiMZZMseGfSY3csMkXiJOH5X%252BfXw2C8037rquCtxGfEHciPG%252Bg%3D%3D" V 8350 3150 50  0001 C CNN "Link"
+F 9 "Orange TX LED" V 8350 3150 50  0001 C CNN "Description"
 	1    8350 3150
 	0    -1   -1   0   
 $EndComp
@@ -70,10 +88,16 @@ $Comp
 L Device:LED_Small D5
 U 1 1 5E709852
 P 8850 3150
-F 0 "D5" V 8900 3350 50  0000 R CNN
-F 1 "Orange" V 8800 3500 50  0000 R CNN
-F 2 "" V 8850 3150 50  0001 C CNN
-F 3 "~" V 8850 3150 50  0001 C CNN
+F 0 "D5" V 8800 3100 50  0000 R CNN
+F 1 "Yellow" H 8950 3300 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 8850 3150 50  0001 C CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-5452388/KY%20DELLS1.22_EN.pdf" V 8850 3150 50  0001 C CNN
+F 4 "KY DELLS1.22-KGLH-26" V 8850 3150 50  0001 C CNN "MPN"
+F 5 "Osram Opto Semiconductor" V 8850 3150 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" V 8850 3150 50  0001 C CNN "Supplier"
+F 7 "720-KYDELLS122A4853" V 8850 3150 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/OSRAM-Opto-Semiconductors/KY-DELLS122-KGLH-26?qs=sGAEpiMZZMseGfSY3csMkXiJOH5X%252BfXwv1i%252BFa1JJszqEvno6qOTvg%3D%3D" V 8850 3150 50  0001 C CNN "Link"
+F 9 "Yellow RX LED" V 8850 3150 50  0001 C CNN "Description"
 	1    8850 3150
 	0    -1   -1   0   
 $EndComp
@@ -581,42 +605,6 @@ F 12 "AEC-Q200" H 2100 3350 50  0001 C CNN "Qualification"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_LevelTranslator:TXB0108DQSR U4
-U 1 1 5E4FCEC1
-P 2000 2150
-F 0 "U4" H 2150 1450 50  0000 C CNN
-F 1 "TXB0108DQSR" H 2350 1350 50  0000 C CNN
-F 2 "Package_SON:USON-20_2x4mm_P0.4mm" H 2000 1400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/txb0108.pdf" H 2000 2050 50  0001 C CNN
-F 4 "Texas Instruments" H 2000 2150 50  0001 C CNN "Manufacturer"
-F 5 "Mouser" H 2000 2150 50  0001 C CNN "Supplier"
-F 6 "595-TXB0108DQSR" H 2000 2150 50  0001 C CNN "Supplier PN"
-F 7 "https://www.mouser.com/ProductDetail/Texas-Instruments/TXB0108DQSR?qs=%2Fha2pyFadujaOGhpga6aqWJB%2FOU4nmuuEFiHYX7W5oybuilijLXCBg%3D%3D" H 2000 2150 50  0001 C CNN "Link"
-F 8 "1.2/1.65 V to 5.5 V" H 2000 2150 50  0001 C CNN "Voltage Rating"
-F 9 "Voltage bus shifter" H 2000 2150 50  0001 C CNN "Description"
-	1    2000 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 5EB0F922
-P 1500 2800
-F 0 "R9" H 1250 2850 50  0000 L CNN
-F 1 "10k" H 1250 2750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1430 2800 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/mcx0x0xpre-1762843.pdf" H 1500 2800 50  0001 C CNN
-F 4 "MCT06030E1002BP100" H 1500 2800 50  0001 C CNN "MPN"
-F 5 "Vishay" H 1500 2800 50  0001 C CNN "Manufacturer"
-F 6 "Mouser" H 1500 2800 50  0001 C CNN "Supplier"
-F 7 "594-MCT06030E1002BP1" H 1500 2800 50  0001 C CNN "Supplier PN"
-F 8 "https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT06030E1002BP100?qs=sGAEpiMZZMtlubZbdhIBIHIEm3drdiPa32EPxwxqfD0%3D" H 1500 2800 50  0001 C CNN "Link"
-F 9 "Thin Film Resistor" H 1500 2800 50  0001 C CNN "Type"
-F 10 "0.1%" H 1500 2800 50  0001 C CNN "Tolerance"
-F 11 "75 V" H 1500 2800 50  0001 C CNN "Voltage Rating"
-	1    1500 2800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C?
 U 1 1 5EB1A931
 P 2350 1350
@@ -679,8 +667,15 @@ U 1 1 5EB2EB4B
 P 6150 2900
 F 0 "J5" V 5569 2900 50  0000 C CNN
 F 1 "Conn_ARM_JTAG_SWD_10" V 5660 2900 50  0000 C CNN
-F 2 "" H 6150 2900 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 6150 2900 50  0001 C CNN
 F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 5800 1650 50  0001 C CNN
+F 4 "FTSH-105-01-L-DV-K-TR" V 6150 2900 50  0001 C CNN "MPN"
+F 5 "Samtec Inc." V 6150 2900 50  0001 C CNN "Manufacturer"
+F 6 "Digikey" V 6150 2900 50  0001 C CNN "Supplier"
+F 7 "SAM13165CT-ND" V 6150 2900 50  0001 C CNN "Supplier PN"
+F 8 "https://www.digikey.ca/product-detail/en/samtec-inc/FTSH-105-01-L-DV-K-TR/SAM13165CT-ND/8827920" V 6150 2900 50  0001 C CNN "Link"
+F 9 "3.4 A per contact" V 6150 2900 50  0001 C CNN "Current Rating"
+F 10 "JTAG connector" V 6150 2900 50  0001 C CNN "Desription"
 	1    6150 2900
 	0    1    1    0   
 $EndComp
@@ -861,4 +856,44 @@ Wire Notes Line
 	3550 2200 9100 2200
 Wire Wire Line
 	6450 3400 6450 3500
+Text Notes 3550 2350 0    79   ~ 16
+PART SELECTION FINISHED - COLLIN
+Text Notes 600  850  0    79   ~ 16
+PART SELECTION FINISHED - COLLIN
+$Comp
+L Device:R R9
+U 1 1 5EB0F922
+P 1500 2800
+F 0 "R9" H 1250 2850 50  0000 L CNN
+F 1 "10k" H 1250 2750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1430 2800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/mcx0x0xpre-1762843.pdf" H 1500 2800 50  0001 C CNN
+F 4 "MCT06030E1002BP100" H 1500 2800 50  0001 C CNN "MPN"
+F 5 "Vishay" H 1500 2800 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 1500 2800 50  0001 C CNN "Supplier"
+F 7 "594-MCT06030E1002BP1" H 1500 2800 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT06030E1002BP100?qs=sGAEpiMZZMtlubZbdhIBIHIEm3drdiPa32EPxwxqfD0%3D" H 1500 2800 50  0001 C CNN "Link"
+F 9 "Thin Film Resistor" H 1500 2800 50  0001 C CNN "Type"
+F 10 "0.1%" H 1500 2800 50  0001 C CNN "Tolerance"
+F 11 "75 V" H 1500 2800 50  0001 C CNN "Voltage Rating"
+	1    1500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logic_LevelTranslator:TXB0108DQSR U4
+U 1 1 5E4FCEC1
+P 2000 2150
+F 0 "U4" H 2150 1450 50  0000 C CNN
+F 1 "TXB0108DQSR" H 2350 1350 50  0000 C CNN
+F 2 "Package_SON:USON-20_2x4mm_P0.4mm" H 2000 1400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/txb0108.pdf" H 2000 2050 50  0001 C CNN
+F 4 "Texas Instruments" H 2000 2150 50  0001 C CNN "Manufacturer"
+F 5 "Mouser" H 2000 2150 50  0001 C CNN "Supplier"
+F 6 "595-TXB0108DQSR" H 2000 2150 50  0001 C CNN "Supplier PN"
+F 7 "https://www.mouser.com/ProductDetail/Texas-Instruments/TXB0108DQSR?qs=%2Fha2pyFadujaOGhpga6aqWJB%2FOU4nmuuEFiHYX7W5oybuilijLXCBg%3D%3D" H 2000 2150 50  0001 C CNN "Link"
+F 8 "1.2/1.65 V to 5.5 V" H 2000 2150 50  0001 C CNN "Voltage Rating"
+F 9 "Voltage bus shifter" H 2000 2150 50  0001 C CNN "Description"
+	1    2000 2150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
