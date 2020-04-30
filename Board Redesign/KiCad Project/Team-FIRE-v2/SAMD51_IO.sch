@@ -14,14 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 1260 3190 0    50   Input ~ 0
-USB_D-
-Text GLabel 1260 3290 0    50   Input ~ 0
-USB_D+
-Text GLabel 1260 2790 0    50   Input ~ 0
-SDA
-Text GLabel 1260 2890 0    50   Input ~ 0
-SCL
 $Comp
 L Team-FIRE:SAMD51 U?
 U 2 1 5ED61C09
@@ -52,14 +44,8 @@ F 5 "ATSAMD51N20A-AU" H 6450 160 28  0001 C CNN "MPN"
 	1    7550 2210
 	1    0    0    -1  
 $EndComp
-Text GLabel 1260 3490 0    50   Input ~ 0
-SWCLK
-Text GLabel 1260 3590 0    50   Input ~ 0
-SWDIO
 Text GLabel 3980 1130 0    50   Input ~ 0
 RX_LED
-Text GLabel 1260 3390 0    50   Input ~ 0
-TX_LED
 Text GLabel 6740 3010 0    50   Input ~ 0
 SWO
 Text GLabel 3980 3030 0    50   Input ~ 0
@@ -728,28 +714,8 @@ Connection ~ 8310 4510
 Wire Wire Line
 	8310 4510 8310 4640
 Connection ~ 8620 4510
-Text GLabel 1260 1590 0    50   Input ~ 0
-FLASH_MOSI
-Text GLabel 1260 1790 0    50   Input ~ 0
-FLASH_CS
-Text GLabel 1260 1890 0    50   Input ~ 0
-FLASH_MISO
-Text GLabel 1260 1690 0    50   Input ~ 0
-FLASH_SCK
-Text GLabel 1260 2290 0    50   Input ~ 0
-IO-RTS
-Text GLabel 1260 1990 0    50   Input ~ 0
-IO-CTS
-Text GLabel 1260 2190 0    50   Input ~ 0
-IO-DSR
-Text GLabel 1260 2390 0    50   Input ~ 0
-IO-DCD
 Text GLabel 3980 2630 0    50   Input ~ 0
 IO-RI
-Text GLabel 1260 2590 0    50   Input ~ 0
-IO-TX
-Text GLabel 1260 2690 0    50   Input ~ 0
-IO-RX
 Text GLabel 3980 1830 0    50   Input ~ 0
 IO-DTR
 Text GLabel 3980 1630 0    50   Input ~ 0
@@ -815,17 +781,6 @@ NoConn ~ 1260 1390
 NoConn ~ 1260 1490
 Text GLabel 1850 6470 2    50   Input ~ 0
 XIN32
-$Comp
-L Memory_Flash:AT25DF041x-UxN-x U?
-U 1 1 5EBC3761
-P 2350 5000
-F 0 "U?" H 2500 5450 50  0000 L CNN
-F 1 "AT25DF041x-UxN-x" H 2994 4955 50  0001 L CNN
-F 2 "Package_CSP:WLCSP-8_1.58x1.63x0.35mm_Layout3x5_P0.35x0.4mm_Ball0.25mm_Pad0.25mm_NSMD" H 2150 4400 50  0001 C CNN
-F 3 "http://www.adestotech.com/wp-content/uploads/DS-AT25DF041B_040.pdf" H 2350 5700 50  0001 C CNN
-	1    2350 5000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1750 4800 1650 4800
 Text GLabel 1550 5100 0    50   Input ~ 0
@@ -853,8 +808,8 @@ U 1 1 5EBDC8BA
 P 2350 5500
 AR Path="/5E4F8378/5EA71818/5EBDC8BA" Ref="#PWR?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5ED7D75E/5EBDC8BA" Ref="#PWR?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5EBDC8BA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2350 5250 50  0001 C CNN
+AR Path="/5E4F8378/5ED4DEFC/5EBDC8BA" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 2350 5250 50  0001 C CNN
 F 1 "GND" H 2355 5327 50  0000 C CNN
 F 2 "" H 2350 5500 50  0001 C CNN
 F 3 "" H 2350 5500 50  0001 C CNN
@@ -872,8 +827,8 @@ L Device:R R?
 U 1 1 5EBDEFB3
 P 1050 4750
 AR Path="/5E4F8378/5EBDEFB3" Ref="R?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5EBDEFB3" Ref="R?"  Part="1" 
-F 0 "R?" H 800 4800 50  0000 L CNN
+AR Path="/5E4F8378/5ED4DEFC/5EBDEFB3" Ref="R15"  Part="1" 
+F 0 "R15" H 800 4800 50  0000 L CNN
 F 1 "10k" H 800 4700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 980 4750 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/427/mcx0x0xpre-1762843.pdf" H 1050 4750 50  0001 C CNN
@@ -910,4 +865,49 @@ Wire Notes Line
 	700  5800 700  4050
 Text Notes 700  4050 0    79   ~ 16
 Flash Memory
+$Comp
+L Memory_Flash:AT25DF041x-UxN-x U6
+U 1 1 5EBC3761
+P 2350 5000
+F 0 "U6" H 2500 5450 50  0000 L CNN
+F 1 "AT25DF041x-UxN-x" H 2994 4955 50  0001 L CNN
+F 2 "Package_CSP:WLCSP-8_1.58x1.63x0.35mm_Layout3x5_P0.35x0.4mm_Ball0.25mm_Pad0.25mm_NSMD" H 2150 4400 50  0001 C CNN
+F 3 "http://www.adestotech.com/wp-content/uploads/DS-AT25DF041B_040.pdf" H 2350 5700 50  0001 C CNN
+	1    2350 5000
+	1    0    0    -1  
+$EndComp
+Text GLabel 1260 2740 0    50   Input ~ 0
+USB_D-
+Text GLabel 1260 2840 0    50   Input ~ 0
+USB_D+
+Text GLabel 1260 2340 0    50   Input ~ 0
+SDA
+Text GLabel 1260 2440 0    50   Input ~ 0
+SCL
+Text GLabel 1260 3040 0    50   Input ~ 0
+SWCLK
+Text GLabel 1260 3140 0    50   Input ~ 0
+SWDIO
+Text GLabel 1260 2940 0    50   Input ~ 0
+TX_LED
+Text GLabel 1260 1140 0    50   Input ~ 0
+FLASH_MOSI
+Text GLabel 1260 1340 0    50   Input ~ 0
+FLASH_CS
+Text GLabel 1260 1440 0    50   Input ~ 0
+FLASH_MISO
+Text GLabel 1260 1240 0    50   Input ~ 0
+FLASH_SCK
+Text GLabel 1260 1840 0    50   Input ~ 0
+IO-RTS
+Text GLabel 1260 1540 0    50   Input ~ 0
+IO-CTS
+Text GLabel 1260 1740 0    50   Input ~ 0
+IO-DSR
+Text GLabel 1260 1940 0    50   Input ~ 0
+IO-DCD
+Text GLabel 1260 2140 0    50   Input ~ 0
+IO-TX
+Text GLabel 1260 2240 0    50   Input ~ 0
+IO-RX
 $EndSCHEMATC
