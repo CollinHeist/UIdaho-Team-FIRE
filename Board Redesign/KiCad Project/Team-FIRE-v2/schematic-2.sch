@@ -16,226 +16,127 @@ Comment4 "Koffi Anderson, Collin Heist, Shelby Linafelter"
 $EndDescr
 Wire Notes Line
 	600  700  600  5500
-Wire Notes Line
-	9420 3970 9420 2170
-Wire Notes Line
-	3870 2170 3870 3970
-Text Notes 3920 2170 0    79   ~ 16
+Text Notes 3800 2000 0    79   ~ 16
 uC Support
-Text GLabel 5920 3670 0    39   Input ~ 0
-SWDIO
-Text GLabel 5920 3820 0    39   Input ~ 0
-SWCLK
-Text GLabel 6820 3670 2    39   Input ~ 0
-RST
-Wire Wire Line
-	6520 3520 6520 3670
-Wire Wire Line
-	6520 3670 6820 3670
-Wire Wire Line
-	6320 3520 6320 3820
-Wire Wire Line
-	6320 3820 5920 3820
-Wire Wire Line
-	6220 3520 6220 3670
-Wire Wire Line
-	6220 3670 5920 3670
-Text Notes 6570 3820 0    50   ~ 0
-Keep reset button?
-$Comp
-L power:GND #PWR0127
-U 1 1 5E6F0DA3
-P 4100 3250
-F 0 "#PWR0127" H 4100 3000 50  0001 C CNN
-F 1 "GND" H 4100 3100 50  0000 C CNN
-F 2 "" H 4100 3250 50  0001 C CNN
-F 3 "" H 4100 3250 50  0001 C CNN
-	1    4100 3250
-	1    0    0    -1  
-$EndComp
-Text GLabel 4550 2750 2    39   Input ~ 0
+Text GLabel 4200 2600 0    39   Input ~ 0
 USB_D+
-Text GLabel 4550 2850 2    39   Input ~ 0
-USB_D-
 $Comp
 L Device:LED_Small D2
 U 1 1 5E707545
-P 7670 2920
-F 0 "D2" V 7620 2770 50  0000 L CNN
-F 1 "Blue" V 7720 2670 50  0000 L CNN
-F 2 "" V 7670 2920 50  0001 C CNN
-F 3 "~" V 7670 2920 50  0001 C CNN
-	1    7670 2920
-	0    1    1    0   
+P 7700 2950
+F 0 "D2" V 7650 2800 50  0000 L CNN
+F 1 "Blue" V 7750 2700 50  0000 L CNN
+F 2 "" V 7700 2950 50  0001 C CNN
+F 3 "~" V 7700 2950 50  0001 C CNN
+	1    7700 2950
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED_Small D3
 U 1 1 5E7081BA
-P 8170 2920
-F 0 "D3" V 8120 2770 50  0000 L CNN
-F 1 "Blue" V 8220 2720 50  0000 L CNN
-F 2 "" V 8170 2920 50  0001 C CNN
-F 3 "~" V 8170 2920 50  0001 C CNN
-	1    8170 2920
-	0    1    1    0   
+P 8200 2950
+F 0 "D3" V 8150 2800 50  0000 L CNN
+F 1 "Blue" V 8250 2750 50  0000 L CNN
+F 2 "" V 8200 2950 50  0001 C CNN
+F 3 "~" V 8200 2950 50  0001 C CNN
+	1    8200 2950
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED_Small D4
 U 1 1 5E7085D2
-P 8670 3270
-F 0 "D4" V 8720 3470 50  0000 R CNN
-F 1 "Orange" V 8620 3620 50  0000 R CNN
-F 2 "" V 8670 3270 50  0001 C CNN
-F 3 "~" V 8670 3270 50  0001 C CNN
-	1    8670 3270
+P 8700 2950
+F 0 "D4" V 8750 3150 50  0000 R CNN
+F 1 "Orange" V 8650 3300 50  0000 R CNN
+F 2 "" V 8700 2950 50  0001 C CNN
+F 3 "~" V 8700 2950 50  0001 C CNN
+	1    8700 2950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED_Small D5
 U 1 1 5E709852
-P 9170 3270
-F 0 "D5" V 9220 3470 50  0000 R CNN
-F 1 "Orange" V 9120 3620 50  0000 R CNN
-F 2 "" V 9170 3270 50  0001 C CNN
-F 3 "~" V 9170 3270 50  0001 C CNN
-	1    9170 3270
+P 9200 2950
+F 0 "D5" V 9250 3150 50  0000 R CNN
+F 1 "Orange" V 9150 3300 50  0000 R CNN
+F 2 "" V 9200 2950 50  0001 C CNN
+F 3 "~" V 9200 2950 50  0001 C CNN
+	1    9200 2950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3.3V #PWR0128
 U 1 1 5E709BE1
-P 8670 2670
-F 0 "#PWR0128" H 8670 2520 50  0001 C CNN
-F 1 "+3.3V" H 8570 2820 50  0000 L CNN
-F 2 "" H 8670 2670 50  0001 C CNN
-F 3 "" H 8670 2670 50  0001 C CNN
-	1    8670 2670
+P 8700 2550
+F 0 "#PWR0128" H 8700 2400 50  0001 C CNN
+F 1 "+3.3V" H 8600 2700 50  0000 L CNN
+F 2 "" H 8700 2550 50  0001 C CNN
+F 3 "" H 8700 2550 50  0001 C CNN
+	1    8700 2550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0129
 U 1 1 5E70A194
-P 9170 2670
-F 0 "#PWR0129" H 9170 2520 50  0001 C CNN
-F 1 "+3.3V" H 9070 2820 50  0000 L CNN
-F 2 "" H 9170 2670 50  0001 C CNN
-F 3 "" H 9170 2670 50  0001 C CNN
-	1    9170 2670
+P 9200 2550
+F 0 "#PWR0129" H 9200 2400 50  0001 C CNN
+F 1 "+3.3V" H 9100 2700 50  0000 L CNN
+F 2 "" H 9200 2550 50  0001 C CNN
+F 3 "" H 9200 2550 50  0001 C CNN
+	1    9200 2550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0130
 U 1 1 5E70A4EC
-P 7670 2670
-F 0 "#PWR0130" H 7670 2420 50  0001 C CNN
-F 1 "GND" H 7670 2520 50  0000 C CNN
-F 2 "" H 7670 2670 50  0001 C CNN
-F 3 "" H 7670 2670 50  0001 C CNN
-	1    7670 2670
-	-1   0    0    1   
+P 7700 3050
+F 0 "#PWR0130" H 7700 2800 50  0001 C CNN
+F 1 "GND" H 7700 2900 50  0000 C CNN
+F 2 "" H 7700 3050 50  0001 C CNN
+F 3 "" H 7700 3050 50  0001 C CNN
+	1    7700 3050
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0131
 U 1 1 5E70B5A5
-P 8170 2670
-F 0 "#PWR0131" H 8170 2420 50  0001 C CNN
-F 1 "GND" H 8170 2520 50  0000 C CNN
-F 2 "" H 8170 2670 50  0001 C CNN
-F 3 "" H 8170 2670 50  0001 C CNN
-	1    8170 2670
-	-1   0    0    1   
+P 8200 3050
+F 0 "#PWR0131" H 8200 2800 50  0001 C CNN
+F 1 "GND" H 8200 2900 50  0000 C CNN
+F 2 "" H 8200 3050 50  0001 C CNN
+F 3 "" H 8200 3050 50  0001 C CNN
+	1    8200 3050
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R13
 U 1 1 5E70B7B8
-P 7670 3320
-F 0 "R13" H 7770 3370 50  0000 L CNN
-F 1 "330" H 7770 3270 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7600 3320 50  0001 C CNN
-F 3 "~" H 7670 3320 50  0001 C CNN
-	1    7670 3320
+P 7700 2700
+F 0 "R13" H 7800 2750 50  0000 L CNN
+F 1 "330" H 7800 2650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7630 2700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-SR_D_F_tol_RoHS_L_4-1670154.pdf" H 7700 2700 50  0001 C CNN
+F 4 "SR0603FR-7T330RL" H 7700 2700 50  0001 C CNN "MPN"
+F 5 "Yageo" H 7700 2700 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 7700 2700 50  0001 C CNN "Supplier"
+F 7 "603-SR0603FR-7T330RL" H 7700 2700 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Yageo/SR0603FR-7T330RL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdAr1tt8LFCas%3D" H 7700 2700 50  0001 C CNN "Link"
+F 9 "Thick Film Resistor" H 7700 2700 50  0001 C CNN "Type"
+F 10 "1%" H 7700 2700 50  0001 C CNN "Tolerance"
+F 11 "75 V" H 7700 2700 50  0001 C CNN "Voltage Rating"
+	1    7700 2700
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:R R14
-U 1 1 5E70C353
-P 8170 3320
-F 0 "R14" H 8270 3370 50  0000 L CNN
-F 1 "330" H 8270 3270 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8100 3320 50  0001 C CNN
-F 3 "~" H 8170 3320 50  0001 C CNN
-	1    8170 3320
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R11
-U 1 1 5E7177B2
-P 8670 2920
-F 0 "R11" H 8770 2970 50  0000 L CNN
-F 1 "330" H 8770 2870 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8600 2920 50  0001 C CNN
-F 3 "~" H 8670 2920 50  0001 C CNN
-	1    8670 2920
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R12
-U 1 1 5E717AD1
-P 9170 2920
-F 0 "R12" H 9270 2970 50  0000 L CNN
-F 1 "330" H 9270 2870 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9100 2920 50  0001 C CNN
-F 3 "~" H 9170 2920 50  0001 C CNN
-	1    9170 2920
-	-1   0    0    1   
-$EndComp
-Text GLabel 7570 3670 0    39   Input ~ 0
+Text GLabel 7600 2450 0    39   Input ~ 0
 I2_LED
-Text GLabel 8070 3670 0    39   Input ~ 0
+Text GLabel 8100 2450 0    39   Input ~ 0
 SYS_LED
-Text GLabel 8570 3670 0    39   Input ~ 0
+Text GLabel 8600 3150 0    39   Input ~ 0
 TX_LED
-Text GLabel 9070 3670 0    39   Input ~ 0
+Text GLabel 9100 3150 0    39   Input ~ 0
 RX_LED
-Wire Wire Line
-	7670 2670 7670 2820
-Wire Wire Line
-	7670 3020 7670 3170
-Wire Wire Line
-	7670 3470 7670 3670
-Wire Wire Line
-	8170 2670 8170 2820
-Wire Wire Line
-	8170 3020 8170 3170
-Wire Wire Line
-	8170 3470 8170 3670
-Wire Wire Line
-	8670 3370 8670 3670
-Wire Wire Line
-	8670 3070 8670 3170
-Wire Wire Line
-	8670 2670 8670 2770
-Wire Wire Line
-	9170 2670 9170 2770
-Wire Wire Line
-	9170 3070 9170 3170
-Wire Wire Line
-	9170 3370 9170 3670
-Wire Wire Line
-	7570 3670 7670 3670
-Wire Wire Line
-	8170 3670 8070 3670
-Wire Wire Line
-	8570 3670 8670 3670
-Wire Wire Line
-	9070 3670 9170 3670
-Wire Notes Line
-	3870 2170 9420 2170
-Wire Notes Line
-	3870 3970 9420 3970
 Text Notes 6000 1460 0    50   ~ 0
 SAMD51 Checklist:\n- From https://www.mouser.com/datasheet/2/268/60001507E-1660031.pdf#page=2096&zoom=100,0,0\n- Voltage of [1.71, 3.63] V must be applied to VDDIO and VDDANA.\n- Voltage VDDIOB must be lower or equal to VDDIO / VDDANA.\n- Verify the power supply is appropriately set for Switching / Linear mode.\n+ We need a pull-up resistor on the SWCLK pin\n+ We need a RC filter on ~RESET\n-  We need to eliminate or attenuate noise in\norder to avoid that it reaches supply pins, I/O pins and crystals.
-NoConn ~ 6020 3520
 Text Notes 2300 3350 0    50   ~ 0
 VCCB is typically\ntied to 3.3V
 Connection ~ 2100 3600
@@ -613,47 +514,6 @@ F0 "SAMD51_IO" 50
 F1 "SAMD51_IO.sch" 50
 $EndSheet
 Wire Wire Line
-	6970 3020 6820 3020
-Wire Wire Line
-	6970 2770 6970 3020
-$Comp
-L power:+3.3V #PWR0132
-U 1 1 5E6DD1DD
-P 6970 2770
-F 0 "#PWR0132" H 6970 2620 50  0001 C CNN
-F 1 "+3.3V" H 6870 2920 50  0000 L CNN
-F 2 "" H 6970 2770 50  0001 C CNN
-F 3 "" H 6970 2770 50  0001 C CNN
-	1    6970 2770
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_ARM_JTAG_SWD_10 J5
-U 1 1 5E6DB242
-P 6220 3020
-F 0 "J5" V 5639 3020 50  0000 C CNN
-F 1 "Conn_ARM_JTAG_SWD_10" V 5730 3020 50  0000 C CNN
-F 2 "" H 6220 3020 50  0001 C CNN
-F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 5870 1770 50  0001 C CNN
-	1    6220 3020
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5520 3020 5520 3270
-Wire Wire Line
-	5620 3020 5520 3020
-$Comp
-L power:GND #PWR0133
-U 1 1 5E6E026F
-P 5520 3270
-F 0 "#PWR0133" H 5520 3020 50  0001 C CNN
-F 1 "GND" H 5520 3120 50  0000 C CNN
-F 2 "" H 5520 3270 50  0001 C CNN
-F 3 "" H 5520 3270 50  0001 C CNN
-	1    5520 3270
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	2500 4700 2400 4700
 Wire Wire Line
 	2400 4500 2500 4500
@@ -662,41 +522,13 @@ Wire Wire Line
 Wire Wire Line
 	2400 4100 2500 4100
 $Comp
-L Connector:USB_B_Mini J?
-U 1 1 5F1B906C
-P 4150 2750
-F 0 "J?" H 4207 3217 50  0000 C CNN
-F 1 "USB_B_Mini" H 4207 3126 50  0000 C CNN
-F 2 "" H 4300 2700 50  0001 C CNN
-F 3 "~" H 4300 2700 50  0001 C CNN
-	1    4150 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4050 3150 4050 3200
-Wire Wire Line
-	4050 3200 4100 3200
-Wire Wire Line
-	4150 3200 4150 3150
-Wire Wire Line
-	4100 3200 4100 3250
-Connection ~ 4100 3200
-Wire Wire Line
-	4100 3200 4150 3200
-Wire Wire Line
-	4550 2850 4450 2850
-Wire Wire Line
-	4450 2750 4550 2750
-NoConn ~ 4450 2550
-NoConn ~ 4450 2950
-$Comp
 L Device:C C?
 U 1 1 5EAFA1C0
 P 1650 3600
 AR Path="/5E4D0D8F/5EAFA1C0" Ref="C?"  Part="1" 
 AR Path="/5E759307/5EAFA1C0" Ref="C?"  Part="1" 
-AR Path="/5E4F8378/5EAFA1C0" Ref="C?"  Part="1" 
-F 0 "C?" V 1700 3650 50  0000 L CNN
+AR Path="/5E4F8378/5EAFA1C0" Ref="C20"  Part="1" 
+F 0 "C20" V 1700 3650 50  0000 L CNN
 F 1 "0.1uF" V 1600 3650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1688 3450 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 1650 3600 50  0001 C CNN
@@ -718,8 +550,8 @@ U 1 1 5EB0548C
 P 2100 3350
 AR Path="/5E4D0D8F/5EB0548C" Ref="C?"  Part="1" 
 AR Path="/5E759307/5EB0548C" Ref="C?"  Part="1" 
-AR Path="/5E4F8378/5EB0548C" Ref="C?"  Part="1" 
-F 0 "C?" H 2150 3450 50  0000 L CNN
+AR Path="/5E4F8378/5EB0548C" Ref="C19"  Part="1" 
+F 0 "C19" H 2150 3450 50  0000 L CNN
 F 1 "0.1uF" H 2150 3250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2138 3200 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 2100 3350 50  0001 C CNN
@@ -753,10 +585,10 @@ F 9 "Voltage bus shifter" H 2000 2150 50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R9
 U 1 1 5EB0F922
 P 1500 2800
-F 0 "R?" H 1250 2850 50  0000 L CNN
+F 0 "R9" H 1250 2850 50  0000 L CNN
 F 1 "10k" H 1250 2750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1430 2800 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/427/mcx0x0xpre-1762843.pdf" H 1500 2800 50  0001 C CNN
@@ -777,8 +609,8 @@ U 1 1 5EB1A931
 P 2350 1350
 AR Path="/5E4D0D8F/5EB1A931" Ref="C?"  Part="1" 
 AR Path="/5E759307/5EB1A931" Ref="C?"  Part="1" 
-AR Path="/5E4F8378/5EB1A931" Ref="C?"  Part="1" 
-F 0 "C?" V 2400 1400 50  0000 L CNN
+AR Path="/5E4F8378/5EB1A931" Ref="C18"  Part="1" 
+F 0 "C18" V 2400 1400 50  0000 L CNN
 F 1 "0.1uF" V 2400 1100 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2388 1200 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 2350 1350 50  0001 C CNN
@@ -800,8 +632,8 @@ U 1 1 5EB10E41
 P 1650 1350
 AR Path="/5E4D0D8F/5EB10E41" Ref="C?"  Part="1" 
 AR Path="/5E759307/5EB10E41" Ref="C?"  Part="1" 
-AR Path="/5E4F8378/5EB10E41" Ref="C?"  Part="1" 
-F 0 "C?" V 1700 1400 50  0000 L CNN
+AR Path="/5E4F8378/5EB10E41" Ref="C17"  Part="1" 
+F 0 "C17" V 1700 1400 50  0000 L CNN
 F 1 "0.1uF" V 1700 1100 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1688 1200 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 1650 1350 50  0001 C CNN
@@ -817,4 +649,217 @@ F 12 "AEC-Q200" H 1650 1350 50  0001 C CNN "Qualification"
 	1    1650 1350
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Connector:Conn_ARM_JTAG_SWD_10 J5
+U 1 1 5EB2EB4B
+P 6500 2700
+F 0 "J5" V 5919 2700 50  0000 C CNN
+F 1 "Conn_ARM_JTAG_SWD_10" V 6010 2700 50  0000 C CNN
+F 2 "" H 6500 2700 50  0001 C CNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 6150 1450 50  0001 C CNN
+	1    6500 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 2700 5800 2700
+Wire Wire Line
+	5800 2700 5800 3100
+$Comp
+L power:GND #PWR011
+U 1 1 5EB31606
+P 5800 3100
+F 0 "#PWR011" H 5800 2850 50  0001 C CNN
+F 1 "GND" H 5800 2950 50  0000 C CNN
+F 2 "" H 5800 3100 50  0001 C CNN
+F 3 "" H 5800 3100 50  0001 C CNN
+	1    5800 3100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6300 3200
+NoConn ~ 6400 3200
+NoConn ~ 5900 2600
+Wire Wire Line
+	7100 2700 7200 2700
+Wire Wire Line
+	7200 2700 7200 2300
+$Comp
+L power:+3.3V #PWR09
+U 1 1 5EB39EAB
+P 7200 2300
+F 0 "#PWR09" H 7200 2150 50  0001 C CNN
+F 1 "+3.3V" H 7100 2450 50  0000 L CNN
+F 2 "" H 7200 2300 50  0001 C CNN
+F 3 "" H 7200 2300 50  0001 C CNN
+	1    7200 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3200 6500 3300
+Wire Wire Line
+	6500 3300 6400 3300
+Text GLabel 6400 3300 0    39   Input ~ 0
+SWDIO
+Wire Wire Line
+	6600 3200 6600 3400
+Wire Wire Line
+	6600 3400 6400 3400
+Text GLabel 6400 3400 0    39   Input ~ 0
+SWCLK
+Wire Wire Line
+	6800 3200 6800 3250
+Wire Wire Line
+	6800 3250 6900 3250
+Text GLabel 6900 3250 2    39   Input ~ 0
+RST
+Wire Wire Line
+	7600 2450 7700 2450
+Wire Wire Line
+	7700 2450 7700 2550
+Wire Wire Line
+	8100 2450 8200 2450
+Wire Wire Line
+	8200 2450 8200 2550
+Wire Wire Line
+	8700 3050 8700 3150
+Wire Wire Line
+	8700 3150 8600 3150
+Wire Wire Line
+	9200 3050 9200 3150
+Wire Wire Line
+	9200 3150 9100 3150
+$Comp
+L Device:R R11
+U 1 1 5EB62DF2
+P 8200 2700
+F 0 "R11" H 8300 2750 50  0000 L CNN
+F 1 "330" H 8300 2650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8130 2700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-SR_D_F_tol_RoHS_L_4-1670154.pdf" H 8200 2700 50  0001 C CNN
+F 4 "SR0603FR-7T330RL" H 8200 2700 50  0001 C CNN "MPN"
+F 5 "Yageo" H 8200 2700 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 8200 2700 50  0001 C CNN "Supplier"
+F 7 "603-SR0603FR-7T330RL" H 8200 2700 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Yageo/SR0603FR-7T330RL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdAr1tt8LFCas%3D" H 8200 2700 50  0001 C CNN "Link"
+F 9 "Thick Film Resistor" H 8200 2700 50  0001 C CNN "Type"
+F 10 "1%" H 8200 2700 50  0001 C CNN "Tolerance"
+F 11 "75 V" H 8200 2700 50  0001 C CNN "Voltage Rating"
+	1    8200 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5EB6329E
+P 8700 2700
+F 0 "R12" H 8800 2750 50  0000 L CNN
+F 1 "330" H 8800 2650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8630 2700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-SR_D_F_tol_RoHS_L_4-1670154.pdf" H 8700 2700 50  0001 C CNN
+F 4 "SR0603FR-7T330RL" H 8700 2700 50  0001 C CNN "MPN"
+F 5 "Yageo" H 8700 2700 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 8700 2700 50  0001 C CNN "Supplier"
+F 7 "603-SR0603FR-7T330RL" H 8700 2700 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Yageo/SR0603FR-7T330RL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdAr1tt8LFCas%3D" H 8700 2700 50  0001 C CNN "Link"
+F 9 "Thick Film Resistor" H 8700 2700 50  0001 C CNN "Type"
+F 10 "1%" H 8700 2700 50  0001 C CNN "Tolerance"
+F 11 "75 V" H 8700 2700 50  0001 C CNN "Voltage Rating"
+	1    8700 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5EB6349E
+P 9200 2700
+F 0 "R14" H 9300 2750 50  0000 L CNN
+F 1 "330" H 9300 2650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9130 2700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-SR_D_F_tol_RoHS_L_4-1670154.pdf" H 9200 2700 50  0001 C CNN
+F 4 "SR0603FR-7T330RL" H 9200 2700 50  0001 C CNN "MPN"
+F 5 "Yageo" H 9200 2700 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 9200 2700 50  0001 C CNN "Supplier"
+F 7 "603-SR0603FR-7T330RL" H 9200 2700 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Yageo/SR0603FR-7T330RL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdAr1tt8LFCas%3D" H 9200 2700 50  0001 C CNN "Link"
+F 9 "Thick Film Resistor" H 9200 2700 50  0001 C CNN "Type"
+F 10 "1%" H 9200 2700 50  0001 C CNN "Tolerance"
+F 11 "75 V" H 9200 2700 50  0001 C CNN "Voltage Rating"
+	1    9200 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Team-FIRE:UX60-MB-5ST J3
+U 1 1 5EB793C5
+P 4300 2400
+F 0 "J3" H 4875 2665 50  0000 C CNN
+F 1 "UX60-MB-5ST" H 4875 2574 50  0000 C CNN
+F 2 "Team-FIRE:HIROSE-UX60-MB-5ST" H 5550 2500 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/1824852.pdf" H 5550 2400 50  0001 L CNN
+F 4 "Hirose" H 5550 2100 50  0001 L CNN "Manufacturer"
+F 5 "UX60-MB-5ST" H 5550 2000 50  0001 L CNN "MPN"
+F 6 "798-UX60-MB-5ST" H 5550 1900 50  0001 L CNN "Supplier PN"
+F 7 "https://www.mouser.com/ProductDetail/Hirose-Connector/UX60-MB-5ST?qs=sGAEpiMZZMulM8LPOQ%252BykzmHhzPuOAFGIpscEVPIFWo%3D" H 4300 2400 50  0001 C CNN "Link"
+F 8 "1 A" H 4300 2400 50  0001 C CNN "Current Rating"
+F 9 "USB B Mini Connector" H 4300 2400 50  0001 C CNN "Description"
+F 10 "Mouser" H 5550 1600 50  0001 L CNN "Supplier"
+	1    4300 2400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4300 2400
+Text GLabel 4200 2500 0    39   Input ~ 0
+USB_D-
+Wire Wire Line
+	4300 2500 4200 2500
+Wire Wire Line
+	4200 2600 4300 2600
+Wire Wire Line
+	4300 2800 4200 2800
+Wire Wire Line
+	4200 2800 4200 2900
+Wire Wire Line
+	5550 2450 5450 2450
+Wire Wire Line
+	5550 2900 5550 2750
+Wire Wire Line
+	5450 2550 5550 2550
+Connection ~ 5550 2550
+Wire Wire Line
+	5550 2550 5550 2450
+Wire Wire Line
+	5450 2650 5550 2650
+Connection ~ 5550 2650
+Wire Wire Line
+	5550 2650 5550 2550
+Wire Wire Line
+	5450 2750 5550 2750
+Connection ~ 5550 2750
+Wire Wire Line
+	5550 2750 5550 2650
+$Comp
+L power:GND #PWR010
+U 1 1 5EB94E46
+P 4200 2900
+F 0 "#PWR010" H 4200 2650 50  0001 C CNN
+F 1 "GND" H 4200 2750 50  0000 C CNN
+F 2 "" H 4200 2900 50  0001 C CNN
+F 3 "" H 4200 2900 50  0001 C CNN
+	1    4200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5EB95383
+P 5550 2900
+F 0 "#PWR012" H 5550 2650 50  0001 C CNN
+F 1 "GND" H 5550 2750 50  0000 C CNN
+F 2 "" H 5550 2900 50  0001 C CNN
+F 3 "" H 5550 2900 50  0001 C CNN
+	1    5550 2900
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3800 2000 9400 2000
+Wire Notes Line
+	9400 2000 9400 3550
+Wire Notes Line
+	9400 3550 3800 3550
+Wire Notes Line
+	3800 3550 3800 2000
 $EndSCHEMATC

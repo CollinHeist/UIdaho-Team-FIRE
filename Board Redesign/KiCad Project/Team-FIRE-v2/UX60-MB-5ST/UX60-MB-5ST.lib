@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model UX60-MB-5ST
+#/233074/207636/2.46/9/4/Connector
+DEF UX60-MB-5ST J 0 30 Y Y 1 F N
+F0 "J" 1250 300 50 H V L CNN
+F1 "UX60-MB-5ST" 1250 200 50 H V L CNN
+F2 "HIROSE-UX60-MB-5ST" 1250 100 50 H I L CNN
+F3 "http://www.farnell.com/datasheets/1824852.pdf" 1250 0 50 H I L CNN
+F4 "USB 2.0" 1250 -100 50 H I L CNN "Description"
+F5 "3.95" 1250 -200 50 H I L CNN "Height"
+F6 "Hirose" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "UX60-MB-5ST" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "798-UX60-MB-5ST" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/UX60-MB-5ST?qs=XQjbzJWzFPVhtlRA%252Bm3eew%3D%3D" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1250 -700 50 H I L CNN "RS Part Number"
+F11 "" 1250 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+X CONTACT_NO._1 1 0 0 200 R 50 50 0 0 U
+X CONTACT_NO._2 2 0 -100 200 R 50 50 0 0 U
+X CONTACT_NO._3 3 0 -200 200 R 50 50 0 0 U
+X CONTACT_NO._4 4 0 -300 200 R 50 50 0 0 U
+X CONTACT_NO._5 5 0 -400 200 R 50 50 0 0 U
+X 6 6 1400 0 200 L 50 50 0 0 U
+X 7 7 1400 -100 200 L 50 50 0 0 U
+X 8 8 1400 -200 200 L 50 50 0 0 U
+X 9 9 1400 -300 200 L 50 50 0 0 U
+P 5 0 1 6 200 100 1200 100 1200 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
