@@ -49,7 +49,7 @@ Text GLabel 3980 1130 0    50   Input ~ 0
 RX_LED
 Text GLabel 1260 3390 0    50   Input ~ 0
 TX_LED
-Text GLabel 6740 3010 0    50   Input ~ 0
+Text GLabel 6750 3000 0    50   Input ~ 0
 SWO
 Text GLabel 3980 3030 0    50   Input ~ 0
 SYS-TX
@@ -412,100 +412,42 @@ $EndComp
 $Comp
 L Device:Crystal Y?
 U 1 1 5F15C3C7
-P 1650 6720
+P 1300 6550
 AR Path="/5E4F8378/5F15C3C7" Ref="Y?"  Part="1" 
 AR Path="/5E4F8378/5EA71818/5F15C3C7" Ref="Y?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5ED7D75E/5F15C3C7" Ref="Y?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5F15C3C7" Ref="Y1"  Part="1" 
-F 0 "Y1" V 1604 6851 50  0000 L CNN
-F 1 "32.768kHz" V 1695 6851 50  0000 L CNN
-F 2 "" H 1650 6720 50  0001 C CNN
-F 3 "~" H 1650 6720 50  0001 C CNN
-	1    1650 6720
+F 0 "Y1" V 1254 6681 50  0000 L CNN
+F 1 "32.768kHz" V 1345 6681 50  0000 L CNN
+F 2 "" H 1300 6550 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/Renesas-IDT/XUH535000032768I?qs=sGAEpiMZZMt8zWNA7msRCkfKROQbNyT9ksyE2KEVrnhTAWaYHdZ16w%3D%3D" H 1300 6550 50  0001 C CNN
+F 4 "XUH535000.032768I" V 1300 6550 50  0001 C CNN "MPN"
+F 5 "Renesas Electronics" V 1300 6550 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" V 1300 6550 50  0001 C CNN "Supplier"
+F 7 "972-XUH535000032768I" V 1300 6550 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Renesas-IDT/XUH535000032768I?qs=sGAEpiMZZMt8zWNA7msRCkfKROQbNyT9ksyE2KEVrnhTAWaYHdZ16w%3D%3D" V 1300 6550 50  0001 C CNN "Link"
+F 9 "3.135 to 3.465 V" V 1300 6550 50  0001 C CNN "Voltage Rating"
+F 10 "32.768 kHz Oscillator" V 1300 6550 50  0001 C CNN "Description"
+	1    1300 6550
 	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5F15C3CD
-P 1350 6470
-AR Path="/5E4F8378/5F15C3CD" Ref="C?"  Part="1" 
-AR Path="/5E4F8378/5EA71818/5F15C3CD" Ref="C?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5ED7D75E/5F15C3CD" Ref="C?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5F15C3CD" Ref="C30"  Part="1" 
-F 0 "C30" V 1098 6470 50  0000 C CNN
-F 1 "15pF" V 1189 6470 50  0000 C CNN
-F 2 "" H 1388 6320 50  0001 C CNN
-F 3 "~" H 1350 6470 50  0001 C CNN
-	1    1350 6470
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5F15C3D3
-P 1350 6970
-AR Path="/5E4F8378/5F15C3D3" Ref="C?"  Part="1" 
-AR Path="/5E4F8378/5EA71818/5F15C3D3" Ref="C?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5ED7D75E/5F15C3D3" Ref="C?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5F15C3D3" Ref="C31"  Part="1" 
-F 0 "C31" V 1602 6970 50  0000 C CNN
-F 1 "15pF" V 1511 6970 50  0000 C CNN
-F 2 "" H 1388 6820 50  0001 C CNN
-F 3 "~" H 1350 6970 50  0001 C CNN
-	1    1350 6970
-	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F15C3D9
-P 1100 7070
+P 800 6900
 AR Path="/5E4F8378/5F15C3D9" Ref="#PWR?"  Part="1" 
 AR Path="/5E4F8378/5EA71818/5F15C3D9" Ref="#PWR?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5ED7D75E/5F15C3D9" Ref="#PWR?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5F15C3D9" Ref="#PWR0152"  Part="1" 
-F 0 "#PWR0152" H 1100 6820 50  0001 C CNN
-F 1 "GND" H 1105 6897 50  0000 C CNN
-F 2 "" H 1100 7070 50  0001 C CNN
-F 3 "" H 1100 7070 50  0001 C CNN
-	1    1100 7070
+F 0 "#PWR0152" H 800 6650 50  0001 C CNN
+F 1 "GND" H 805 6727 50  0000 C CNN
+F 2 "" H 800 6900 50  0001 C CNN
+F 3 "" H 800 6900 50  0001 C CNN
+	1    800  6900
 	1    0    0    -1  
 $EndComp
-Text GLabel 1850 6970 2    50   Input ~ 0
+Text GLabel 1400 6800 2    50   Input ~ 0
 XOUT32
-Wire Notes Line
-	950  7320 2800 7320
-Wire Notes Line
-	2800 7320 2800 6170
-Wire Notes Line
-	2800 6170 950  6170
-Wire Notes Line
-	950  6170 950  7320
-Text Notes 950  6170 0    50   ~ 10
-Crystal oscillator
-Text Notes 1500 6370 0    50   ~ 0
-Should be closed to the SAMD \nto avoid crosstalk to other parts
-Wire Wire Line
-	1500 6470 1650 6470
-Wire Wire Line
-	1650 6570 1650 6470
-Connection ~ 1650 6470
-Wire Wire Line
-	1650 6470 1850 6470
-Wire Wire Line
-	1500 6970 1650 6970
-Wire Wire Line
-	1650 6870 1650 6970
-Connection ~ 1650 6970
-Wire Wire Line
-	1650 6970 1850 6970
-Wire Wire Line
-	1200 6470 1100 6470
-Wire Wire Line
-	1100 6470 1100 6970
-Wire Wire Line
-	1100 6970 1200 6970
-Wire Wire Line
-	1100 6970 1100 7070
-Connection ~ 1100 6970
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5F15C3F5
@@ -572,7 +514,15 @@ AR Path="/5E4F8378/5ED4DEFC/5F15C421" Ref="C29"  Part="1"
 F 0 "C29" H 4915 5046 50  0000 L CNN
 F 1 "100nF" H 4915 4955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4800 5000 50  0001 C CNN
-F 3 "~" H 4800 5000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_X7R_FT_VW_AUDI-1775098.pdf" H 4800 5000 50  0001 C CNN
+F 4 "C0603X104K5RAC3316" H 4800 5000 50  0001 C CNN "MPN"
+F 5 "KEMET" H 4800 5000 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 4800 5000 50  0001 C CNN "Supplier"
+F 7 "80-C0603X104K5R3316" H 4800 5000 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0603X104K5RAC3316?qs=sGAEpiMZZMsh%252B1woXyUXj34sxNWs20QAoBWDPDKnR18%3D" H 4800 5000 50  0001 C CNN "Link"
+F 9 "Ceramic X7R Capacitor" H 4800 5000 50  0001 C CNN "Type"
+F 10 "10%" H 4800 5000 50  0001 C CNN "Tolerance"
+F 11 "50 VDC" H 4800 5000 50  0001 C CNN "Voltage Rating"
 	1    4800 5000
 	1    0    0    -1  
 $EndComp
@@ -669,25 +619,25 @@ Text GLabel 3980 1630 0    50   Input ~ 0
 5V_ISENSE
 Text GLabel 3980 1730 0    50   Input ~ 0
 8V_ISENSE
-Text GLabel 6740 1510 0    50   Input ~ 0
+Text GLabel 6750 1500 0    50   Input ~ 0
 5V_EN
-Text GLabel 6740 1610 0    50   Input ~ 0
+Text GLabel 6750 1600 0    50   Input ~ 0
 8V_EN
-Text GLabel 6740 1710 0    50   Input ~ 0
+Text GLabel 6750 1700 0    50   Input ~ 0
 3959_GOOD
-Text GLabel 6740 1810 0    50   Input ~ 0
+Text GLabel 6750 1800 0    50   Input ~ 0
 3959_EN
-Text GLabel 6740 1910 0    50   Input ~ 0
+Text GLabel 6750 1900 0    50   Input ~ 0
 EN_IR_BUS
-Text GLabel 6740 2010 0    50   Input ~ 0
+Text GLabel 6750 2000 0    50   Input ~ 0
 TX_ACTIVE
-Text GLabel 6740 2110 0    50   Input ~ 0
+Text GLabel 6750 2100 0    50   Input ~ 0
 EN_TES_BUS
-Text GLabel 6740 2210 0    50   Input ~ 0
+Text GLabel 6750 2200 0    50   Input ~ 0
 BOOST_EN
-Text GLabel 6740 2310 0    50   Input ~ 0
+Text GLabel 6750 2300 0    50   Input ~ 0
 PWR_EN
-Text GLabel 6740 2410 0    50   Input ~ 0
+Text GLabel 6750 2400 0    50   Input ~ 0
 PWR_SW
 Wire Notes Line
 	10950 650  10950 3830
@@ -701,6 +651,7 @@ Wire Notes Line
 	580  650  10950 650 
 Text Notes 850  640  0    50   ~ 10
 SAMD51
+<<<<<<< HEAD
 Text GLabel 1260 890  0    50   Input ~ 0
 XOUT32
 Text GLabel 1260 790  0    50   Input ~ 0
@@ -732,6 +683,9 @@ NoConn ~ 1260 1290
 NoConn ~ 1260 1390
 NoConn ~ 1260 1490
 Text GLabel 1850 6470 2    50   Input ~ 0
+=======
+Text GLabel 1400 6300 2    50   Input ~ 0
+>>>>>>> 03977a489f074d5064b69f241518c14f5750b9ef
 XIN32
 $Comp
 L power:GND #PWR?
@@ -750,10 +704,10 @@ $EndComp
 Text GLabel 1400 5000 0    50   Input ~ 0
 FLASH_CS
 $Comp
-L Memory_Flash:AT25DF041x-UxN-x U?
+L Memory_Flash:AT25DF041x-UxN-x U6
 U 1 1 5EAF1DA3
 P 2200 5000
-F 0 "U?" H 2400 5400 50  0000 L CNN
+F 0 "U6" H 2400 5400 50  0000 L CNN
 F 1 "AT25DF041x-UxN-x" H 2844 4955 50  0001 L CNN
 F 2 "Package_CSP:WLCSP-8_1.58x1.63x0.35mm_Layout3x5_P0.35x0.4mm_Ball0.25mm_Pad0.25mm_NSMD" H 2000 4400 50  0001 C CNN
 F 3 "http://www.adestotech.com/wp-content/uploads/DS-AT25DF041B_040.pdf" H 2200 5700 50  0001 C CNN
@@ -789,8 +743,8 @@ L Device:R R?
 U 1 1 5EB1AA30
 P 900 4750
 AR Path="/5E4F8378/5EB1AA30" Ref="R?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5EB1AA30" Ref="R?"  Part="1" 
-F 0 "R?" H 750 4800 50  0000 L CNN
+AR Path="/5E4F8378/5ED4DEFC/5EB1AA30" Ref="R16"  Part="1" 
+F 0 "R16" H 750 4800 50  0000 L CNN
 F 1 "10k" H 700 4700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 830 4750 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/427/mcx0x0xpre-1762843.pdf" H 900 4750 50  0001 C CNN
@@ -825,14 +779,21 @@ Wire Notes Line
 Wire Notes Line
 	650  5750 650  4050
 $Comp
-L Switch:SW_Push SW?
+L Switch:SW_Push SW1
 U 1 1 5EB396AB
 P 4200 4750
-F 0 "SW?" H 4200 5035 50  0000 C CNN
+F 0 "SW1" H 4200 5035 50  0000 C CNN
 F 1 "RESET" H 4200 4944 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_EVQQ2" H 4200 4950 50  0001 C CNN
-F 3 "~" H 4200 4950 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/315/sw_lt_eng_6s_th-1289042.pdf" H 4200 4950 50  0001 C CNN
 F 4 "EVQ-Q2Y03W" H 4200 4750 50  0001 C CNN "MPN"
+F 5 "Panasonic" H 4200 4750 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 4200 4750 50  0001 C CNN "Supplier"
+F 7 "667-EVQ-Q2Y03W" H 4200 4750 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Panasonic/EVQ-Q2Y03W?qs=Ow%252BOiPmaljHytan%2FbFuZzg%3D%3D" H 4200 4750 50  0001 C CNN "Link"
+F 9 "15 VDC, 250 VAC" H 4200 4750 50  0001 C CNN "Voltage Rating"
+F 10 "20 mA" H 4200 4750 50  0001 C CNN "Current Rating"
+F 11 "Reset button" H 4200 4750 50  0001 C CNN "Description"
 	1    4200 4750
 	1    0    0    -1  
 $EndComp
@@ -845,8 +806,8 @@ L Device:R R?
 U 1 1 5EB3FAD9
 P 4550 4750
 AR Path="/5E4F8378/5EB3FAD9" Ref="R?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5EB3FAD9" Ref="R?"  Part="1" 
-F 0 "R?" V 4650 4700 50  0000 L CNN
+AR Path="/5E4F8378/5ED4DEFC/5EB3FAD9" Ref="R17"  Part="1" 
+F 0 "R17" V 4650 4700 50  0000 L CNN
 F 1 "330" V 4450 4700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 4750 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/447/PYu-SR_D_F_tol_RoHS_L_4-1670154.pdf" H 4550 4750 50  0001 C CNN
@@ -870,8 +831,8 @@ L Device:R R?
 U 1 1 5EB4EDCD
 P 4800 4500
 AR Path="/5E4F8378/5EB4EDCD" Ref="R?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5EB4EDCD" Ref="R?"  Part="1" 
-F 0 "R?" H 4850 4550 50  0000 L CNN
+AR Path="/5E4F8378/5ED4DEFC/5EB4EDCD" Ref="R15"  Part="1" 
+F 0 "R15" H 4850 4550 50  0000 L CNN
 F 1 "10k" H 4850 4450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4730 4500 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/427/mcx0x0xpre-1762843.pdf" H 4800 4500 50  0001 C CNN
@@ -915,6 +876,7 @@ Wire Notes Line
 	4550 6700 3750 6700
 Wire Notes Line
 	3750 6700 3750 5850
+<<<<<<< HEAD
 $Comp
 L Team-FIRE:SAMD51 U?
 U 1 1 5ED61C11
@@ -935,4 +897,139 @@ F 10 "IC MCU" H 2060 2240 50  0001 C CNN "Type"
 	1    2060 2240
 	1    0    0    -1  
 $EndComp
+=======
+Text Notes 3700 6850 0    79   ~ 16
+PART SELECTION FINISHED - COLLIN
+Text Notes 3750 5600 0    79   ~ 16
+PART SELECTION FINISHED - COLLIN
+Text Notes 650  6050 0    79   ~ 16
+Crystal oscillator
+$Comp
+L Device:C C30
+U 1 1 5EB3DB6A
+P 1050 6300
+F 0 "C30" V 900 6300 50  0000 C CNN
+F 1 "15 pF" V 1200 6300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1088 6150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/40/AVX_09302019_U_Dielectric_B_Termination_C0G_NP0-1658719.pdf" H 1050 6300 50  0001 C CNN
+F 4 "LD032U3R3BAB2A" H 1050 6300 50  0001 C CNN "MPN"
+F 5 "AVX" H 1050 6300 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 1050 6300 50  0001 C CNN "Supplier"
+F 7 "581-LD032U3R3BAB2A" H 1050 6300 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/AVX/LD032U3R3BAB2A?qs=r09KxNuG0AVh%2F1rBpEisGg%3D%3D" H 1050 6300 50  0001 C CNN "Link"
+F 9 "Ceramic C0G Capacitor" H 1050 6300 50  0001 C CNN "Type"
+F 10 "0.1 pF" H 1050 6300 50  0001 C CNN "Tolerance"
+F 11 "200 VDC" H 1050 6300 50  0001 C CNN "Voltage Rating"
+	1    1050 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C31
+U 1 1 5EB44811
+P 1050 6800
+F 0 "C31" V 900 6800 50  0000 C CNN
+F 1 "15 pF" V 1200 6800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1088 6650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/40/AVX_09302019_U_Dielectric_B_Termination_C0G_NP0-1658719.pdf" H 1050 6800 50  0001 C CNN
+F 4 "LD032U3R3BAB2A" H 1050 6800 50  0001 C CNN "MPN"
+F 5 "AVX" H 1050 6800 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 1050 6800 50  0001 C CNN "Supplier"
+F 7 "581-LD032U3R3BAB2A" H 1050 6800 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/AVX/LD032U3R3BAB2A?qs=r09KxNuG0AVh%2F1rBpEisGg%3D%3D" H 1050 6800 50  0001 C CNN "Link"
+F 9 "Ceramic C0G Capacitor" H 1050 6800 50  0001 C CNN "Type"
+F 10 "0.1 pF" H 1050 6800 50  0001 C CNN "Tolerance"
+F 11 "200 VDC" H 1050 6800 50  0001 C CNN "Voltage Rating"
+	1    1050 6800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 6300 1300 6300
+Wire Wire Line
+	1300 6300 1300 6400
+Wire Wire Line
+	1300 6700 1300 6800
+Wire Wire Line
+	1300 6800 1200 6800
+Wire Wire Line
+	1400 6800 1300 6800
+Connection ~ 1300 6800
+Wire Wire Line
+	1300 6300 1400 6300
+Connection ~ 1300 6300
+Wire Wire Line
+	900  6300 800  6300
+Wire Wire Line
+	800  6300 800  6800
+Wire Wire Line
+	900  6800 800  6800
+Connection ~ 800  6800
+Wire Wire Line
+	800  6800 800  6900
+Wire Notes Line
+	650  6050 1900 6050
+Wire Notes Line
+	1900 6050 1900 7150
+Wire Notes Line
+	1900 7150 650  7150
+Wire Notes Line
+	650  7150 650  6050
+Text Notes 700  5750 0    79   ~ 16
+KOFFI - Can you find\ndetails for the flash\nmemory module?
+Text Notes 1900 6750 0    79   ~ 16
+COLLIN - Currently trying\nto find footprint\nfor oscillator
+NoConn ~ 1260 1490
+NoConn ~ 1260 1390
+NoConn ~ 1260 1290
+NoConn ~ 1260 1190
+NoConn ~ 1260 1090
+NoConn ~ 1260 990 
+$Comp
+L Team-FIRE:SAMD51 U?
+U 1 1 5EB8261F
+P 7550 2250
+F 0 "U?" H 8628 2382 98  0000 L CNN
+F 1 "SAMD51" H 8628 2219 98  0000 L CNN
+F 2 "Package_QFP:TQFP-100_14x14mm_P0.5mm" H 6700 100 28  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf" V 7360 1980 28  0001 C CNN
+F 4 "1.2" H 6750 200 28  0001 C CNN "Height"
+F 5 "ATSAMD51N20A-AU" H 6450 200 28  0001 C CNN "MPN"
+	1    7550 2250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6750 800 
+NoConn ~ 6750 900 
+NoConn ~ 6750 1000
+NoConn ~ 6750 1100
+NoConn ~ 6750 1200
+NoConn ~ 6750 1300
+NoConn ~ 6750 1400
+NoConn ~ 6750 2500
+NoConn ~ 6750 2600
+NoConn ~ 6750 2700
+NoConn ~ 6750 2800
+NoConn ~ 6750 2900
+NoConn ~ 6750 3100
+NoConn ~ 6750 3200
+NoConn ~ 6750 3300
+NoConn ~ 6750 3400
+NoConn ~ 6750 3500
+NoConn ~ 6750 3600
+Text GLabel 1260 890  0    50   Input ~ 0
+XOUT32
+$Comp
+L Team-FIRE:SAMD51 U?
+U 3 1 5EBC8498
+P 2150 2200
+F 0 "U?" H 2568 2557 98  0000 L CNN
+F 1 "SAMD51" H 2568 2394 98  0000 L CNN
+F 2 "Package_QFP:TQFP-100_14x14mm_P0.5mm" H 1300 50  28  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf" V 1960 1930 28  0001 C CNN
+F 4 "1.2" H 1350 150 28  0001 C CNN "Height"
+F 5 "ATSAMD51N20A-AU" H 1050 150 28  0001 C CNN "MPN"
+	3    2150 2200
+	1    0    0    -1  
+$EndComp
+Text GLabel 1260 790  0    50   Input ~ 0
+XIN32
+>>>>>>> 03977a489f074d5064b69f241518c14f5750b9ef
 $EndSCHEMATC

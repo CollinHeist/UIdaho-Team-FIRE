@@ -633,19 +633,19 @@ $EndComp
 $Comp
 L Device:C C2
 U 1 1 5EA803DA
-P 1750 1900
-F 0 "C2" H 1800 2000 50  0000 L CNN
-F 1 "100pF" H 1800 1800 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1788 1750 50  0001 C CNN
-F 3 "~" H 1750 1900 50  0001 C CNN
-F 4 "CBR06C101F5GAC" H 1750 1900 50  0001 C CNN "MPN"
-F 5 "KEMET" H 1750 1900 50  0001 C CNN "Manufacturer"
-F 6 "https://www.mouser.com/ProductDetail/KEMET/CBR06C101F5GAC?qs=sGAEpiMZZMs0AnBnWHyRQN7%2FAA2D2lPPUdZo0nHgvrj7UthX3WhjQw%3D%3D" H 1750 1900 50  0001 C CNN "Link"
-F 7 "80-CBR06C101F5GAC" H 1750 1900 50  0001 C CNN "Supplier PN"
-F 8 "Ceramic C0G Capacitor" H 1750 1900 50  0001 C CNN "Type"
-F 9 "1%" H 1750 1900 50  0001 C CNN "Tolerance"
-F 10 "50 VDC" H 1750 1900 50  0001 C CNN "Voltage Rating"
-	1    1750 1900
+P 1750 1950
+F 0 "C2" H 1800 2050 50  0000 L CNN
+F 1 "100pF" H 1800 1850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1788 1800 50  0001 C CNN
+F 3 "~" H 1750 1950 50  0001 C CNN
+F 4 "CBR06C101F5GAC" H 1750 1950 50  0001 C CNN "MPN"
+F 5 "KEMET" H 1750 1950 50  0001 C CNN "Manufacturer"
+F 6 "https://www.mouser.com/ProductDetail/KEMET/CBR06C101F5GAC?qs=sGAEpiMZZMs0AnBnWHyRQN7%2FAA2D2lPPUdZo0nHgvrj7UthX3WhjQw%3D%3D" H 1750 1950 50  0001 C CNN "Link"
+F 7 "80-CBR06C101F5GAC" H 1750 1950 50  0001 C CNN "Supplier PN"
+F 8 "Ceramic C0G Capacitor" H 1750 1950 50  0001 C CNN "Type"
+F 9 "1%" H 1750 1950 50  0001 C CNN "Tolerance"
+F 10 "50 VDC" H 1750 1950 50  0001 C CNN "Voltage Rating"
+	1    1750 1950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1199,10 +1199,6 @@ Wire Wire Line
 Wire Wire Line
 	1850 2250 1750 2250
 Wire Wire Line
-	1750 2250 1750 2050
-Wire Wire Line
-	1750 1750 1750 1650
-Wire Wire Line
 	1750 1650 2900 1650
 Wire Wire Line
 	3850 2250 3950 2250
@@ -1338,9 +1334,9 @@ F 11 "25 VDC" H 9200 5200 50  0001 C CNN "Voltage Rating"
 	1    9200 5200
 	1    0    0    -1  
 $EndComp
-Text Notes 6200 1750 2    50   ~ 0
-FIND COMPONENT
-Text Notes 5450 6100 2    50   ~ 0
+Text Notes 6650 1750 2    79   ~ 16
+FIND COMPONENTS
+Text Notes 5450 6100 2    79   ~ 16
 FIND COMPONENT
 $Comp
 L Team-FIRE:EEE-FK1H390SV C11
@@ -1397,4 +1393,17 @@ Text Notes 4750 4300 0    50   ~ 0
 An atypical Capacitor\nsymbol is used here\nbecause the EEE-FK1H390SV\ncapacitor is a *technically*\na six-pad footprint
 Wire Wire Line
 	5800 3300 6000 3300
+Wire Wire Line
+	1750 1650 1750 1800
+Wire Wire Line
+	1750 2100 1750 2250
+Text Notes 8100 5850 0    79   ~ 16
+PART SELECTION FINISHED - COLLIN
+Text Notes 7900 950  0    79   ~ 16
+PART SELECTION FINISHED - COLLIN
+Text GLabel 6600 2200 2    39   Input ~ 0
++30V
+Wire Wire Line
+	6600 2200 6450 2200
+Connection ~ 6450 2200
 $EndSCHEMATC
