@@ -734,10 +734,10 @@ Wire Notes Line
 Wire Wire Line
 	3350 6600 3350 6700
 $Comp
-L Team-FIRE:U.FL-R-SMT_10_ J?
+L Team-FIRE:U.FL-R-SMT_10_ J9
 U 1 1 5EB7B21D
 P 2350 6500
-F 0 "J?" H 2900 6650 50  0000 C CNN
+F 0 "J9" H 2900 6650 50  0000 C CNN
 F 1 "U.FL-R-SMT_10_" H 2900 6226 50  0001 C CNN
 F 2 "UFLRSMT10" H 3300 6600 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf" H 3300 6500 50  0001 L CNN
@@ -763,10 +763,10 @@ Wire Notes Line
 Text Notes 1050 6150 0    79   ~ 16
 PART SELECTION FINISHED - COLLIN
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J7
 U 1 1 5EB05C74
 P 2150 4950
-F 0 "J?" H 2150 4750 50  0000 C CNN
+F 0 "J7" H 2150 4750 50  0000 C CNN
 F 1 "Conn_01x03" H 2068 4716 50  0001 C CNN
 F 2 "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal" H 2150 4950 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 2150 4950 50  0001 C CNN
@@ -782,10 +782,10 @@ $EndComp
 Text Notes 1000 5350 0    79   ~ 16
 PART SELECTION FINISHED - COLLIN
 $Comp
-L Device:R R?
+L Device:R R23
 U 1 1 5EB0E920
 P 2100 2000
-F 0 "R?" H 2200 1950 50  0000 L CNN
+F 0 "R23" H 2200 1950 50  0000 L CNN
 F 1 "1k" H 2200 2050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2030 2000 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/427/mcat_pre-1762846.pdf" H 2100 2000 50  0001 C CNN
@@ -807,8 +807,8 @@ P 3550 3750
 AR Path="/5EB113D1" Ref="C?"  Part="1" 
 AR Path="/5E4D0D8F/5EB113D1" Ref="C?"  Part="1" 
 AR Path="/5E759307/5EB113D1" Ref="C?"  Part="1" 
-AR Path="/5E585515/5EB113D1" Ref="C?"  Part="1" 
-F 0 "C?" H 3600 3850 50  0000 L CNN
+AR Path="/5E585515/5EB113D1" Ref="C35"  Part="1" 
+F 0 "C35" H 3600 3850 50  0000 L CNN
 F 1 "1uF" H 3600 3650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3588 3600 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 3550 3750 50  0001 C CNN
@@ -834,8 +834,8 @@ L Device:R R?
 U 1 1 5EB1E3A7
 P 1850 1650
 AR Path="/5E4F8378/5EB1E3A7" Ref="R?"  Part="1" 
-AR Path="/5E585515/5EB1E3A7" Ref="R?"  Part="1" 
-F 0 "R?" V 1750 1700 50  0000 L CNN
+AR Path="/5E585515/5EB1E3A7" Ref="R22"  Part="1" 
+F 0 "R22" V 1750 1700 50  0000 L CNN
 F 1 "10k" V 1750 1500 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1780 1650 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/427/mcx0x0xpre-1762843.pdf" H 1850 1650 50  0001 C CNN
@@ -855,8 +855,8 @@ L Device:R R?
 U 1 1 5EB21AD7
 P 1950 1550
 AR Path="/5E4F8378/5EB21AD7" Ref="R?"  Part="1" 
-AR Path="/5E585515/5EB21AD7" Ref="R?"  Part="1" 
-F 0 "R?" V 2050 1600 50  0000 L CNN
+AR Path="/5E585515/5EB21AD7" Ref="R20"  Part="1" 
+F 0 "R20" V 2050 1600 50  0000 L CNN
 F 1 "10k" V 2050 1400 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1880 1550 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/427/mcx0x0xpre-1762843.pdf" H 1950 1550 50  0001 C CNN
@@ -878,8 +878,8 @@ L Device:C C?
 U 1 1 5EB2775E
 P 6350 1700
 AR Path="/5E4D0D8F/5EB2775E" Ref="C?"  Part="1" 
-AR Path="/5E585515/5EB2775E" Ref="C?"  Part="1" 
-F 0 "C?" H 6250 1800 50  0000 L CNN
+AR Path="/5E585515/5EB2775E" Ref="C32"  Part="1" 
+F 0 "C32" H 6250 1800 50  0000 L CNN
 F 1 "10uF" H 6150 1600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6388 1550 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 6350 1700 50  0001 C CNN
@@ -900,8 +900,8 @@ U 1 1 5EB2C697
 P 7800 1250
 AR Path="/5E4D0D8F/5EB2C697" Ref="R?"  Part="1" 
 AR Path="/5E759307/5EB2C697" Ref="R?"  Part="1" 
-AR Path="/5E585515/5EB2C697" Ref="R?"  Part="1" 
-F 0 "R?" H 7870 1296 50  0000 L CNN
+AR Path="/5E585515/5EB2C697" Ref="R19"  Part="1" 
+F 0 "R19" H 7870 1296 50  0000 L CNN
 F 1 "100k" H 7870 1205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7730 1250 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/427/mcx0x0xpre-1762843.pdf" H 7800 1250 50  0001 C CNN
@@ -922,8 +922,8 @@ U 1 1 5EB2DE56
 P 7800 2050
 AR Path="/5E4D0D8F/5EB2DE56" Ref="R?"  Part="1" 
 AR Path="/5E759307/5EB2DE56" Ref="R?"  Part="1" 
-AR Path="/5E585515/5EB2DE56" Ref="R?"  Part="1" 
-F 0 "R?" H 7870 2096 50  0000 L CNN
+AR Path="/5E585515/5EB2DE56" Ref="R24"  Part="1" 
+F 0 "R24" H 7870 2096 50  0000 L CNN
 F 1 "100k" H 7870 2005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7730 2050 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/427/mcx0x0xpre-1762843.pdf" H 7800 2050 50  0001 C CNN

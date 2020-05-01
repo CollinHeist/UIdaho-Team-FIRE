@@ -37,21 +37,6 @@ F 5 "ATSAMD51N20A-AU" H 3680 180 28  0001 C CNN "MPN"
 	2    4780 2230
 	1    0    0    -1  
 $EndComp
-$Comp
-L Team-FIRE:SAMD51 U?
-U 1 1 5ED61C11
-P 7550 2210
-AR Path="/5E4F8378/5ED61C11" Ref="U?"  Part="3" 
-AR Path="/5E4F8378/5ED4DEFC/5ED61C11" Ref="U5"  Part="1" 
-F 0 "U5" H 7968 2567 98  0000 L CNN
-F 1 "SAMD51" H 7968 2404 98  0000 L CNN
-F 2 "Package_QFP:TQFP-100_14x14mm_P0.5mm" H 6700 60  28  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf" V 7360 1940 28  0001 C CNN
-F 4 "1.2" H 6750 160 28  0001 C CNN "Height"
-F 5 "ATSAMD51N20A-AU" H 6450 160 28  0001 C CNN "MPN"
-	1    7550 2210
-	1    0    0    -1  
-$EndComp
 Text GLabel 1260 3490 0    50   Input ~ 0
 SWCLK
 Text GLabel 1260 3590 0    50   Input ~ 0
@@ -60,7 +45,7 @@ Text GLabel 3980 1130 0    50   Input ~ 0
 RX_LED
 Text GLabel 1260 3390 0    50   Input ~ 0
 TX_LED
-Text GLabel 6740 3010 0    50   Input ~ 0
+Text GLabel 6750 3000 0    50   Input ~ 0
 SWO
 Text GLabel 3980 3030 0    50   Input ~ 0
 SYS-TX
@@ -625,25 +610,25 @@ Text GLabel 3980 1630 0    50   Input ~ 0
 5V_ISENSE
 Text GLabel 3980 1730 0    50   Input ~ 0
 8V_ISENSE
-Text GLabel 6740 1510 0    50   Input ~ 0
+Text GLabel 6750 1500 0    50   Input ~ 0
 5V_EN
-Text GLabel 6740 1610 0    50   Input ~ 0
+Text GLabel 6750 1600 0    50   Input ~ 0
 8V_EN
-Text GLabel 6740 1710 0    50   Input ~ 0
+Text GLabel 6750 1700 0    50   Input ~ 0
 3959_GOOD
-Text GLabel 6740 1810 0    50   Input ~ 0
+Text GLabel 6750 1800 0    50   Input ~ 0
 3959_EN
-Text GLabel 6740 1910 0    50   Input ~ 0
+Text GLabel 6750 1900 0    50   Input ~ 0
 EN_IR_BUS
-Text GLabel 6740 2010 0    50   Input ~ 0
+Text GLabel 6750 2000 0    50   Input ~ 0
 TX_ACTIVE
-Text GLabel 6740 2110 0    50   Input ~ 0
+Text GLabel 6750 2100 0    50   Input ~ 0
 EN_TES_BUS
-Text GLabel 6740 2210 0    50   Input ~ 0
+Text GLabel 6750 2200 0    50   Input ~ 0
 BOOST_EN
-Text GLabel 6740 2310 0    50   Input ~ 0
+Text GLabel 6750 2300 0    50   Input ~ 0
 PWR_EN
-Text GLabel 6740 2410 0    50   Input ~ 0
+Text GLabel 6750 2400 0    50   Input ~ 0
 PWR_SW
 Wire Notes Line
 	10950 650  10950 3830
@@ -657,31 +642,6 @@ Wire Notes Line
 	580  650  10950 650 
 Text Notes 850  640  0    50   ~ 10
 SAMD51
-Text GLabel 1260 890  0    50   Input ~ 0
-XOUT32
-Text GLabel 1260 790  0    50   Input ~ 0
-XIN32
-$Comp
-L Team-FIRE:SAMD51 U?
-U 3 1 5ED61BFB
-P 2060 2240
-AR Path="/5E4F8378/5ED61BFB" Ref="U?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5ED61BFB" Ref="U5"  Part="3" 
-F 0 "U5" H 3138 2372 98  0000 L CNN
-F 1 "SAMD51" H 3138 2209 98  0000 L CNN
-F 2 "Package_QFP:TQFP-100_14x14mm_P0.5mm" H 1210 90  28  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf" V 1870 1970 28  0001 C CNN
-F 4 "1.2" H 1260 190 28  0001 C CNN "Height"
-F 5 "ATSAMD51N20A-AU" H 960 190 28  0001 C CNN "MPN"
-	3    2060 2240
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1260 990 
-NoConn ~ 1260 1090
-NoConn ~ 1260 1190
-NoConn ~ 1260 1290
-NoConn ~ 1260 1390
-NoConn ~ 1260 1490
 Text GLabel 1400 6300 2    50   Input ~ 0
 XIN32
 $Comp
@@ -701,10 +661,10 @@ $EndComp
 Text GLabel 1400 5000 0    50   Input ~ 0
 FLASH_CS
 $Comp
-L Memory_Flash:AT25DF041x-UxN-x U?
+L Memory_Flash:AT25DF041x-UxN-x U6
 U 1 1 5EAF1DA3
 P 2200 5000
-F 0 "U?" H 2400 5400 50  0000 L CNN
+F 0 "U6" H 2400 5400 50  0000 L CNN
 F 1 "AT25DF041x-UxN-x" H 2844 4955 50  0001 L CNN
 F 2 "Package_CSP:WLCSP-8_1.58x1.63x0.35mm_Layout3x5_P0.35x0.4mm_Ball0.25mm_Pad0.25mm_NSMD" H 2000 4400 50  0001 C CNN
 F 3 "http://www.adestotech.com/wp-content/uploads/DS-AT25DF041B_040.pdf" H 2200 5700 50  0001 C CNN
@@ -740,8 +700,8 @@ L Device:R R?
 U 1 1 5EB1AA30
 P 900 4750
 AR Path="/5E4F8378/5EB1AA30" Ref="R?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5EB1AA30" Ref="R?"  Part="1" 
-F 0 "R?" H 750 4800 50  0000 L CNN
+AR Path="/5E4F8378/5ED4DEFC/5EB1AA30" Ref="R16"  Part="1" 
+F 0 "R16" H 750 4800 50  0000 L CNN
 F 1 "10k" H 700 4700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 830 4750 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/427/mcx0x0xpre-1762843.pdf" H 900 4750 50  0001 C CNN
@@ -776,10 +736,10 @@ Wire Notes Line
 Wire Notes Line
 	650  5750 650  4050
 $Comp
-L Switch:SW_Push SW?
+L Switch:SW_Push SW1
 U 1 1 5EB396AB
 P 4200 4750
-F 0 "SW?" H 4200 5035 50  0000 C CNN
+F 0 "SW1" H 4200 5035 50  0000 C CNN
 F 1 "RESET" H 4200 4944 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_EVQQ2" H 4200 4950 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/315/sw_lt_eng_6s_th-1289042.pdf" H 4200 4950 50  0001 C CNN
@@ -803,8 +763,8 @@ L Device:R R?
 U 1 1 5EB3FAD9
 P 4550 4750
 AR Path="/5E4F8378/5EB3FAD9" Ref="R?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5EB3FAD9" Ref="R?"  Part="1" 
-F 0 "R?" V 4650 4700 50  0000 L CNN
+AR Path="/5E4F8378/5ED4DEFC/5EB3FAD9" Ref="R17"  Part="1" 
+F 0 "R17" V 4650 4700 50  0000 L CNN
 F 1 "330" V 4450 4700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 4750 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/447/PYu-SR_D_F_tol_RoHS_L_4-1670154.pdf" H 4550 4750 50  0001 C CNN
@@ -828,8 +788,8 @@ L Device:R R?
 U 1 1 5EB4EDCD
 P 4800 4500
 AR Path="/5E4F8378/5EB4EDCD" Ref="R?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5EB4EDCD" Ref="R?"  Part="1" 
-F 0 "R?" H 4850 4550 50  0000 L CNN
+AR Path="/5E4F8378/5ED4DEFC/5EB4EDCD" Ref="R15"  Part="1" 
+F 0 "R15" H 4850 4550 50  0000 L CNN
 F 1 "10k" H 4850 4450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4730 4500 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/427/mcx0x0xpre-1762843.pdf" H 4800 4500 50  0001 C CNN
@@ -880,10 +840,10 @@ PART SELECTION FINISHED - COLLIN
 Text Notes 650  6050 0    79   ~ 16
 Crystal oscillator
 $Comp
-L Device:C C?
+L Device:C C30
 U 1 1 5EB3DB6A
 P 1050 6300
-F 0 "C?" V 900 6300 50  0000 C CNN
+F 0 "C30" V 900 6300 50  0000 C CNN
 F 1 "15 pF" V 1200 6300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1088 6150 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/40/AVX_09302019_U_Dielectric_B_Termination_C0G_NP0-1658719.pdf" H 1050 6300 50  0001 C CNN
@@ -899,10 +859,10 @@ F 11 "200 VDC" H 1050 6300 50  0001 C CNN "Voltage Rating"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C31
 U 1 1 5EB44811
 P 1050 6800
-F 0 "C?" V 900 6800 50  0000 C CNN
+F 0 "C31" V 900 6800 50  0000 C CNN
 F 1 "15 pF" V 1200 6800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1088 6650 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/40/AVX_09302019_U_Dielectric_B_Termination_C0G_NP0-1658719.pdf" H 1050 6800 50  0001 C CNN
@@ -951,5 +911,59 @@ Wire Notes Line
 Text Notes 700  5750 0    79   ~ 16
 KOFFI - Can you find\ndetails for the flash\nmemory module?
 Text Notes 1900 6750 0    79   ~ 16
-COLLIN - Currently trying\ntofind footprint\nfor oscillator
+COLLIN - Currently trying\nto find footprint\nfor oscillator
+NoConn ~ 1260 1490
+NoConn ~ 1260 1390
+NoConn ~ 1260 1290
+NoConn ~ 1260 1190
+NoConn ~ 1260 1090
+NoConn ~ 1260 990 
+$Comp
+L Team-FIRE:SAMD51 U?
+U 1 1 5EB8261F
+P 7550 2250
+F 0 "U?" H 8628 2382 98  0000 L CNN
+F 1 "SAMD51" H 8628 2219 98  0000 L CNN
+F 2 "Package_QFP:TQFP-100_14x14mm_P0.5mm" H 6700 100 28  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf" V 7360 1980 28  0001 C CNN
+F 4 "1.2" H 6750 200 28  0001 C CNN "Height"
+F 5 "ATSAMD51N20A-AU" H 6450 200 28  0001 C CNN "MPN"
+	1    7550 2250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6750 800 
+NoConn ~ 6750 900 
+NoConn ~ 6750 1000
+NoConn ~ 6750 1100
+NoConn ~ 6750 1200
+NoConn ~ 6750 1300
+NoConn ~ 6750 1400
+NoConn ~ 6750 2500
+NoConn ~ 6750 2600
+NoConn ~ 6750 2700
+NoConn ~ 6750 2800
+NoConn ~ 6750 2900
+NoConn ~ 6750 3100
+NoConn ~ 6750 3200
+NoConn ~ 6750 3300
+NoConn ~ 6750 3400
+NoConn ~ 6750 3500
+NoConn ~ 6750 3600
+Text GLabel 1260 890  0    50   Input ~ 0
+XOUT32
+$Comp
+L Team-FIRE:SAMD51 U?
+U 3 1 5EBC8498
+P 2150 2200
+F 0 "U?" H 2568 2557 98  0000 L CNN
+F 1 "SAMD51" H 2568 2394 98  0000 L CNN
+F 2 "Package_QFP:TQFP-100_14x14mm_P0.5mm" H 1300 50  28  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf" V 1960 1930 28  0001 C CNN
+F 4 "1.2" H 1350 150 28  0001 C CNN "Height"
+F 5 "ATSAMD51N20A-AU" H 1050 150 28  0001 C CNN "MPN"
+	3    2150 2200
+	1    0    0    -1  
+$EndComp
+Text GLabel 1260 790  0    50   Input ~ 0
+XIN32
 $EndSCHEMATC
