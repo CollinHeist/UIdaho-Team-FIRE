@@ -1,8 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 39uF
-D Aluminium Electrolytic Capacitors - SMD 50VDC 39uF 20% Anti-Vibe AEC-Q200
-F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/3102
+$CMP 43650-0200
+F http://www.molex.com/pdm_docs/sd/436500200_sd.pdf
 $ENDCMP
 #
 $CMP 53885-0408
@@ -41,6 +40,10 @@ $ENDCMP
 $CMP U.FL-R-SMT_10_
 D RF Connectors / Coaxial Connectors U.FL RECEPTACLE SMT GLD M CONT REEL
 F https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf
+$ENDCMP
+#
+$CMP UX60-MB-5ST
+F http://www.farnell.com/datasheets/1824852.pdf
 $ENDCMP
 #
 #End Doc Library

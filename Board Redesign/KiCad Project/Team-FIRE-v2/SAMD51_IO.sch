@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Team-FIRE-v2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -28,28 +27,18 @@ U 2 1 5ED61C09
 P 4780 2230
 AR Path="/5E4F8378/5ED61C09" Ref="U?"  Part="2" 
 AR Path="/5E4F8378/5ED4DEFC/5ED61C09" Ref="U5"  Part="2" 
-F 0 "U5" H 5318 2362 98  0000 L CNN
-F 1 "SAMD51" H 5318 2199 98  0000 L CNN
+F 0 "U5" H 5270 1020 98  0000 L CNN
+F 1 "SAMD51" H 5260 870 98  0000 L CNN
 F 2 "Package_QFP:TQFP-100_14x14mm_P0.5mm" H 3930 80  28  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf" V 4590 1960 28  0001 C CNN
 F 4 "1.2" H 3980 180 28  0001 C CNN "Height"
-F 5 "ATSAMD51N20A-AU" H 3680 180 28  0001 C CNN "MPN"
+F 5 "ATSAMD51N20A-AUT" H 3680 180 28  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/ATSAMD51N20A-AUT/ATSAMD51N20A-AUTCT-ND/7390168" H 4780 2230 50  0001 C CNN "Link"
+F 7 "Microchip Technology" H 4780 2230 50  0001 C CNN "Manufacturer"
+F 8 "Digikey" H 4780 2230 50  0001 C CNN "Supplier"
+F 9 "ATSAMD51N20A-AUTCT-ND" H 4780 2230 50  0001 C CNN "Supplier PN"
+F 10 "IC MCU" H 4780 2230 50  0001 C CNN "Type"
 	2    4780 2230
-	1    0    0    -1  
-$EndComp
-$Comp
-L Team-FIRE:SAMD51 U?
-U 1 1 5ED61C11
-P 7550 2210
-AR Path="/5E4F8378/5ED61C11" Ref="U?"  Part="3" 
-AR Path="/5E4F8378/5ED4DEFC/5ED61C11" Ref="U5"  Part="1" 
-F 0 "U5" H 7968 2567 98  0000 L CNN
-F 1 "SAMD51" H 7968 2404 98  0000 L CNN
-F 2 "Package_QFP:TQFP-100_14x14mm_P0.5mm" H 6700 60  28  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf" V 7360 1940 28  0001 C CNN
-F 4 "1.2" H 6750 160 28  0001 C CNN "Height"
-F 5 "ATSAMD51N20A-AU" H 6450 160 28  0001 C CNN "MPN"
-	1    7550 2210
 	1    0    0    -1  
 $EndComp
 Text GLabel 1260 3490 0    50   Input ~ 0
@@ -83,7 +72,12 @@ F 1 "SAMD51" H 9898 2639 98  0000 L CNN
 F 2 "Package_QFP:TQFP-100_14x14mm_P0.5mm" H 8650 90  28  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf" V 9310 1970 28  0001 C CNN
 F 4 "1.2" H 8700 190 28  0001 C CNN "Height"
-F 5 "ATSAMD51N20A-AU" H 8400 190 28  0001 C CNN "MPN"
+F 5 "ATSAMD51N20A-AUT" H 8400 190 28  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/ATSAMD51N20A-AUT/ATSAMD51N20A-AUTCT-ND/7390168" H 9500 2240 50  0001 C CNN "Link"
+F 7 "Microchip Technology" H 9500 2240 50  0001 C CNN "Manufacturer"
+F 8 "Digikey" H 9500 2240 50  0001 C CNN "Supplier"
+F 9 "ATSAMD51N20A-AUTCT-ND" H 9500 2240 50  0001 C CNN "Supplier PN"
+F 10 "IC MCU" H 9500 2240 50  0001 C CNN "Type"
 	4    9500 2240
 	1    0    0    -1  
 $EndComp
@@ -311,7 +305,7 @@ Wire Wire Line
 Connection ~ 9020 2560
 Wire Wire Line
 	9020 2560 9020 2660
-Text GLabel 8720 4510 2    50   Input ~ 10
+Text GLabel 8720 4510 2    50   Input ~ 0
 VDDCORE
 Wire Wire Line
 	9020 2660 9020 2730
@@ -322,7 +316,7 @@ Wire Wire Line
 	8620 4650 8620 4640
 Wire Wire Line
 	8620 4510 8720 4510
-Text GLabel 8720 4340 2    50   Input ~ 10
+Text GLabel 8720 4340 2    50   Input ~ 0
 VSW
 Wire Wire Line
 	8310 4340 8320 4340
@@ -354,9 +348,9 @@ Wire Wire Line
 Connection ~ 6790 4530
 Wire Wire Line
 	6790 4530 7070 4530
-Text GLabel 9020 1860 0    50   Input ~ 10
+Text GLabel 9020 1860 0    50   Input ~ 0
 VDDCORE
-Text GLabel 9020 1760 0    50   Input ~ 10
+Text GLabel 9020 1760 0    50   Input ~ 0
 VSW
 $Comp
 L power:+3.3V #PWR0135
@@ -714,16 +708,21 @@ XIN32
 $Comp
 L Team-FIRE:SAMD51 U?
 U 3 1 5ED61BFB
-P 2060 2240
+P 7550 2210
 AR Path="/5E4F8378/5ED61BFB" Ref="U?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5ED61BFB" Ref="U5"  Part="3" 
-F 0 "U5" H 3138 2372 98  0000 L CNN
-F 1 "SAMD51" H 3138 2209 98  0000 L CNN
-F 2 "Package_QFP:TQFP-100_14x14mm_P0.5mm" H 1210 90  28  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf" V 1870 1970 28  0001 C CNN
-F 4 "1.2" H 1260 190 28  0001 C CNN "Height"
-F 5 "ATSAMD51N20A-AU" H 960 190 28  0001 C CNN "MPN"
-	3    2060 2240
+F 0 "U5" H 7990 1450 98  0000 L CNN
+F 1 "SAMD51" H 7990 1300 98  0000 L CNN
+F 2 "Package_QFP:TQFP-100_14x14mm_P0.5mm" H 6700 60  28  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf" V 7360 1940 28  0001 C CNN
+F 4 "1.2" H 6750 160 28  0001 C CNN "Height"
+F 5 "ATSAMD51N20A-AUT" H 6450 160 28  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/ATSAMD51N20A-AUT/ATSAMD51N20A-AUTCT-ND/7390168" H 7550 2210 50  0001 C CNN "Link"
+F 7 "Microchip Technology" H 7550 2210 50  0001 C CNN "Manufacturer"
+F 8 "Digikey" H 7550 2210 50  0001 C CNN "Supplier"
+F 9 "ATSAMD51N20A-AUTCT-ND" H 7550 2210 50  0001 C CNN "Supplier PN"
+F 10 "IC MCU" H 7550 2210 50  0001 C CNN "Type"
+	3    7550 2210
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1260 990 
@@ -916,4 +915,24 @@ Wire Notes Line
 	4550 6700 3750 6700
 Wire Notes Line
 	3750 6700 3750 5850
+$Comp
+L Team-FIRE:SAMD51 U?
+U 1 1 5ED61C11
+P 2060 2240
+AR Path="/5E4F8378/5ED61C11" Ref="U?"  Part="3" 
+AR Path="/5E4F8378/5ED4DEFC/5ED61C11" Ref="U5"  Part="1" 
+F 0 "U5" H 3200 1060 98  0000 L CNN
+F 1 "SAMD51" H 3210 870 98  0000 L CNN
+F 2 "Package_QFP:TQFP-100_14x14mm_P0.5mm" H 1210 90  28  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf" V 1870 1970 28  0001 C CNN
+F 4 "1.2" H 1260 190 28  0001 C CNN "Height"
+F 5 "ATSAMD51N20A-AUT" H 960 190 28  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/ATSAMD51N20A-AUT/ATSAMD51N20A-AUTCT-ND/7390168" H 2060 2240 50  0001 C CNN "Link"
+F 7 "Microchip Technology" H 2060 2240 50  0001 C CNN "Manufacturer"
+F 8 "Digikey" H 2060 2240 50  0001 C CNN "Supplier"
+F 9 "ATSAMD51N20A-AUTCT-ND" H 2060 2240 50  0001 C CNN "Supplier PN"
+F 10 "IC MCU" H 2060 2240 50  0001 C CNN "Type"
+	1    2060 2240
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
