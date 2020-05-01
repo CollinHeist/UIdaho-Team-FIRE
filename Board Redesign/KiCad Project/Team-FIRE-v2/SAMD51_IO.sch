@@ -418,100 +418,42 @@ $EndComp
 $Comp
 L Device:Crystal Y?
 U 1 1 5F15C3C7
-P 1650 6720
+P 1300 6550
 AR Path="/5E4F8378/5F15C3C7" Ref="Y?"  Part="1" 
 AR Path="/5E4F8378/5EA71818/5F15C3C7" Ref="Y?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5ED7D75E/5F15C3C7" Ref="Y?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5F15C3C7" Ref="Y1"  Part="1" 
-F 0 "Y1" V 1604 6851 50  0000 L CNN
-F 1 "32.768kHz" V 1695 6851 50  0000 L CNN
-F 2 "" H 1650 6720 50  0001 C CNN
-F 3 "~" H 1650 6720 50  0001 C CNN
-	1    1650 6720
+F 0 "Y1" V 1254 6681 50  0000 L CNN
+F 1 "32.768kHz" V 1345 6681 50  0000 L CNN
+F 2 "" H 1300 6550 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/Renesas-IDT/XUH535000032768I?qs=sGAEpiMZZMt8zWNA7msRCkfKROQbNyT9ksyE2KEVrnhTAWaYHdZ16w%3D%3D" H 1300 6550 50  0001 C CNN
+F 4 "XUH535000.032768I" V 1300 6550 50  0001 C CNN "MPN"
+F 5 "Renesas Electronics" V 1300 6550 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" V 1300 6550 50  0001 C CNN "Supplier"
+F 7 "972-XUH535000032768I" V 1300 6550 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Renesas-IDT/XUH535000032768I?qs=sGAEpiMZZMt8zWNA7msRCkfKROQbNyT9ksyE2KEVrnhTAWaYHdZ16w%3D%3D" V 1300 6550 50  0001 C CNN "Link"
+F 9 "3.135 to 3.465 V" V 1300 6550 50  0001 C CNN "Voltage Rating"
+F 10 "32.768 kHz Oscillator" V 1300 6550 50  0001 C CNN "Description"
+	1    1300 6550
 	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5F15C3CD
-P 1350 6470
-AR Path="/5E4F8378/5F15C3CD" Ref="C?"  Part="1" 
-AR Path="/5E4F8378/5EA71818/5F15C3CD" Ref="C?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5ED7D75E/5F15C3CD" Ref="C?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5F15C3CD" Ref="C30"  Part="1" 
-F 0 "C30" V 1098 6470 50  0000 C CNN
-F 1 "15pF" V 1189 6470 50  0000 C CNN
-F 2 "" H 1388 6320 50  0001 C CNN
-F 3 "~" H 1350 6470 50  0001 C CNN
-	1    1350 6470
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5F15C3D3
-P 1350 6970
-AR Path="/5E4F8378/5F15C3D3" Ref="C?"  Part="1" 
-AR Path="/5E4F8378/5EA71818/5F15C3D3" Ref="C?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5ED7D75E/5F15C3D3" Ref="C?"  Part="1" 
-AR Path="/5E4F8378/5ED4DEFC/5F15C3D3" Ref="C31"  Part="1" 
-F 0 "C31" V 1602 6970 50  0000 C CNN
-F 1 "15pF" V 1511 6970 50  0000 C CNN
-F 2 "" H 1388 6820 50  0001 C CNN
-F 3 "~" H 1350 6970 50  0001 C CNN
-	1    1350 6970
-	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F15C3D9
-P 1100 7070
+P 800 6900
 AR Path="/5E4F8378/5F15C3D9" Ref="#PWR?"  Part="1" 
 AR Path="/5E4F8378/5EA71818/5F15C3D9" Ref="#PWR?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5ED7D75E/5F15C3D9" Ref="#PWR?"  Part="1" 
 AR Path="/5E4F8378/5ED4DEFC/5F15C3D9" Ref="#PWR0152"  Part="1" 
-F 0 "#PWR0152" H 1100 6820 50  0001 C CNN
-F 1 "GND" H 1105 6897 50  0000 C CNN
-F 2 "" H 1100 7070 50  0001 C CNN
-F 3 "" H 1100 7070 50  0001 C CNN
-	1    1100 7070
+F 0 "#PWR0152" H 800 6650 50  0001 C CNN
+F 1 "GND" H 805 6727 50  0000 C CNN
+F 2 "" H 800 6900 50  0001 C CNN
+F 3 "" H 800 6900 50  0001 C CNN
+	1    800  6900
 	1    0    0    -1  
 $EndComp
-Text GLabel 1850 6970 2    50   Input ~ 0
+Text GLabel 1400 6800 2    50   Input ~ 0
 XOUT32
-Wire Notes Line
-	950  7320 2800 7320
-Wire Notes Line
-	2800 7320 2800 6170
-Wire Notes Line
-	2800 6170 950  6170
-Wire Notes Line
-	950  6170 950  7320
-Text Notes 950  6170 0    50   ~ 10
-Crystal oscillator
-Text Notes 1500 6370 0    50   ~ 0
-Should be closed to the SAMD \nto avoid crosstalk to other parts
-Wire Wire Line
-	1500 6470 1650 6470
-Wire Wire Line
-	1650 6570 1650 6470
-Connection ~ 1650 6470
-Wire Wire Line
-	1650 6470 1850 6470
-Wire Wire Line
-	1500 6970 1650 6970
-Wire Wire Line
-	1650 6870 1650 6970
-Connection ~ 1650 6970
-Wire Wire Line
-	1650 6970 1850 6970
-Wire Wire Line
-	1200 6470 1100 6470
-Wire Wire Line
-	1100 6470 1100 6970
-Wire Wire Line
-	1100 6970 1200 6970
-Wire Wire Line
-	1100 6970 1100 7070
-Connection ~ 1100 6970
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5F15C3F5
@@ -578,7 +520,15 @@ AR Path="/5E4F8378/5ED4DEFC/5F15C421" Ref="C29"  Part="1"
 F 0 "C29" H 4915 5046 50  0000 L CNN
 F 1 "100nF" H 4915 4955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4800 5000 50  0001 C CNN
-F 3 "~" H 4800 5000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_X7R_FT_VW_AUDI-1775098.pdf" H 4800 5000 50  0001 C CNN
+F 4 "C0603X104K5RAC3316" H 4800 5000 50  0001 C CNN "MPN"
+F 5 "KEMET" H 4800 5000 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 4800 5000 50  0001 C CNN "Supplier"
+F 7 "80-C0603X104K5R3316" H 4800 5000 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/KEMET/C0603X104K5RAC3316?qs=sGAEpiMZZMsh%252B1woXyUXj34sxNWs20QAoBWDPDKnR18%3D" H 4800 5000 50  0001 C CNN "Link"
+F 9 "Ceramic X7R Capacitor" H 4800 5000 50  0001 C CNN "Type"
+F 10 "10%" H 4800 5000 50  0001 C CNN "Tolerance"
+F 11 "50 VDC" H 4800 5000 50  0001 C CNN "Voltage Rating"
 	1    4800 5000
 	1    0    0    -1  
 $EndComp
@@ -732,7 +682,7 @@ NoConn ~ 1260 1190
 NoConn ~ 1260 1290
 NoConn ~ 1260 1390
 NoConn ~ 1260 1490
-Text GLabel 1850 6470 2    50   Input ~ 0
+Text GLabel 1400 6300 2    50   Input ~ 0
 XIN32
 $Comp
 L power:GND #PWR?
@@ -832,8 +782,15 @@ P 4200 4750
 F 0 "SW?" H 4200 5035 50  0000 C CNN
 F 1 "RESET" H 4200 4944 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_EVQQ2" H 4200 4950 50  0001 C CNN
-F 3 "~" H 4200 4950 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/315/sw_lt_eng_6s_th-1289042.pdf" H 4200 4950 50  0001 C CNN
 F 4 "EVQ-Q2Y03W" H 4200 4750 50  0001 C CNN "MPN"
+F 5 "Panasonic" H 4200 4750 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 4200 4750 50  0001 C CNN "Supplier"
+F 7 "667-EVQ-Q2Y03W" H 4200 4750 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Panasonic/EVQ-Q2Y03W?qs=Ow%252BOiPmaljHytan%2FbFuZzg%3D%3D" H 4200 4750 50  0001 C CNN "Link"
+F 9 "15 VDC, 250 VAC" H 4200 4750 50  0001 C CNN "Voltage Rating"
+F 10 "20 mA" H 4200 4750 50  0001 C CNN "Current Rating"
+F 11 "Reset button" H 4200 4750 50  0001 C CNN "Description"
 	1    4200 4750
 	1    0    0    -1  
 $EndComp
@@ -918,6 +875,81 @@ Wire Notes Line
 	3750 6700 3750 5850
 Text Notes 3700 6850 0    79   ~ 16
 PART SELECTION FINISHED - COLLIN
-Text Notes 3750 5500 0    79   ~ 16
+Text Notes 3750 5600 0    79   ~ 16
 PART SELECTION FINISHED - COLLIN
+Text Notes 650  6050 0    79   ~ 16
+Crystal oscillator
+$Comp
+L Device:C C?
+U 1 1 5EB3DB6A
+P 1050 6300
+F 0 "C?" V 900 6300 50  0000 C CNN
+F 1 "15 pF" V 1200 6300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1088 6150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/40/AVX_09302019_U_Dielectric_B_Termination_C0G_NP0-1658719.pdf" H 1050 6300 50  0001 C CNN
+F 4 "LD032U3R3BAB2A" H 1050 6300 50  0001 C CNN "MPN"
+F 5 "AVX" H 1050 6300 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 1050 6300 50  0001 C CNN "Supplier"
+F 7 "581-LD032U3R3BAB2A" H 1050 6300 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/AVX/LD032U3R3BAB2A?qs=r09KxNuG0AVh%2F1rBpEisGg%3D%3D" H 1050 6300 50  0001 C CNN "Link"
+F 9 "Ceramic C0G Capacitor" H 1050 6300 50  0001 C CNN "Type"
+F 10 "0.1 pF" H 1050 6300 50  0001 C CNN "Tolerance"
+F 11 "200 VDC" H 1050 6300 50  0001 C CNN "Voltage Rating"
+	1    1050 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EB44811
+P 1050 6800
+F 0 "C?" V 900 6800 50  0000 C CNN
+F 1 "15 pF" V 1200 6800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1088 6650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/40/AVX_09302019_U_Dielectric_B_Termination_C0G_NP0-1658719.pdf" H 1050 6800 50  0001 C CNN
+F 4 "LD032U3R3BAB2A" H 1050 6800 50  0001 C CNN "MPN"
+F 5 "AVX" H 1050 6800 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 1050 6800 50  0001 C CNN "Supplier"
+F 7 "581-LD032U3R3BAB2A" H 1050 6800 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/AVX/LD032U3R3BAB2A?qs=r09KxNuG0AVh%2F1rBpEisGg%3D%3D" H 1050 6800 50  0001 C CNN "Link"
+F 9 "Ceramic C0G Capacitor" H 1050 6800 50  0001 C CNN "Type"
+F 10 "0.1 pF" H 1050 6800 50  0001 C CNN "Tolerance"
+F 11 "200 VDC" H 1050 6800 50  0001 C CNN "Voltage Rating"
+	1    1050 6800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 6300 1300 6300
+Wire Wire Line
+	1300 6300 1300 6400
+Wire Wire Line
+	1300 6700 1300 6800
+Wire Wire Line
+	1300 6800 1200 6800
+Wire Wire Line
+	1400 6800 1300 6800
+Connection ~ 1300 6800
+Wire Wire Line
+	1300 6300 1400 6300
+Connection ~ 1300 6300
+Wire Wire Line
+	900  6300 800  6300
+Wire Wire Line
+	800  6300 800  6800
+Wire Wire Line
+	900  6800 800  6800
+Connection ~ 800  6800
+Wire Wire Line
+	800  6800 800  6900
+Wire Notes Line
+	650  6050 1900 6050
+Wire Notes Line
+	1900 6050 1900 7150
+Wire Notes Line
+	1900 7150 650  7150
+Wire Notes Line
+	650  7150 650  6050
+Text Notes 700  5750 0    79   ~ 16
+KOFFI - Can you find\ndetails for the flash\nmemory module?
+Text Notes 1900 6750 0    79   ~ 16
+COLLIN - Currently trying\ntofind footprint\nfor oscillator
 $EndSCHEMATC
