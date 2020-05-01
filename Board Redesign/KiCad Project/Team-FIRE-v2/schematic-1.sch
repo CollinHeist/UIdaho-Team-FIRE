@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Team-FIRE-v2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1398,10 +1397,13 @@ Wire Wire Line
 	1750 1650 1750 1800
 Wire Wire Line
 	1750 2100 1750 2250
-Text Notes 5550 1250 2    79   ~ 16
-SHELBY: Where is the +30V net supposed to go?
 Text Notes 8100 5850 0    79   ~ 16
 PART SELECTION FINISHED - COLLIN
 Text Notes 7900 950  0    79   ~ 16
 PART SELECTION FINISHED - COLLIN
+Text GLabel 6600 2200 2    39   Input ~ 0
++30V
+Wire Wire Line
+	6600 2200 6450 2200
+Connection ~ 6450 2200
 $EndSCHEMATC
