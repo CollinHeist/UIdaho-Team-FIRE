@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Team-FIRE-v2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1401,9 +1402,9 @@ Text Notes 8100 5850 0    79   ~ 16
 PART SELECTION FINISHED - COLLIN
 Text Notes 7900 950  0    79   ~ 16
 PART SELECTION FINISHED - COLLIN
-Text GLabel 6600 2200 2    39   Input ~ 0
+Text GLabel 6550 2200 2    39   Input ~ 0
 +30V
 Wire Wire Line
-	6600 2200 6450 2200
+	6550 2200 6450 2200
 Connection ~ 6450 2200
 $EndSCHEMATC
