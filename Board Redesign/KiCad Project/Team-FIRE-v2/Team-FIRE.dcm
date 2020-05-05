@@ -29,6 +29,8 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/22057B.pdf
 $ENDCMP
 #
 $CMP SAMD51
+D IC MCU 32BIT 1MB FLASH 100TQFP
+K SAM D51
 F http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf
 $ENDCMP
 #
