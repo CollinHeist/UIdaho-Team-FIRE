@@ -248,80 +248,38 @@ Text GLabel 10400 3100 2    39   Input ~ 0
 +30V
 Wire Notes Line
 	10900 800  7050 800 
-$Comp
-L Connector:SIM_Card J?
-U 1 1 5E4E7830
-P 4750 5300
-AR Path="/5E4E7830" Ref="J?"  Part="1" 
-AR Path="/5E4D0D8F/5E4E7830" Ref="J1"  Part="1" 
-AR Path="/5E759307/5E4E7830" Ref="J?"  Part="1" 
-F 0 "J1" H 4400 5700 50  0000 L CNN
-F 1 "SIM_Card" H 4700 5700 50  0000 L CNN
-F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm" H 4750 5650 50  0001 C CNN
-F 3 " ~" H 4700 5300 50  0001 C CNN
-	1    4750 5300
-	1    0    0    -1  
-$EndComp
 Text Notes 750  4500 0    79   ~ 16
 SIM NCN4555 & Card Holder\n
-Wire Wire Line
-	4250 5300 4150 5300
-$Comp
-L power:GND #PWR?
-U 1 1 5E4E7838
-P 4150 5550
-AR Path="/5E4E7838" Ref="#PWR?"  Part="1" 
-AR Path="/5E4D0D8F/5E4E7838" Ref="#PWR0105"  Part="1" 
-AR Path="/5E759307/5E4E7838" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0105" H 4150 5300 50  0001 C CNN
-F 1 "GND" H 4155 5377 50  0000 C CNN
-F 2 "" H 4150 5550 50  0001 C CNN
-F 3 "" H 4150 5550 50  0001 C CNN
-	1    4150 5550
-	1    0    0    -1  
-$EndComp
-NoConn ~ 4250 5400
-Text GLabel 4050 5500 0    39   Input ~ 0
+Text GLabel 5450 5550 2    39   Input ~ 0
 SIM_IO
-Text GLabel 4050 5200 0    39   Input ~ 0
+Text GLabel 3950 5550 0    39   Input ~ 0
 SIM_CLOCK
-Text GLabel 4050 5100 0    39   Input ~ 0
+Text GLabel 3950 5350 0    39   Input ~ 0
 SIM_RESET
-Text GLabel 3500 5000 0    39   Input ~ 0
+Text GLabel 3400 5150 0    39   Input ~ 0
 SIM_VCC
 $Comp
 L Device:C C?
 U 1 1 5E4E7843
-P 3600 5350
+P 3500 5400
 AR Path="/5E4E7843" Ref="C?"  Part="1" 
 AR Path="/5E4D0D8F/5E4E7843" Ref="C6"  Part="1" 
 AR Path="/5E759307/5E4E7843" Ref="C?"  Part="1" 
-F 0 "C6" H 3450 5450 50  0000 L CNN
-F 1 "1uF" H 3450 5250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3638 5200 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 3600 5350 50  0001 C CNN
-F 4 "TMK107BLD105KA-T" H 3600 5350 50  0001 C CNN "MPN"
-F 5 "Taiyo Yuden" H 3600 5350 50  0001 C CNN "Manufacturer"
-F 6 "Mouser" H 3600 5350 50  0001 C CNN "Supplier"
-F 7 "963-TMK107BLD105KA-T" H 3600 5350 50  0001 C CNN "Supplier PN"
-F 8 "https://www.mouser.com/ProductDetail/Taiyo-Yuden/TMK107BLD105KA-T?qs=sGAEpiMZZMsh%252B1woXyUXj0ABNAb8d%252BWQAuxWHnwdgyA%3D" H 3600 5350 50  0001 C CNN "Link"
-F 9 "Ceramic X5R Capacitor" H 3600 5350 50  0001 C CNN "Type"
-F 10 "10%" H 3600 5350 50  0001 C CNN "Tolerance"
-F 11 "25 VDC" H 3600 5350 50  0001 C CNN "Voltage Rating"
-	1    3600 5350
+F 0 "C6" H 3350 5500 50  0000 L CNN
+F 1 "1uF" H 3350 5300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3538 5250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 3500 5400 50  0001 C CNN
+F 4 "TMK107BLD105KA-T" H 3500 5400 50  0001 C CNN "MPN"
+F 5 "Taiyo Yuden" H 3500 5400 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 3500 5400 50  0001 C CNN "Supplier"
+F 7 "963-TMK107BLD105KA-T" H 3500 5400 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Taiyo-Yuden/TMK107BLD105KA-T?qs=sGAEpiMZZMsh%252B1woXyUXj0ABNAb8d%252BWQAuxWHnwdgyA%3D" H 3500 5400 50  0001 C CNN "Link"
+F 9 "Ceramic X5R Capacitor" H 3500 5400 50  0001 C CNN "Type"
+F 10 "10%" H 3500 5400 50  0001 C CNN "Tolerance"
+F 11 "25 VDC" H 3500 5400 50  0001 C CNN "Voltage Rating"
+	1    3500 5400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4250 5500 4050 5500
-Wire Wire Line
-	4050 5100 4250 5100
-Wire Wire Line
-	4250 5200 4050 5200
-Wire Wire Line
-	3600 5200 3600 5000
-Connection ~ 3600 5000
-Wire Wire Line
-	3600 5000 4250 5000
 $Comp
 L Logic_LevelTranslator:NCN4555MN U?
 U 1 1 5E4E7855
@@ -422,31 +380,9 @@ $EndComp
 Wire Wire Line
 	1700 4650 1800 4650
 Wire Notes Line
-	750  6150 5550 6150
-Wire Notes Line
-	5550 6150 5550 4500
-Wire Notes Line
-	5550 4500 750  4500
+	5800 6150 5800 4500
 Wire Notes Line
 	750  4500 750  6150
-Wire Wire Line
-	4150 5300 4150 5550
-Wire Wire Line
-	3600 5500 3600 5550
-$Comp
-L power:GND #PWR?
-U 1 1 5E5756C2
-P 3600 5550
-AR Path="/5E5756C2" Ref="#PWR?"  Part="1" 
-AR Path="/5E4D0D8F/5E5756C2" Ref="#PWR0108"  Part="1" 
-AR Path="/5E759307/5E5756C2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0108" H 3600 5300 50  0001 C CNN
-F 1 "GND" H 3605 5377 50  0000 C CNN
-F 2 "" H 3600 5550 50  0001 C CNN
-F 3 "" H 3600 5550 50  0001 C CNN
-	1    3600 5550
-	1    0    0    -1  
-$EndComp
 $Comp
 L Jumper:SolderJumper_2_Open JP1
 U 1 1 5E5AA34E
@@ -531,57 +467,57 @@ $EndComp
 $Comp
 L power:GND #PWR0112
 U 1 1 5EBC9EAA
-P 6300 5250
-F 0 "#PWR0112" H 6300 5000 50  0001 C CNN
-F 1 "GND" H 6305 5077 50  0000 C CNN
-F 2 "" H 6300 5250 50  0001 C CNN
-F 3 "" H 6300 5250 50  0001 C CNN
-	1    6300 5250
+P 6500 5250
+F 0 "#PWR0112" H 6500 5000 50  0001 C CNN
+F 1 "GND" H 6505 5077 50  0000 C CNN
+F 2 "" H 6500 5250 50  0001 C CNN
+F 3 "" H 6500 5250 50  0001 C CNN
+	1    6500 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6150 5150 6150 5200
+	6350 5150 6350 5200
 Wire Wire Line
-	6150 4800 6300 4800
+	6350 4800 6500 4800
 Wire Wire Line
-	6450 4800 6450 4850
+	6650 4800 6650 4850
 Wire Wire Line
-	6150 4800 6150 4850
+	6350 4800 6350 4850
 Wire Wire Line
-	6450 5150 6450 5200
+	6650 5150 6650 5200
 $Comp
 L power:+3.3V #PWR0113
 U 1 1 5EBBC444
-P 6300 4750
-F 0 "#PWR0113" H 6300 4600 50  0001 C CNN
-F 1 "+3.3V" H 6315 4923 50  0000 C CNN
-F 2 "" H 6300 4750 50  0001 C CNN
-F 3 "" H 6300 4750 50  0001 C CNN
-	1    6300 4750
+P 6500 4750
+F 0 "#PWR0113" H 6500 4600 50  0001 C CNN
+F 1 "+3.3V" H 6515 4923 50  0000 C CNN
+F 2 "" H 6500 4750 50  0001 C CNN
+F 3 "" H 6500 4750 50  0001 C CNN
+	1    6500 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6450 5200 6300 5200
+	6650 5200 6500 5200
 Wire Wire Line
-	6300 4750 6300 4800
-Connection ~ 6300 4800
+	6500 4750 6500 4800
+Connection ~ 6500 4800
 Wire Wire Line
-	6300 4800 6450 4800
+	6500 4800 6650 4800
 Wire Wire Line
-	6300 5200 6300 5250
-Connection ~ 6300 5200
+	6500 5200 6500 5250
+Connection ~ 6500 5200
 Wire Wire Line
-	6300 5200 6150 5200
+	6500 5200 6350 5200
 Wire Notes Line
-	6750 4500 6750 5500
+	6950 4500 6950 5500
 Wire Notes Line
-	5900 5500 5900 4500
-Text Notes 5900 4500 0    79   ~ 16
+	6100 5500 6100 4500
+Text Notes 6100 4500 0    79   ~ 16
 Decoupling Capacitors
 Wire Notes Line
-	5900 4500 6750 4500
+	6100 4500 6950 4500
 Wire Notes Line
-	5900 5500 6750 5500
+	6100 5500 6950 5500
 $Comp
 L Device:C C9
 U 1 1 5EA18317
@@ -720,8 +656,6 @@ F 11 "25 VDC" V 1450 3000 50  0001 C CNN "Voltage Rating"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1000 2300 1000 2550
-Wire Wire Line
 	1800 2200 1700 2200
 Wire Wire Line
 	1700 2200 1700 2450
@@ -749,12 +683,12 @@ $EndComp
 $Comp
 L power:GND #PWR0116
 U 1 1 5EB13960
-P 1000 2550
-F 0 "#PWR0116" H 1000 2300 50  0001 C CNN
-F 1 "GND" H 1005 2377 50  0000 C CNN
-F 2 "" H 1000 2550 50  0001 C CNN
-F 3 "" H 1000 2550 50  0001 C CNN
-	1    1000 2550
+P 1000 2300
+F 0 "#PWR0116" H 1000 2050 50  0001 C CNN
+F 1 "GND" H 1005 2127 50  0000 C CNN
+F 2 "" H 1000 2300 50  0001 C CNN
+F 3 "" H 1000 2300 50  0001 C CNN
+	1    1000 2300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -771,13 +705,13 @@ $EndComp
 $Comp
 L power:GND #PWR0117
 U 1 1 5EA08EB2
-P 4550 2000
-F 0 "#PWR0117" H 4550 1750 50  0001 C CNN
-F 1 "GND" H 4650 2100 50  0000 C CNN
-F 2 "" H 4550 2000 50  0001 C CNN
-F 3 "" H 4550 2000 50  0001 C CNN
-	1    4550 2000
-	1    0    0    -1  
+P 4450 1900
+F 0 "#PWR0117" H 4450 1650 50  0001 C CNN
+F 1 "GND" V 4450 1700 50  0000 C CNN
+F 2 "" H 4450 1900 50  0001 C CNN
+F 3 "" H 4450 1900 50  0001 C CNN
+	1    4450 1900
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R4
@@ -1135,29 +1069,16 @@ Wire Wire Line
 	1700 3000 1600 3000
 Wire Wire Line
 	2000 3000 2100 3000
-Wire Wire Line
-	2100 3000 2100 2750
-Wire Wire Line
-	2100 2750 1700 2750
-Wire Wire Line
-	1700 2750 1700 2450
 Connection ~ 2100 3000
 Wire Wire Line
 	2100 3000 2200 3000
-Connection ~ 1700 2450
 Wire Wire Line
 	2200 3100 2200 3000
 Connection ~ 2200 3000
 Wire Wire Line
 	2200 3000 2300 3000
 Wire Wire Line
-	3800 3000 3800 3200
-Wire Wire Line
-	3800 3200 5750 3200
-Wire Wire Line
 	5750 3200 5750 2850
-Wire Wire Line
-	2600 3000 3800 3000
 Wire Wire Line
 	1800 1800 1700 1800
 Wire Wire Line
@@ -1170,10 +1091,6 @@ Wire Wire Line
 	3900 1200 3150 1200
 Wire Wire Line
 	3800 1900 4150 1900
-Wire Wire Line
-	4550 2000 4550 1900
-Wire Wire Line
-	4550 1900 4450 1900
 Wire Wire Line
 	5000 1300 5000 1200
 Connection ~ 3900 1200
@@ -1236,47 +1153,45 @@ Wire Notes Line
 NoConn ~ 1400 5050
 Wire Wire Line
 	2900 5350 2900 5750
-Wire Wire Line
-	3500 5000 3600 5000
 $Comp
 L Device:C C?
 U 1 1 5F173878
-P 6150 5000
+P 6350 5000
 AR Path="/5F173878" Ref="C?"  Part="1" 
 AR Path="/5E4D0D8F/5F173878" Ref="C12"  Part="1" 
 AR Path="/5E759307/5F173878" Ref="C?"  Part="1" 
-F 0 "C12" H 6000 5100 50  0000 L CNN
-F 1 "1uF" H 6000 4900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6188 4850 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 6150 5000 50  0001 C CNN
-F 4 "TMK107BLD105KA-T" H 6150 5000 50  0001 C CNN "MPN"
-F 5 "Taiyo Yuden" H 6150 5000 50  0001 C CNN "Manufacturer"
-F 6 "Mouser" H 6150 5000 50  0001 C CNN "Supplier"
-F 7 "963-TMK107BLD105KA-T" H 6150 5000 50  0001 C CNN "Supplier PN"
-F 8 "https://www.mouser.com/ProductDetail/Taiyo-Yuden/TMK107BLD105KA-T?qs=sGAEpiMZZMsh%252B1woXyUXj0ABNAb8d%252BWQAuxWHnwdgyA%3D" H 6150 5000 50  0001 C CNN "Link"
-F 9 "Ceramic X5R Capacitor" H 6150 5000 50  0001 C CNN "Type"
-F 10 "10%" H 6150 5000 50  0001 C CNN "Tolerance"
-F 11 "25 VDC" H 6150 5000 50  0001 C CNN "Voltage Rating"
-	1    6150 5000
+F 0 "C12" H 6200 5100 50  0000 L CNN
+F 1 "1uF" H 6200 4900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6388 4850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 6350 5000 50  0001 C CNN
+F 4 "TMK107BLD105KA-T" H 6350 5000 50  0001 C CNN "MPN"
+F 5 "Taiyo Yuden" H 6350 5000 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 6350 5000 50  0001 C CNN "Supplier"
+F 7 "963-TMK107BLD105KA-T" H 6350 5000 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Taiyo-Yuden/TMK107BLD105KA-T?qs=sGAEpiMZZMsh%252B1woXyUXj0ABNAb8d%252BWQAuxWHnwdgyA%3D" H 6350 5000 50  0001 C CNN "Link"
+F 9 "Ceramic X5R Capacitor" H 6350 5000 50  0001 C CNN "Type"
+F 10 "10%" H 6350 5000 50  0001 C CNN "Tolerance"
+F 11 "25 VDC" H 6350 5000 50  0001 C CNN "Voltage Rating"
+	1    6350 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C14
 U 1 1 5F174FB5
-P 6450 5000
-F 0 "C14" H 6500 5100 50  0000 L CNN
-F 1 "10uF" H 6500 4900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6488 4850 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 6450 5000 50  0001 C CNN
-F 4 "GRM188R61E106KA73D" H 6450 5000 50  0001 C CNN "MPN"
-F 5 "Murata" H 6450 5000 50  0001 C CNN "Manufacturer"
-F 6 "Mouser" H 6450 5000 50  0001 C CNN "Supplier"
-F 7 "81-GRM188R61E106KA73D" H 6450 5000 50  0001 C CNN "Supplier PN"
-F 8 "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R61E106KA73D?qs=sGAEpiMZZMsh%252B1woXyUXj%252BPOAS4JE4Y%252Bzpwpuo4MIOw%3D" H 6450 5000 50  0001 C CNN "Link"
-F 9 "Ceramic X5R Capacitor" H 6450 5000 50  0001 C CNN "Type"
-F 10 "10%" H 6450 5000 50  0001 C CNN "Tolerance"
-F 11 "25 VDC" H 6450 5000 50  0001 C CNN "Voltage Rating"
-	1    6450 5000
+P 6650 5000
+F 0 "C14" H 6700 5100 50  0000 L CNN
+F 1 "10uF" H 6700 4900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6688 4850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 6650 5000 50  0001 C CNN
+F 4 "GRM188R61E106KA73D" H 6650 5000 50  0001 C CNN "MPN"
+F 5 "Murata" H 6650 5000 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 6650 5000 50  0001 C CNN "Supplier"
+F 7 "81-GRM188R61E106KA73D" H 6650 5000 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R61E106KA73D?qs=sGAEpiMZZMsh%252B1woXyUXj%252BPOAS4JE4Y%252Bzpwpuo4MIOw%3D" H 6650 5000 50  0001 C CNN "Link"
+F 9 "Ceramic X5R Capacitor" H 6650 5000 50  0001 C CNN "Type"
+F 10 "10%" H 6650 5000 50  0001 C CNN "Tolerance"
+F 11 "25 VDC" H 6650 5000 50  0001 C CNN "Voltage Rating"
+	1    6650 5000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1360,23 +1275,10 @@ Wire Wire Line
 	6200 1750 6400 1750
 Connection ~ 6400 1750
 $Comp
-L SIM_Card:7111S2015X02LF P?
-U 1 1 5EB9D6BE
-P 4350 6700
-F 0 "P?" H 4630 6746 50  0000 L CNN
-F 1 "7111S2015X02LF" H 4630 6655 50  0000 L CNN
-F 2 "FCI_7111S2015X02LF" H 4350 6700 50  0001 L BNN
-F 3 "Framatome/Amphenol" H 4350 6700 50  0001 L BNN
-	1    4350 6700
-	1    0    0    -1  
-$EndComp
-Text Notes 3550 7450 0    50   ~ 0
-Amphenol part w/ footprint for SIM holder...\n but haven't found a datasheet yet and the pins aren't labelled. \nWe could probably figure it out from the general \nSIM specifications though
-$Comp
-L Team-FIRE:B260-13-F CR?
+L Team-FIRE:B260-13-F CR1
 U 1 1 5EB38CCA
 P 5800 1750
-F 0 "CR?" H 6000 2013 60  0000 C CNN
+F 0 "CR1" H 6000 2013 60  0000 C CNN
 F 1 "B260-13-F" H 6000 1907 60  0000 C CNN
 F 2 "SMB_DIO" H 6000 1390 60  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds13004.pdf" H 5800 1750 60  0001 C CNN
@@ -1392,10 +1294,10 @@ F 11 "2 A" H 5900 800 50  0001 C CNN "Current Rating"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Team-FIRE:IHLP6767GZER220M11 L?
+L Team-FIRE:IHLP6767GZER220M11 L1
 U 1 1 5EB4A6BF
 P 5550 1050
-F 0 "L?" V 5800 1200 60  0000 L CNN
+F 0 "L1" V 5800 1200 60  0000 L CNN
 F 1 "24uH" V 5900 1200 60  0000 L CNN
 F 2 "Team-FIRE:IHLP6767GZER220M11" H 6350 950 60  0001 C CNN
 F 3 "http://www.vishay.com/docs/34282/ihlp-6767gz-11.pdf" H 5550 1050 60  0001 C CNN
@@ -1418,4 +1320,110 @@ Wire Wire Line
 	5550 950  5000 950 
 Wire Wire Line
 	5000 950  5000 1200
+Wire Wire Line
+	2100 2550 1700 2550
+Wire Wire Line
+	1700 2550 1700 2450
+Wire Wire Line
+	2100 2550 2100 3000
+Connection ~ 1700 2450
+Wire Wire Line
+	2600 3000 2700 3000
+Wire Wire Line
+	2700 3000 2700 3200
+Wire Wire Line
+	2700 3200 5750 3200
+$Comp
+L Team-FIRE:47388-2001 J?
+U 1 1 5EBFC770
+P 4550 5350
+F 0 "J?" H 4250 5700 50  0000 C CNN
+F 1 "47388-2001" H 4900 5700 50  0000 C CNN
+F 2 "Team-FIRE:473882001" H 3700 6850 50  0001 L CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0473882001_MEMORY_CARD_SOCKET.pdf" H 3700 6750 50  0001 L CNN
+F 4 "SIM Card Mount" H 4700 5800 50  0000 L CNN "Description"
+F 5 "Molex" H 3700 6450 50  0001 L CNN "Manufacturer"
+F 6 "47388-2001" H 3700 6350 50  0001 L CNN "MPN"
+F 7 "538-47388-2001" H 3700 6250 50  0001 L CNN "Supplier PN"
+F 8 "Mouser" H 4550 5350 50  0001 C CNN "Supplier"
+F 9 "https://www.mouser.com/ProductDetail/Molex/47388-2001?qs=sGAEpiMZZMvacfJXZtNRXyLSMBkfuhye" H 4550 5350 50  0001 C CNN "Link"
+F 10 "500 mA" H 4550 5350 50  0001 C CNN "Current Rating"
+	1    4550 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EC0F7B0
+P 4550 4950
+AR Path="/5EC0F7B0" Ref="#PWR?"  Part="1" 
+AR Path="/5E4D0D8F/5EC0F7B0" Ref="#PWR?"  Part="1" 
+AR Path="/5E759307/5EC0F7B0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4550 4700 50  0001 C CNN
+F 1 "GND" H 4555 4777 50  0000 C CNN
+F 2 "" H 4550 4950 50  0001 C CNN
+F 3 "" H 4550 4950 50  0001 C CNN
+	1    4550 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EC0FC23
+P 4550 5750
+AR Path="/5EC0FC23" Ref="#PWR?"  Part="1" 
+AR Path="/5E4D0D8F/5EC0FC23" Ref="#PWR?"  Part="1" 
+AR Path="/5E759307/5EC0FC23" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4550 5500 50  0001 C CNN
+F 1 "GND" H 4555 5577 50  0000 C CNN
+F 2 "" H 4550 5750 50  0001 C CNN
+F 3 "" H 4550 5750 50  0001 C CNN
+	1    4550 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 5150 3500 5150
+Wire Wire Line
+	3500 5250 3500 5150
+Connection ~ 3500 5150
+Wire Wire Line
+	3400 5150 3500 5150
+Wire Wire Line
+	3500 5550 3500 5650
+$Comp
+L power:GND #PWR?
+U 1 1 5EC2CC49
+P 3500 5650
+AR Path="/5EC2CC49" Ref="#PWR?"  Part="1" 
+AR Path="/5E4D0D8F/5EC2CC49" Ref="#PWR?"  Part="1" 
+AR Path="/5E759307/5EC2CC49" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3500 5400 50  0001 C CNN
+F 1 "GND" H 3505 5477 50  0000 C CNN
+F 2 "" H 3500 5650 50  0001 C CNN
+F 3 "" H 3500 5650 50  0001 C CNN
+	1    3500 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5150 5350 5150
+Wire Wire Line
+	5350 5150 5350 5650
+$Comp
+L power:GND #PWR?
+U 1 1 5EC34AAF
+P 5350 5650
+AR Path="/5EC34AAF" Ref="#PWR?"  Part="1" 
+AR Path="/5E4D0D8F/5EC34AAF" Ref="#PWR?"  Part="1" 
+AR Path="/5E759307/5EC34AAF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5350 5400 50  0001 C CNN
+F 1 "GND" H 5355 5477 50  0000 C CNN
+F 2 "" H 5350 5650 50  0001 C CNN
+F 3 "" H 5350 5650 50  0001 C CNN
+	1    5350 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 5550 5250 5550
+Wire Notes Line
+	750  4500 5800 4500
+Wire Notes Line
+	750  6150 5800 6150
 $EndSCHEMATC

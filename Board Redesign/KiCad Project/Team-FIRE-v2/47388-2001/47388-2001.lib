@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 47388-2001
+#/244270/207636/2.46/8/4/Connector
+DEF 47388-2001 J 0 30 Y Y 1 F N
+F0 "J" 850 1100 50 H V L CNN
+F1 "47388-2001" 850 1000 50 H V L CNN
+F2 "473882001" 850 900 50 H I L CNN
+F3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0473882001_MEMORY_CARD_SOCKET.pdf" 850 800 50 H I L CNN
+F4 "SIM card, 2.54mm,6 way,SMT reverse mount" 850 700 50 H I L CNN "Description"
+F5 "1" 850 600 50 H I L CNN "Height"
+F6 "Molex" 850 500 50 H I L CNN "Manufacturer_Name"
+F7 "47388-2001" 850 400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "538-47388-2001" 850 300 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Molex/47388-2001?qs=KKUMDL8WE1K2q3cPEOwmLw%3D%3D" 850 200 50 H I L CNN "Mouser Price/Stock"
+F10 "1676487" 850 100 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/1676487" 850 0 50 H I L CNN "RS Price/Stock"
+F12 "70747052" 850 -100 50 H I L CNN "Allied_Number"
+F13 "https://www.alliedelec.com/molex-incorporated-47388-2001/70747052/" 850 -200 50 H I L CNN "Allied Price/Stock"
+DRAW
+X C1 1 0 -200 200 R 50 50 0 0 U
+X C2 2 0 -100 200 R 50 50 0 0 U
+X C3 3 0 0 200 R 50 50 0 0 U
+X C5 4 1000 -200 200 L 50 50 0 0 U
+X C6 5 1000 -100 200 L 50 50 0 0 U
+X C7 6 1000 0 200 L 50 50 0 0 U
+X FITTING_NAIL_1 7 500 1100 200 D 50 50 0 0 U
+X FITTING_NAIL_2 8 500 -1300 200 U 50 50 0 0 U
+P 5 0 1 6 200 900 800 900 800 -1100 200 -1100 200 900 N
+ENDDRAW
+ENDDEF
+#
+#End Library

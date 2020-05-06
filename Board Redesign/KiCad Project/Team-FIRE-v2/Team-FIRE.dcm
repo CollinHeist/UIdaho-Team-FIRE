@@ -4,6 +4,10 @@ $CMP 43650-0200
 F http://www.molex.com/pdm_docs/sd/436500200_sd.pdf
 $ENDCMP
 #
+$CMP 47388-2001
+F https://www.molex.com/webdocs/datasheets/pdf/en-us/0473882001_MEMORY_CARD_SOCKET.pdf
+$ENDCMP
+#
 $CMP 53885-0408
 D Board to Board & Mezzanine Connectors
 F https://componentsearchengine.com/Datasheets/1/53885-0408.pdf
