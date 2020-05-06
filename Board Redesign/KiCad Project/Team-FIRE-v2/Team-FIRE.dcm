@@ -14,9 +14,21 @@ D MICROCHIP - ATSAMD51N20A-AU - 120MHZ 1024KB FLASH 100 TQFP PKG INTRAY
 F https://componentsearchengine.com/Datasheets/1/ATSAMD51N20A-AU.pdf
 $ENDCMP
 #
+$CMP B260-13-F
+F https://www.diodes.com/assets/Datasheets/ds13004.pdf
+$ENDCMP
+#
+$CMP CSD18543Q3A
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcsd18543q3a
+$ENDCMP
+#
 $CMP EEE-FK1H390SV
 D Aluminium Electrolytic Capacitors - SMD 50VDC 39uF 20% Anti-Vibe AEC-Q200
 F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/3102
+$ENDCMP
+#
+$CMP IHLP6767GZER220M11
+F http://www.vishay.com/docs/34282/ihlp-6767gz-11.pdf
 $ENDCMP
 #
 $CMP LT3959EUHE#PBF

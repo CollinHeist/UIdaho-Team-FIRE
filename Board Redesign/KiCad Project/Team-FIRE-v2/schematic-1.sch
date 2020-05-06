@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Team-FIRE-v2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -900,9 +901,11 @@ Wire Wire Line
 Wire Wire Line
 	4150 2000 4150 2200
 $Comp
-L Boost_switch:CSD18543Q3A U3
+L Team-FIRE:CSD18543Q3A U3
 U 1 1 5EC35A93
 P 5350 2200
+AR Path="/5EC35A93" Ref="U3"  Part="1" 
+AR Path="/5E4D0D8F/5EC35A93" Ref="U3"  Part="1" 
 F 0 "U3" H 5630 2231 60  0000 L CNN
 F 1 "CSD18543Q3A" H 5630 2125 60  0000 L CNN
 F 2 "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET" H 5350 2140 60  0001 C CNN
@@ -1182,8 +1185,6 @@ Wire Wire Line
 Wire Wire Line
 	4700 1100 4700 1200
 Wire Wire Line
-	5550 1000 5550 900 
-Wire Wire Line
 	4700 1200 5000 1200
 Wire Wire Line
 	6050 2950 6050 2850
@@ -1347,37 +1348,9 @@ Wire Notes Line
 	6850 800  6850 4150
 Wire Notes Line
 	750  4150 750  800 
-$Comp
-L Boost_Inductor_24uH:IHLP6767GZER220M11 L?
-U 1 1 5EB30B50
-P 5550 1000
-F 0 "L?" V 5800 1150 60  0000 L CNN
-F 1 "IHLP6767GZER220M11" V 5900 1150 60  0000 L CNN
-F 2 "IND_IHLP-6767GZ" H 5825 715 60  0001 C CNN
-F 3 "" H 5550 1000 60  0000 C CNN
-	1    5550 1000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5000 900  5000 1200
-Wire Wire Line
-	5000 900  5550 900 
 Connection ~ 5000 1200
 Wire Wire Line
-	5550 1600 5550 1750
-Wire Wire Line
 	5550 1750 5450 1750
-$Comp
-L sch_diode:B260-13-F CR?
-U 1 1 5EB57D9C
-P 5800 1750
-F 0 "CR?" H 6000 2013 60  0000 C CNN
-F 1 "B260-13-F" H 6000 1907 60  0000 C CNN
-F 2 "SMB_DIO" H 6000 1390 60  0001 C CNN
-F 3 "" H 5800 1750 60  0000 C CNN
-	1    5800 1750
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	6850 4150 750  4150
 Wire Wire Line
@@ -1399,4 +1372,50 @@ F 3 "Framatome/Amphenol" H 4350 6700 50  0001 L BNN
 $EndComp
 Text Notes 3550 7450 0    50   ~ 0
 Amphenol part w/ footprint for SIM holder...\n but haven't found a datasheet yet and the pins aren't labelled. \nWe could probably figure it out from the general \nSIM specifications though
+$Comp
+L Team-FIRE:B260-13-F CR?
+U 1 1 5EB38CCA
+P 5800 1750
+F 0 "CR?" H 6000 2013 60  0000 C CNN
+F 1 "B260-13-F" H 6000 1907 60  0000 C CNN
+F 2 "SMB_DIO" H 6000 1390 60  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds13004.pdf" H 5800 1750 60  0001 C CNN
+F 4 "B260-13-F" H 6050 1500 50  0001 C CNN "MPN"
+F 5 "Diodes Incorporated" H 6200 1300 50  0001 C CNN "Manufacturer"
+F 6 "Digikey" H 5950 1100 50  0001 C CNN "Supplier"
+F 7 "B260-FDICT-ND" H 6150 1200 50  0001 C CNN "Supplier PN"
+F 8 "https://www.digikey.ca/product-detail/en/diodes-incorporated/B260-13-F/B260-FDICT-ND/815329" H 7800 1000 50  0001 C CNN "Link"
+F 9 "Schottky Diode" H 6100 700 50  0001 C CNN "Type"
+F 10 "60 V" H 5900 900 50  0001 C CNN "Voltage Rating"
+F 11 "2 A" H 5900 800 50  0001 C CNN "Current Rating"
+	1    5800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Team-FIRE:IHLP6767GZER220M11 L?
+U 1 1 5EB4A6BF
+P 5550 1050
+F 0 "L?" V 5800 1200 60  0000 L CNN
+F 1 "24uH" V 5900 1200 60  0000 L CNN
+F 2 "Team-FIRE:IHLP6767GZER220M11" H 6350 950 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/34282/ihlp-6767gz-11.pdf" H 5550 1050 60  0001 C CNN
+F 4 "IHLP6767GZER220M11" H 6000 750 50  0001 C CNN "MPN"
+F 5 "Vishay Dale" H 5800 850 50  0001 C CNN "Manufacturer"
+F 6 "Digikey" H 5700 650 50  0001 C CNN "Supplier"
+F 7 "541-1288-1-ND" H 5900 550 50  0001 C CNN "Supplier PN"
+F 8 "https://www.digikey.com/product-detail/en/vishay-dale/IHLP6767GZER220M11/541-1288-1-ND/2139414" H 7650 450 50  0001 C CNN "Link"
+F 9 "Fixed shielded inductor" H 6000 350 50  0001 C CNN "Type"
+F 10 "20%" H 5650 250 50  0001 C CNN "Tolerance"
+F 11 "12 A" H 5650 150 50  0001 C CNN "Current Rating"
+	1    5550 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 1650 5550 1750
+Wire Wire Line
+	5550 1050 5550 950 
+Wire Wire Line
+	5550 950  5000 950 
+Wire Wire Line
+	5000 950  5000 1200
 $EndSCHEMATC
