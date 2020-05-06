@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Team-FIRE-v2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -951,17 +950,6 @@ F 12 "AEC-Q200" H 5000 1450 50  0001 C CNN "Qualification"
 $EndComp
 Wire Wire Line
 	4050 2500 4600 2500
-$Comp
-L Device:L L1
-U 1 1 5ECDA0A4
-P 5450 1450
-F 0 "L1" H 5503 1496 50  0000 L CNN
-F 1 "24uH" H 5503 1405 50  0000 L CNN
-F 2 "" H 5450 1450 50  0001 C CNN
-F 3 "~" H 5450 1450 50  0001 C CNN
-	1    5450 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1200 2100 1200 2450
 Wire Wire Line
@@ -1053,27 +1041,11 @@ F 3 "" H 6400 3250 50  0001 C CNN
 	1    6400 3250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D_Schottky D1
-U 1 1 5EDFAAE4
-P 6000 1750
-F 0 "D1" H 6000 1534 50  0000 C CNN
-F 1 "D_Schottky" H 6000 1625 50  0000 C CNN
-F 2 "" H 6000 1750 50  0001 C CNN
-F 3 "~" H 6000 1750 50  0001 C CNN
-	1    6000 1750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5850 1750 5450 1750
-Connection ~ 5450 1750
 Wire Wire Line
 	5450 1750 5450 1900
 Connection ~ 6050 2850
 Wire Wire Line
 	6050 2850 6150 2850
-Wire Wire Line
-	6150 1750 6400 1750
 Wire Wire Line
 	6400 1750 6400 2850
 Connection ~ 6400 2850
@@ -1210,12 +1182,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 1100 4700 1200
 Wire Wire Line
-	5450 1600 5450 1750
-Wire Wire Line
-	5450 1300 5450 1200
-Wire Wire Line
-	5450 1200 5000 1200
-Connection ~ 5000 1200
+	5550 1000 5550 900 
 Wire Wire Line
 	4700 1200 5000 1200
 Wire Wire Line
@@ -1311,10 +1278,6 @@ F 11 "25 VDC" H 6450 5000 50  0001 C CNN "Voltage Rating"
 	1    6450 5000
 	1    0    0    -1  
 $EndComp
-Text Notes 6600 1300 2    79   ~ 16
-FIND COMPONENTS
-Text Notes 5200 4750 2    79   ~ 16
-FIND COMPONENT
 $Comp
 L Team-FIRE:EEE-FK1H390SV C11
 U 1 1 5EAA6D91
@@ -1378,13 +1341,62 @@ Text GLabel 6500 1750 2    39   Input ~ 0
 +30V
 Wire Wire Line
 	6500 1750 6400 1750
-Connection ~ 6400 1750
 Wire Wire Line
 	2900 5050 2900 4650
 Wire Notes Line
 	6850 800  6850 4150
 Wire Notes Line
-	6850 4150 750  4150
-Wire Notes Line
 	750  4150 750  800 
+$Comp
+L Boost_Inductor_24uH:IHLP6767GZER220M11 L?
+U 1 1 5EB30B50
+P 5550 1000
+F 0 "L?" V 5800 1150 60  0000 L CNN
+F 1 "IHLP6767GZER220M11" V 5900 1150 60  0000 L CNN
+F 2 "IND_IHLP-6767GZ" H 5825 715 60  0001 C CNN
+F 3 "" H 5550 1000 60  0000 C CNN
+	1    5550 1000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 900  5000 1200
+Wire Wire Line
+	5000 900  5550 900 
+Connection ~ 5000 1200
+Wire Wire Line
+	5550 1600 5550 1750
+Wire Wire Line
+	5550 1750 5450 1750
+$Comp
+L sch_diode:B260-13-F CR?
+U 1 1 5EB57D9C
+P 5800 1750
+F 0 "CR?" H 6000 2013 60  0000 C CNN
+F 1 "B260-13-F" H 6000 1907 60  0000 C CNN
+F 2 "SMB_DIO" H 6000 1390 60  0001 C CNN
+F 3 "" H 5800 1750 60  0000 C CNN
+	1    5800 1750
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6850 4150 750  4150
+Wire Wire Line
+	5800 1750 5550 1750
+Connection ~ 5550 1750
+Wire Wire Line
+	6200 1750 6400 1750
+Connection ~ 6400 1750
+$Comp
+L SIM_Card:7111S2015X02LF P?
+U 1 1 5EB9D6BE
+P 4350 6700
+F 0 "P?" H 4630 6746 50  0000 L CNN
+F 1 "7111S2015X02LF" H 4630 6655 50  0000 L CNN
+F 2 "FCI_7111S2015X02LF" H 4350 6700 50  0001 L BNN
+F 3 "Framatome/Amphenol" H 4350 6700 50  0001 L BNN
+	1    4350 6700
+	1    0    0    -1  
+$EndComp
+Text Notes 3550 7450 0    50   ~ 0
+Amphenol part w/ footprint for SIM holder...\n but haven't found a datasheet yet and the pins aren't labelled. \nWe could probably figure it out from the general \nSIM specifications though
 $EndSCHEMATC

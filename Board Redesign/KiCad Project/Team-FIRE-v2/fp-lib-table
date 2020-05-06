@@ -1,3 +1,13 @@
 (fp_lib_table
   (lib (name Team-FIRE)(type KiCad)(uri ${KIPRJMOD}/Team-FIRE.pretty)(options "")(descr ""))
+  (lib (name ATSAMD51N20A-AU)(type Legacy)(uri ${KIPRJMOD}/ATSAMD51N20A-AU/KiCad/ATSAMD51N20A-AU.mod)(options "")(descr ""))
+  (lib (name BTS500601TEAAUMA2)(type Legacy)(uri ${KIPRJMOD}/BTS500601TEAAUMA2/BTS500601TEAAUMA2.mod)(options "")(descr ""))
+  (lib (name EEE-FK1H390SV)(type Legacy)(uri ${KIPRJMOD}/EEE-FK1H390SV/EEE-FK1H390SV.mod)(options "")(descr ""))
+  (lib (name LT3959EUHE#PBF)(type Legacy)(uri ${KIPRJMOD}/LIB_LT3959EUHE#PBF/KiCad/LT3959EUHE#PBF.mod)(options "")(descr ""))
+  (lib (name MCP1826T-3302E_DC)(type Legacy)(uri ${KIPRJMOD}/MCP1826T3302EDC/MCP1826T-3302E_DC.mod)(options "")(descr ""))
+  (lib (name PCB.MMCX.F.ST.SMT.JACK.HT)(type Legacy)(uri ${KIPRJMOD}/PCB.MMCX.F.ST.SMT.JACK.HT/PCB.MMCX.F.ST.SMT.JACK.HT.mod)(options "")(descr ""))
+  (lib (name SX1509BIULTRT)(type Legacy)(uri ${KIPRJMOD}/SX1509BIULTRT/KiCad/SX1509BIULTRT.mod)(options "")(descr ""))
+  (lib (name U.FL-R-SMT_10_)(type Legacy)(uri "${KIPRJMOD}/U.FL-R-SMT(10)/U.FL-R-SMT_10_.mod")(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/ul_CSD18543Q3A/KiCAD/2020-04-23_19-17-17/footprints.pretty)(options "")(descr ""))
+  (lib (name inductor)(type KiCad)(uri ${KIPRJMOD}/ul_IHLP6767GZER220M11/KiCAD/2020-05-06_01-07-25/footprints.pretty)(options "")(descr ""))
 )

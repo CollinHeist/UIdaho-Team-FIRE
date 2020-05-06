@@ -11,4 +11,7 @@
   (lib (name 5_to_3.3_linreg)(type Legacy)(uri ${KIPRJMOD}/ul_MCP1826T3302EDC/KiCAD/2020-04-23_23-54-23/2020-04-23_23-54-23.lib)(options "")(descr ""))
   (lib (name sw_reg)(type Legacy)(uri ${KIPRJMOD}/ul_TPS82140SILR/KiCAD/2020-04-24_00-21-51/2020-04-24_00-21-51.lib)(options "")(descr ""))
   (lib (name Team-FIRE-v2-rescue)(type Legacy)(uri ${KIPRJMOD}/Team-FIRE-v2-rescue.lib)(options "")(descr ""))
+  (lib (name Boost_Inductor_24uH)(type Legacy)(uri ${KIPRJMOD}/ul_IHLP6767GZER220M11/KiCAD/2020-05-06_01-07-25/2020-05-06_01-07-25.lib)(options "")(descr ""))
+  (lib (name sch_diode)(type Legacy)(uri ${KIPRJMOD}/ul_B26013F/KiCAD/2020-05-06_01-18-28/2020-05-06_01-18-28.lib)(options "")(descr ""))
+  (lib (name SIM_Card)(type Legacy)(uri ${KIPRJMOD}/7111S2015X02LF/7111S2015X02LF.lib)(options "")(descr ""))
 )
