@@ -737,64 +737,64 @@ $EndComp
 $Comp
 L Device:R R5
 U 1 1 5EB8AD65
-P 4750 2200
+P 4400 2200
 AR Path="/5E4D0D8F/5EB8AD65" Ref="R5"  Part="1" 
 AR Path="/5E759307/5EB8AD65" Ref="R?"  Part="1" 
-F 0 "R5" V 4650 2150 50  0000 L CNN
-F 1 "19.1" V 4850 2100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 2200 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 4750 2200 50  0001 C CNN
-F 4 "ERJ-3EKF19R1V" V 4750 2200 50  0001 C CNN "MPN"
-F 5 "Panasonic" V 4750 2200 50  0001 C CNN "Manufacturer"
-F 6 "Mouser" V 4750 2200 50  0001 C CNN "Supplier"
-F 7 "667-ERJ-3EKF19R1V" V 4750 2200 50  0001 C CNN "Supplier PN"
-F 8 "https://www.mouser.com/ProductDetail/Panasonic/ERJ-3EKF19R1V?qs=sGAEpiMZZMtlubZbdhIBIEpCgapuOP%252BoMyfc91zKsbA%3D" V 4750 2200 50  0001 C CNN "Link"
-F 9 "Thick Film Resistors" V 4750 2200 50  0001 C CNN "Type"
-F 10 "1%" V 4750 2200 50  0001 C CNN "Tolerance"
-F 11 "75 V" V 4750 2200 50  0001 C CNN "Voltage Rating"
-F 12 "AEC-Q200" V 4750 2200 50  0001 C CNN "Qualification"
-	1    4750 2200
+F 0 "R5" V 4300 2150 50  0000 L CNN
+F 1 "19.1" V 4500 2100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 2200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 4400 2200 50  0001 C CNN
+F 4 "ERJ-3EKF19R1V" V 4400 2200 50  0001 C CNN "MPN"
+F 5 "Panasonic" V 4400 2200 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" V 4400 2200 50  0001 C CNN "Supplier"
+F 7 "667-ERJ-3EKF19R1V" V 4400 2200 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Panasonic/ERJ-3EKF19R1V?qs=sGAEpiMZZMtlubZbdhIBIEpCgapuOP%252BoMyfc91zKsbA%3D" V 4400 2200 50  0001 C CNN "Link"
+F 9 "Thick Film Resistors" V 4400 2200 50  0001 C CNN "Type"
+F 10 "1%" V 4400 2200 50  0001 C CNN "Tolerance"
+F 11 "75 V" V 4400 2200 50  0001 C CNN "Voltage Rating"
+F 12 "AEC-Q200" V 4400 2200 50  0001 C CNN "Qualification"
+	1    4400 2200
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R6
 U 1 1 5EB90F5A
-P 4750 2500
+P 4300 2500
 AR Path="/5E4D0D8F/5EB90F5A" Ref="R6"  Part="1" 
 AR Path="/5E759307/5EB90F5A" Ref="R?"  Part="1" 
-F 0 "R6" V 4650 2450 50  0000 L CNN
-F 1 "1k" V 4850 2450 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 2500 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/mcat_pre-1762846.pdf" H 4750 2500 50  0001 C CNN
-F 4 "MCT0603MD1001BP500" V 4750 2500 50  0001 C CNN "MPN"
-F 5 "Vishay" V 4750 2500 50  0001 C CNN "Manufacturer"
-F 6 "Mouser" V 4750 2500 50  0001 C CNN "Supplier"
-F 7 "594-MCT0603MD1001BP5" V 4750 2500 50  0001 C CNN "Supplier PN"
-F 8 "https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT0603MD1001BP500?qs=sGAEpiMZZMtlubZbdhIBIGdRHMDLYLBRm8iT5mwvY8c%3D" V 4750 2500 50  0001 C CNN "Link"
-F 9 "Thin Film Resistor" V 4750 2500 50  0001 C CNN "Type"
-F 10 "0.1%" V 4750 2500 50  0001 C CNN "Tolerance"
-F 11 "75 V" V 4750 2500 50  0001 C CNN "Voltage Rating"
-	1    4750 2500
+F 0 "R6" V 4200 2450 50  0000 L CNN
+F 1 "1k" V 4400 2450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4230 2500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/mcat_pre-1762846.pdf" H 4300 2500 50  0001 C CNN
+F 4 "MCT0603MD1001BP500" V 4300 2500 50  0001 C CNN "MPN"
+F 5 "Vishay" V 4300 2500 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" V 4300 2500 50  0001 C CNN "Supplier"
+F 7 "594-MCT0603MD1001BP5" V 4300 2500 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT0603MD1001BP500?qs=sGAEpiMZZMtlubZbdhIBIGdRHMDLYLBRm8iT5mwvY8c%3D" V 4300 2500 50  0001 C CNN "Link"
+F 9 "Thin Film Resistor" V 4300 2500 50  0001 C CNN "Type"
+F 10 "0.1%" V 4300 2500 50  0001 C CNN "Tolerance"
+F 11 "75 V" V 4300 2500 50  0001 C CNN "Voltage Rating"
+	1    4300 2500
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R7
 U 1 1 5EBA8BF0
-P 5450 2750
+P 4550 2750
 AR Path="/5E4D0D8F/5EBA8BF0" Ref="R7"  Part="1" 
 AR Path="/5E759307/5EBA8BF0" Ref="R?"  Part="1" 
-F 0 "R7" H 5520 2796 50  0000 L CNN
-F 1 "15m" H 5520 2705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5380 2750 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/303/res_lvt-1381818.pdf" H 5450 2750 50  0001 C CNN
-F 4 "LVT06R0150FER" H 5450 2750 50  0001 C CNN "MPN"
-F 5 "Ohmite" H 5450 2750 50  0001 C CNN "Manufacturer"
-F 6 "Mouser" H 5450 2750 50  0001 C CNN "Supplier"
-F 7 "588-LVT06R0150FER" H 5450 2750 50  0001 C CNN "Supplier PN"
-F 8 "https://www.mouser.com/ProductDetail/ARCOL-Ohmite/LVT06R0150FER?qs=sGAEpiMZZMtlleCFQhR%2FzXAGiOCRCr1IB8pf%2FYi7WAUxpUrOMCh%2FQw%3D%3D" H 5450 2750 50  0001 C CNN "Link"
-F 9 "Current Sense Resistors" H 5450 2750 50  0001 C CNN "Type"
-F 10 "1%" H 5450 2750 50  0001 C CNN "Tolerance"
-	1    5450 2750
+F 0 "R7" H 4620 2796 50  0000 L CNN
+F 1 "15m" H 4620 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 2750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/303/res_lvt-1381818.pdf" H 4550 2750 50  0001 C CNN
+F 4 "LVT06R0150FER" H 4550 2750 50  0001 C CNN "MPN"
+F 5 "Ohmite" H 4550 2750 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 4550 2750 50  0001 C CNN "Supplier"
+F 7 "588-LVT06R0150FER" H 4550 2750 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/ARCOL-Ohmite/LVT06R0150FER?qs=sGAEpiMZZMtlleCFQhR%2FzXAGiOCRCr1IB8pf%2FYi7WAUxpUrOMCh%2FQw%3D%3D" H 4550 2750 50  0001 C CNN "Link"
+F 9 "Current Sense Resistors" H 4550 2750 50  0001 C CNN "Type"
+F 10 "1%" H 4550 2750 50  0001 C CNN "Tolerance"
+	1    4550 2750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -811,49 +811,29 @@ $EndComp
 $Comp
 L power:GND #PWR0118
 U 1 1 5EB8485D
-P 3900 2400
-F 0 "#PWR0118" H 3900 2150 50  0001 C CNN
-F 1 "GND" H 3905 2227 50  0000 C CNN
-F 2 "" H 3900 2400 50  0001 C CNN
-F 3 "" H 3900 2400 50  0001 C CNN
-	1    3900 2400
+P 3900 2300
+F 0 "#PWR0118" H 3900 2050 50  0001 C CNN
+F 1 "GND" H 3905 2127 50  0000 C CNN
+F 2 "" H 3900 2300 50  0001 C CNN
+F 3 "" H 3900 2300 50  0001 C CNN
+	1    3900 2300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0119
 U 1 1 5EBC7DCA
-P 5450 2900
-F 0 "#PWR0119" H 5450 2650 50  0001 C CNN
-F 1 "GND" H 5455 2727 50  0000 C CNN
-F 2 "" H 5450 2900 50  0001 C CNN
-F 3 "" H 5450 2900 50  0001 C CNN
-	1    5450 2900
+P 4550 2900
+F 0 "#PWR0119" H 4550 2650 50  0001 C CNN
+F 1 "GND" H 4555 2727 50  0000 C CNN
+F 2 "" H 4550 2900 50  0001 C CNN
+F 3 "" H 4550 2900 50  0001 C CNN
+	1    4550 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3800 2100 4050 2100
 Wire Wire Line
 	4150 2000 4150 2200
-$Comp
-L Team-FIRE:CSD18543Q3A U3
-U 1 1 5EC35A93
-P 5350 2200
-AR Path="/5EC35A93" Ref="U3"  Part="1" 
-AR Path="/5E4D0D8F/5EC35A93" Ref="U3"  Part="1" 
-F 0 "U3" H 5630 2231 60  0000 L CNN
-F 1 "CSD18543Q3A" H 5630 2125 60  0000 L CNN
-F 2 "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET" H 5350 2140 60  0001 C CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcsd18543q3a" H 5350 2200 60  0001 C CNN
-F 4 "CSD18543Q3A" H 5350 2200 50  0001 C CNN "MPN"
-F 5 "Texas Instruments" H 5350 2200 50  0001 C CNN "Manufacturer"
-F 6 "Mouser" H 5350 2200 50  0001 C CNN "Supplier"
-F 7 "595-CSD18543Q3A" H 5350 2200 50  0001 C CNN "Supplier PN"
-F 8 "https://www.mouser.com/ProductDetail/Texas-Instruments/CSD18543Q3A?qs=34RfhUjJmKdfuflvn5YUjA%3D%3D" H 5350 2200 50  0001 C CNN "Link"
-F 9 "MOSFET" H 5350 2200 50  0001 C CNN "Type"
-F 10 "Boost MOSFET" H 5350 2200 50  0001 C CNN "Description"
-	1    5350 2200
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0120
 U 1 1 5EA3A720
@@ -886,7 +866,7 @@ F 12 "AEC-Q200" H 5000 1450 50  0001 C CNN "Qualification"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4050 2500 4600 2500
+	4050 2500 4150 2500
 Wire Wire Line
 	1200 2100 1200 2450
 Wire Wire Line
@@ -978,8 +958,6 @@ F 3 "" H 6400 3250 50  0001 C CNN
 	1    6400 3250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5450 1750 5450 1900
 Connection ~ 6050 2850
 Wire Wire Line
 	6050 2850 6150 2850
@@ -1015,11 +993,7 @@ F 3 "" H 1700 4650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4900 2500 5450 2500
-Wire Wire Line
-	4900 2200 5050 2200
-Wire Wire Line
-	4150 2200 4600 2200
+	4150 2200 4250 2200
 Wire Wire Line
 	10650 1100 10650 1200
 Wire Wire Line
@@ -1043,17 +1017,12 @@ F 9 "Antenna Boost IC" H 1800 1800 50  0001 C CNN "Description"
 $EndComp
 NoConn ~ 1800 2000
 Wire Wire Line
-	3900 2400 3900 2200
-Wire Wire Line
 	3900 2200 3800 2200
 Connection ~ 4050 2500
-Wire Wire Line
-	5450 2500 5450 2600
 Wire Wire Line
 	4050 2500 4050 2600
 Wire Wire Line
 	4050 2100 4050 2500
-Connection ~ 5450 2500
 Wire Wire Line
 	3800 2000 4150 2000
 Wire Wire Line
@@ -1264,13 +1233,10 @@ Wire Notes Line
 Wire Notes Line
 	750  4150 750  800 
 Connection ~ 5000 1200
-Wire Wire Line
-	5550 1750 5450 1750
 Wire Notes Line
 	6850 4150 750  4150
 Wire Wire Line
 	5800 1750 5550 1750
-Connection ~ 5550 1750
 Wire Wire Line
 	6200 1750 6400 1750
 Connection ~ 6400 1750
@@ -1280,7 +1246,7 @@ U 1 1 5EB38CCA
 P 5800 1750
 F 0 "CR1" H 6000 2013 60  0000 C CNN
 F 1 "B260-13-F" H 6000 1907 60  0000 C CNN
-F 2 "SMB_DIO" H 6000 1390 60  0001 C CNN
+F 2 "Team-FIRE:DIOM5336X250N" H 6000 1390 60  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds13004.pdf" H 5800 1750 60  0001 C CNN
 F 4 "B260-13-F" H 6050 1500 50  0001 C CNN "MPN"
 F 5 "Diodes Incorporated" H 6200 1300 50  0001 C CNN "Manufacturer"
@@ -1334,10 +1300,10 @@ Wire Wire Line
 Wire Wire Line
 	2700 3200 5750 3200
 $Comp
-L Team-FIRE:47388-2001 J?
+L Team-FIRE:47388-2001 J1
 U 1 1 5EBFC770
 P 4550 5350
-F 0 "J?" H 4250 5700 50  0000 C CNN
+F 0 "J1" H 4250 5700 50  0000 C CNN
 F 1 "47388-2001" H 4900 5700 50  0000 C CNN
 F 2 "Team-FIRE:473882001" H 3700 6850 50  0001 L CNN
 F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0473882001_MEMORY_CARD_SOCKET.pdf" H 3700 6750 50  0001 L CNN
@@ -1356,9 +1322,9 @@ L power:GND #PWR?
 U 1 1 5EC0F7B0
 P 4550 4950
 AR Path="/5EC0F7B0" Ref="#PWR?"  Part="1" 
-AR Path="/5E4D0D8F/5EC0F7B0" Ref="#PWR?"  Part="1" 
+AR Path="/5E4D0D8F/5EC0F7B0" Ref="#PWR015"  Part="1" 
 AR Path="/5E759307/5EC0F7B0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4550 4700 50  0001 C CNN
+F 0 "#PWR015" H 4550 4700 50  0001 C CNN
 F 1 "GND" H 4555 4777 50  0000 C CNN
 F 2 "" H 4550 4950 50  0001 C CNN
 F 3 "" H 4550 4950 50  0001 C CNN
@@ -1370,9 +1336,9 @@ L power:GND #PWR?
 U 1 1 5EC0FC23
 P 4550 5750
 AR Path="/5EC0FC23" Ref="#PWR?"  Part="1" 
-AR Path="/5E4D0D8F/5EC0FC23" Ref="#PWR?"  Part="1" 
+AR Path="/5E4D0D8F/5EC0FC23" Ref="#PWR018"  Part="1" 
 AR Path="/5E759307/5EC0FC23" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4550 5500 50  0001 C CNN
+F 0 "#PWR018" H 4550 5500 50  0001 C CNN
 F 1 "GND" H 4555 5577 50  0000 C CNN
 F 2 "" H 4550 5750 50  0001 C CNN
 F 3 "" H 4550 5750 50  0001 C CNN
@@ -1393,9 +1359,9 @@ L power:GND #PWR?
 U 1 1 5EC2CC49
 P 3500 5650
 AR Path="/5EC2CC49" Ref="#PWR?"  Part="1" 
-AR Path="/5E4D0D8F/5EC2CC49" Ref="#PWR?"  Part="1" 
+AR Path="/5E4D0D8F/5EC2CC49" Ref="#PWR016"  Part="1" 
 AR Path="/5E759307/5EC2CC49" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3500 5400 50  0001 C CNN
+F 0 "#PWR016" H 3500 5400 50  0001 C CNN
 F 1 "GND" H 3505 5477 50  0000 C CNN
 F 2 "" H 3500 5650 50  0001 C CNN
 F 3 "" H 3500 5650 50  0001 C CNN
@@ -1411,9 +1377,9 @@ L power:GND #PWR?
 U 1 1 5EC34AAF
 P 5350 5650
 AR Path="/5EC34AAF" Ref="#PWR?"  Part="1" 
-AR Path="/5E4D0D8F/5EC34AAF" Ref="#PWR?"  Part="1" 
+AR Path="/5E4D0D8F/5EC34AAF" Ref="#PWR017"  Part="1" 
 AR Path="/5E759307/5EC34AAF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5350 5400 50  0001 C CNN
+F 0 "#PWR017" H 5350 5400 50  0001 C CNN
 F 1 "GND" H 5355 5477 50  0000 C CNN
 F 2 "" H 5350 5650 50  0001 C CNN
 F 3 "" H 5350 5650 50  0001 C CNN
@@ -1426,4 +1392,80 @@ Wire Notes Line
 	750  4500 5800 4500
 Wire Notes Line
 	750  6150 5800 6150
+Wire Wire Line
+	3900 2300 3900 2200
+$Comp
+L Team-FIRE:CSD18543Q3AT Q1
+U 1 1 5EBA2567
+P 4800 2100
+F 0 "Q1" H 5300 2365 50  0000 C CNN
+F 1 "CSD18543Q3AT" H 5300 2274 50  0000 C CNN
+F 2 "Team-FIRE:CSD18543Q3AT" H 5650 2200 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/csd18543q3a" H 5650 2100 50  0001 L CNN
+F 4 "Boost MOSFET" H 5650 2000 50  0001 L CNN "Description"
+F 5 "Texas Instruments" H 5650 1800 50  0001 L CNN "Manufacturer"
+F 6 "CSD18543Q3AT" H 5650 1700 50  0001 L CNN "MPN"
+F 7 "595-CSD18543Q3A" H 5650 1600 50  0001 L CNN "Supplier PN"
+F 8 "Mouser" H 5650 1500 50  0001 L CNN "Supplier"
+F 9 "https://www.mouser.com/ProductDetail/Texas-Instruments/CSD18543Q3A?qs=34RfhUjJmKdfuflvn5YUjA%3D%3D" H 4800 2100 50  0001 C CNN "Link"
+F 10 "MOSFET" H 5300 2273 50  0001 C CNN "Type"
+	1    4800 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2400 5800 2400
+Wire Wire Line
+	5800 2300 5900 2300
+Wire Wire Line
+	5900 2300 5900 2400
+Wire Wire Line
+	5800 2200 5900 2200
+Wire Wire Line
+	5900 2200 5900 2300
+Connection ~ 5900 2300
+Wire Wire Line
+	5800 2100 5900 2100
+Wire Wire Line
+	5900 2100 5900 2200
+Connection ~ 5900 2200
+Wire Wire Line
+	5550 1750 5550 1850
+Wire Wire Line
+	5550 1850 5900 1850
+Wire Wire Line
+	5900 1850 5900 2100
+Connection ~ 5550 1750
+Connection ~ 5900 2100
+Wire Wire Line
+	4450 2500 4550 2500
+Wire Wire Line
+	4550 2500 4550 2600
+Wire Wire Line
+	5800 2500 5900 2500
+Wire Wire Line
+	5900 2500 5900 2400
+Connection ~ 5900 2400
+Wire Wire Line
+	4800 2150 4700 2150
+Wire Wire Line
+	4700 2150 4700 2250
+Wire Wire Line
+	4700 2350 4800 2350
+Wire Wire Line
+	4800 2250 4700 2250
+Connection ~ 4700 2250
+Wire Wire Line
+	4700 2250 4700 2350
+Wire Wire Line
+	4550 2500 4700 2500
+Wire Wire Line
+	4700 2500 4700 2350
+Connection ~ 4550 2500
+Connection ~ 4700 2350
+Wire Wire Line
+	4800 2450 4600 2450
+Wire Wire Line
+	4600 2450 4600 2200
+Wire Wire Line
+	4600 2200 4550 2200
 $EndSCHEMATC

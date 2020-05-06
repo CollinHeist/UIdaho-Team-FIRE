@@ -210,18 +210,16 @@ $EndComp
 $Comp
 L power:GND #PWR0164
 U 1 1 5EA64909
-P 1800 1900
-F 0 "#PWR0164" H 1800 1650 50  0001 C CNN
-F 1 "GND" H 1805 1727 50  0000 C CNN
-F 2 "" H 1800 1900 50  0001 C CNN
-F 3 "" H 1800 1900 50  0001 C CNN
-	1    1800 1900
+P 1800 1800
+F 0 "#PWR0164" H 1800 1550 50  0001 C CNN
+F 1 "GND" H 1805 1627 50  0000 C CNN
+F 2 "" H 1800 1800 50  0001 C CNN
+F 3 "" H 1800 1800 50  0001 C CNN
+	1    1800 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2100 1300 1800 1300
-Wire Wire Line
-	1800 1600 1800 1400
 Wire Wire Line
 	1800 1400 2100 1400
 Wire Wire Line
@@ -264,25 +262,6 @@ Wire Wire Line
 	4350 1300 4550 1300
 Wire Wire Line
 	4450 1400 4550 1400
-$Comp
-L Device:R R25
-U 1 1 5EAA3989
-P 6200 1300
-F 0 "R25" V 6000 1250 50  0000 L CNN
-F 1 "1k" V 6100 1250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6130 1300 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/mcat_pre-1762846.pdf" H 6200 1300 50  0001 C CNN
-F 4 "MCT0603MD1001BP500" V 6200 1300 50  0001 C CNN "MPN"
-F 5 "Vishay" V 6200 1300 50  0001 C CNN "Manufacturer"
-F 6 "Mouser" V 6200 1300 50  0001 C CNN "Supplier"
-F 7 "594-MCT0603MD1001BP5" V 6200 1300 50  0001 C CNN "Supplier PN"
-F 8 "https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT0603MD1001BP500?qs=sGAEpiMZZMtlubZbdhIBIGdRHMDLYLBRm8iT5mwvY8c%3D" V 6200 1300 50  0001 C CNN "Link"
-F 9 "Thin Film Resistor" V 6200 1300 50  0001 C CNN "Type"
-F 10 "0.1%" V 6200 1300 50  0001 C CNN "Tolerance"
-F 11 "75 V" V 6200 1300 50  0001 C CNN "Voltage Rating"
-	1    6200 1300
-	0    1    1    0   
-$EndComp
 $Comp
 L power:GND #PWR0166
 U 1 1 5EAA4E30
@@ -396,12 +375,12 @@ VBAT
 $Comp
 L power:+5V #PWR0174
 U 1 1 5EAD608E
-P 2350 3000
-F 0 "#PWR0174" H 2350 2850 50  0001 C CNN
-F 1 "+5V" H 2365 3173 50  0000 C CNN
-F 2 "" H 2350 3000 50  0001 C CNN
-F 3 "" H 2350 3000 50  0001 C CNN
-	1    2350 3000
+P 2850 3000
+F 0 "#PWR0174" H 2850 2850 50  0001 C CNN
+F 1 "+5V" H 2865 3173 50  0000 C CNN
+F 2 "" H 2850 3000 50  0001 C CNN
+F 3 "" H 2850 3000 50  0001 C CNN
+	1    2850 3000
 	1    0    0    -1  
 $EndComp
 Text GLabel 3950 2900 0    39   Input ~ 0
@@ -436,7 +415,7 @@ $Comp
 L Connector:TestPoint TP3
 U 1 1 5EB00868
 P 5000 3000
-F 0 "TP3" V 4954 3188 50  0000 L CNN
+F 0 "TP3" V 5000 3200 50  0000 L CNN
 F 1 "TestPoint" V 5045 3188 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 5200 3000 50  0001 C CNN
 F 3 "~" H 5200 3000 50  0001 C CNN
@@ -521,7 +500,7 @@ U 1 1 5EB31C18
 P 1850 3300
 F 0 "U8" H 1850 3767 50  0000 C CNN
 F 1 "TPS82140" H 1850 3676 50  0000 C CNN
-F 2 "Package_LGA:Texas_MicroSiP-8-1EP_2.8x3.0mm_P0.65mm_EP1.1x1.9mm_SMD_ThermalVias" H 1850 2650 50  0001 C CNN
+F 2 "Package_LGA:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias" H 1850 2650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps82140.pdf" H 1850 2550 50  0001 C CNN
 F 4 "TPS82140SILR" H 1850 3300 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 1850 3300 50  0001 C CNN "Manufacturer"
@@ -568,13 +547,6 @@ Wire Wire Line
 	1250 3300 1450 3300
 Wire Wire Line
 	1450 3400 1350 3400
-Wire Wire Line
-	2250 3100 2350 3100
-Wire Wire Line
-	2350 3100 2350 3000
-Connection ~ 2350 3100
-Wire Wire Line
-	2350 3100 2550 3100
 Wire Wire Line
 	1100 3200 1100 3100
 Wire Wire Line
@@ -739,7 +711,7 @@ U 1 1 5EB7B21D
 P 8800 2050
 F 0 "J9" H 9350 2200 50  0000 C CNN
 F 1 "U.FL-R-SMT_10_" H 9350 1776 50  0001 C CNN
-F 2 "UFLRSMT10" H 9750 2150 50  0001 L CNN
+F 2 "Team-FIRE:UFLRSMT10" H 9750 2150 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf" H 9750 2050 50  0001 L CNN
 F 4 "RF Connectors / Coaxial Connectors U.FL RECEPTACLE SMT GLD M CONT REEL" H 9750 1950 50  0001 L CNN "Description"
 F 5 "Hirose" H 9750 1750 50  0001 L CNN "Manufacturer"
@@ -780,20 +752,20 @@ $EndComp
 $Comp
 L Device:R R23
 U 1 1 5EB0E920
-P 1800 1750
-F 0 "R23" H 1900 1700 50  0000 L CNN
-F 1 "1k" H 1900 1800 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1730 1750 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/mcat_pre-1762846.pdf" H 1800 1750 50  0001 C CNN
-F 4 "MCT0603MD1001BP500" V 1800 1750 50  0001 C CNN "MPN"
-F 5 "Vishay" V 1800 1750 50  0001 C CNN "Manufacturer"
-F 6 "Mouser" V 1800 1750 50  0001 C CNN "Supplier"
-F 7 "594-MCT0603MD1001BP5" V 1800 1750 50  0001 C CNN "Supplier PN"
-F 8 "https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT0603MD1001BP500?qs=sGAEpiMZZMtlubZbdhIBIGdRHMDLYLBRm8iT5mwvY8c%3D" V 1800 1750 50  0001 C CNN "Link"
-F 9 "Thin Film Resistor" V 1800 1750 50  0001 C CNN "Type"
-F 10 "0.1%" V 1800 1750 50  0001 C CNN "Tolerance"
-F 11 "75 V" V 1800 1750 50  0001 C CNN "Voltage Rating"
-	1    1800 1750
+P 1800 1650
+F 0 "R23" H 1900 1600 50  0000 L CNN
+F 1 "1k" H 1900 1700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1730 1650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/mcat_pre-1762846.pdf" H 1800 1650 50  0001 C CNN
+F 4 "MCT0603MD1001BP500" V 1800 1650 50  0001 C CNN "MPN"
+F 5 "Vishay" V 1800 1650 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" V 1800 1650 50  0001 C CNN "Supplier"
+F 7 "594-MCT0603MD1001BP5" V 1800 1650 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT0603MD1001BP500?qs=sGAEpiMZZMtlubZbdhIBIGdRHMDLYLBRm8iT5mwvY8c%3D" V 1800 1650 50  0001 C CNN "Link"
+F 9 "Thin Film Resistor" V 1800 1650 50  0001 C CNN "Type"
+F 10 "0.1%" V 1800 1650 50  0001 C CNN "Tolerance"
+F 11 "75 V" V 1800 1650 50  0001 C CNN "Voltage Rating"
+	1    1800 1650
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -869,7 +841,7 @@ U 1 1 5EB2775E
 P 1100 3350
 AR Path="/5E4D0D8F/5EB2775E" Ref="C?"  Part="1" 
 AR Path="/5E585515/5EB2775E" Ref="C32"  Part="1" 
-F 0 "C32" H 1000 3450 50  0000 L CNN
+F 0 "C32" H 900 3450 50  0000 L CNN
 F 1 "10uF" H 900 3250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1138 3200 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 1100 3350 50  0001 C CNN
@@ -928,4 +900,30 @@ F 11 "75 V" H 2550 3700 50  0001 C CNN "Voltage Rating"
 	1    2550 3700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1800 1500 1800 1400
+$Comp
+L Device:R R25
+U 1 1 5EAA3989
+P 6200 1300
+F 0 "R25" V 6000 1250 50  0000 L CNN
+F 1 "1k" V 6100 1250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6130 1300 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/mcat_pre-1762846.pdf" H 6200 1300 50  0001 C CNN
+F 4 "MCT0603MD1001BP500" V 6200 1300 50  0001 C CNN "MPN"
+F 5 "Vishay" V 6200 1300 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" V 6200 1300 50  0001 C CNN "Supplier"
+F 7 "594-MCT0603MD1001BP5" V 6200 1300 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT0603MD1001BP500?qs=sGAEpiMZZMtlubZbdhIBIGdRHMDLYLBRm8iT5mwvY8c%3D" V 6200 1300 50  0001 C CNN "Link"
+F 9 "Thin Film Resistor" V 6200 1300 50  0001 C CNN "Type"
+F 10 "0.1%" V 6200 1300 50  0001 C CNN "Tolerance"
+F 11 "75 V" V 6200 1300 50  0001 C CNN "Voltage Rating"
+	1    6200 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2850 3000 2850 3100
+Connection ~ 2850 3100
+Wire Wire Line
+	2250 3100 2550 3100
 $EndSCHEMATC

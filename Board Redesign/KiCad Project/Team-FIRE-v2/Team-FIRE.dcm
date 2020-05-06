@@ -22,8 +22,8 @@ $CMP B260-13-F
 F https://www.diodes.com/assets/Datasheets/ds13004.pdf
 $ENDCMP
 #
-$CMP CSD18543Q3A
-F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcsd18543q3a
+$CMP CSD18543Q3AT
+F http://www.ti.com/lit/gpn/csd18543q3a
 $ENDCMP
 #
 $CMP EEE-FK1H390SV
