@@ -393,24 +393,6 @@ F 11 "75 V" H 5950 1350 50  0001 C CNN "Voltage Rating"
 	1    5950 1350
 	1    0    0    -1  
 $EndComp
-$Comp
-L Memory_Flash:AT25DF041x-UxN-x U6
-U 1 1 5EAF1DA3
-P 7250 1600
-F 0 "U6" H 7450 2000 50  0000 L CNN
-F 1 "AT25DF041B-SSHN-T" H 7894 1555 50  0001 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7050 1000 50  0001 C CNN
-F 3 "http://www.adestotech.com/wp-content/uploads/DS-AT25DF041B_040.pdf" H 7250 2300 50  0001 C CNN
-F 4 "AT25DF041B-SSHN-T" H 7250 1600 50  0001 C CNN "MPN"
-F 5 "Adesto Technologies" H 7250 1600 50  0001 C CNN "Maufacturer"
-F 6 "Digikey" H 7250 1600 50  0001 C CNN "Supplier"
-F 7 "1265-1228-1-ND" H 7250 1600 50  0001 C CNN "Supplier PN"
-F 8 "https://www.digikey.ca/product-detail/en/adesto-technologies/AT25DF041B-SSHN-T/1265-1228-1-ND/6124884" H 7250 1600 50  0001 C CNN "Link"
-F 9 "1.65 - 3.6 V" H 7250 1600 50  0001 C CNN "Voltage Rating"
-F 10 "4 Mb non-volative SPI flash memory" H 7250 1600 50  0001 C CNN "Description"
-	1    7250 1600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5900 3200 5900 3100
 Wire Wire Line
@@ -963,4 +945,22 @@ Wire Notes Line
 	600  3950 600  650 
 Text Notes 600  650  0    79   ~ 16
 SAMD51\n
+$Comp
+L Memory_Flash:AT25SF081-SSHF-X U6
+U 1 1 5EAF1DA3
+P 7250 1600
+F 0 "U6" H 6850 2000 50  0000 L CNN
+F 1 "AT25DF041B-SSHN-T" H 7894 1555 50  0001 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7050 1000 50  0001 C CNN
+F 3 "http://www.adestotech.com/wp-content/uploads/DS-AT25DF041B_040.pdf" H 7250 2300 50  0001 C CNN
+F 4 "AT25DF041B-SSHN-T" H 7700 2000 50  0000 C CNN "MPN"
+F 5 "Adesto Technologies" H 7250 1600 50  0001 C CNN "Maufacturer"
+F 6 "Digikey" H 7250 1600 50  0001 C CNN "Supplier"
+F 7 "1265-1228-1-ND" H 7250 1600 50  0001 C CNN "Supplier PN"
+F 8 "https://www.digikey.ca/product-detail/en/adesto-technologies/AT25DF041B-SSHN-T/1265-1228-1-ND/6124884" H 7250 1600 50  0001 C CNN "Link"
+F 9 "1.65 - 3.6 V" H 7250 1600 50  0001 C CNN "Voltage Rating"
+F 10 "4 Mb non-volative SPI flash memory" H 7250 1600 50  0001 C CNN "Description"
+	1    7250 1600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
