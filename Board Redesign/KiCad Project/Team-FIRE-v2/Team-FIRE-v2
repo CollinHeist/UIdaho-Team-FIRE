@@ -1,0 +1,107 @@
+Source,/Users/CollinHeist/Documents/GitHub/UIdaho-Team-FIRE/Board Redesign/KiCad Project/Team-FIRE-v2/Team-FIRE-v2.sch
+Kicad Rev,Eeschema (5.1.4-0-10_14)
+Generated Date,Thursday, May 07, 2020 at 01:18:14 PM
+
+Title,Team FIRE Board Redesign
+Company,University of Idaho
+Revision,v2.0
+Date Issue,2020-02-20
+Comment,Koffi Anderson, Collin Heist, Shelby Linafelter
+
+Reference,Value,Link,MPN,Manufacturer,Qualification,Supplier,Supplier PN,Tolerance,Type,Voltage Rating,Description,Height,Manufacturer_Name,Manufacturer_Part_Number,Mouser Part Number,Mouser Price/Stock,Current Rating,Desription,Maufacturer,Voltage Ratign,Library,Library Ref
+C15,0.1uF,https://www.mouser.com/ProductDetail/KEMET/C0603C104K5RAC3121?qs=sGAEpiMZZMsh%252B1woXyUXj43ra3vb5rmC4HvwNgfLi7o%3D,C0603C104K5RAC3121,KEMET,AEC-Q200,Mouser,80-C603C104K5RAC3121,10%,Ceramic X7R Capacitor,50 VDC,,,,,,,,,,,Device,C
+J2,53885-0408,,,,,,,,,,Board to Board & Mezzanine Connectors,1.68,Molex,53885-0408,538-53885-0408,https://www.mouser.com/Search/Refine.aspx?Keyword=538-53885-0408,,,,,Team-FIRE,53885-0408
+C6,1uF,https://www.mouser.com/ProductDetail/Taiyo-Yuden/TMK107BLD105KA-T?qs=sGAEpiMZZMsh%252B1woXyUXj0ABNAb8d%252BWQAuxWHnwdgyA%3D,TMK107BLD105KA-T,Taiyo Yuden,,Mouser,963-TMK107BLD105KA-T,10%,Ceramic X5R Capacitor,25 VDC,,,,,,,,,,,Device,C
+U2,NCN4555MN,https://www.mouser.com/ProductDetail/ON-Semiconductor/NCN4555MNR2G?qs=Gev%252BmEvV0ibAEwczWyqfPg%3D%3D,NCN4555MNR2G,ON Semiconductor,,Mouser,863-NCN4555MNR2G,,,,Voltage level shifter,,,,,,,,,,Logic_LevelTranslator,NCN4555MN
+C5,0.1u,https://www.mouser.com/ProductDetail/KEMET/C0603C104K5RAC3121?qs=sGAEpiMZZMsh%252B1woXyUXj43ra3vb5rmC4HvwNgfLi7o%3D,C0603C104K5RAC3121,KEMET,AEC-Q200,Mouser,80-C603C104K5RAC3121,10%,Ceramic X7R Capacitor,50 VDC,,,,,,,,,,,Device,C
+JP1,SolderJumper_2_Open,Jumper,SolderJumper_2_Open
+R8,100k,https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT06030E1003BP500?qs=sGAEpiMZZMtlubZbdhIBIMaW%252B%252BFUwNK9zJsnREcnCo8%3D,MCT06030E1003BP500,Vishay,,Mouser,594-MCT06030E1003BP5,0.1%,Thin Film Resistors,75 V,,,,,,,,,,,Device,R
+C9,10uF,https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R61E106KA73D?qs=sGAEpiMZZMsh%252B1woXyUXj%252BPOAS4JE4Y%252Bzpwpuo4MIOw%3D,GRM188R61E106KA73D,Murata,,Mouser,81-GRM188R61E106KA73D,10%,Ceramic X5R Capacitor,25 VDC,,,,,,,,,,,Device,C
+C2,100pF,https://www.mouser.com/ProductDetail/KEMET/CBR06C101F5GAC?qs=sGAEpiMZZMs0AnBnWHyRQN7%2FAA2D2lPPUdZo0nHgvrj7UthX3WhjQw%3D%3D,CBR06C101F5GAC,KEMET,,,80-CBR06C101F5GAC,1%,Ceramic C0G Capacitor,50 VDC,,,,,,,,,,,Device,C
+C1,33nF,https://www.mouser.com/ProductDetail/KEMET/C0603C333J1RECTU?qs=%2Fha2pyFaduhO0BMCJt7%2F4e6aB%252BbzjNiI6sPRWR3SWdVo%252BW61sHPT%252BQ%3D%3D,C0603C333J1RECTU,KEMET,,Mouser,80-C0603C333J1REC,5%,Ceramic X7R Capacitor,100 VDC,,,,,,,,,,,Device,C
+R1,12.1k,https://www.mouser.com/ProductDetail/Panasonic/ERJ-PB3B1212V?qs=sGAEpiMZZMtlubZbdhIBIG4vE%2FMWvJWYO6lx0NLnS%2Fw%3D,ERJ-PB3B1212V,Panasonic,AEC-Q200,Mouser,667-ERJ-PB3B1212V,0.1%,Thick Film Resistors,,,,,,,,,,,,Device,R
+C3,1.5nF,https://www.mouser.com/ProductDetail/TDK/C1608C0G2A152J080AE?qs=sGAEpiMZZMs0AnBnWHyRQN7%2FAA2D2lPPe28Y33YSpTGVteq3h59DGA%3D%3D,C1608C0G2A152J080AE,TDK,,Mouser,810-C1608C0G2A152J08,5%,Ceramic C0G Capacitor,100 VDC,,,,,,,,,,,Device,C
+C4,27nF,https://www.mouser.com/ProductDetail/KEMET/C0603C273J3RACTU?qs=sGAEpiMZZMs0AnBnWHyRQJIiGvDVk92VoqXY2Lq2I4c%3D,C0603C273J3RACTU,KEMET,,Mouser,80-C0603C273J3R,5%,Ceramic X7R Capacitor,25 VDC,,,,,,,,,,,Device,C
+R3,301k,https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603301KFKEAHP?qs=sGAEpiMZZMtlubZbdhIBILDMOtf4qnQoMDmfFrlZC70%3D,CRCW0603301KFKEAHP,Vishay,AEC-Q200,Mouser,,1%,Thick Film Resistors,75 V,,,,,,,,,,,Device,R
+C8,1uF,Device,C
+R4,47.5k,https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT06030C4752FP500?qs=sGAEpiMZZMtlubZbdhIBIFnTCG%2F%2F8GT03Tv4yqV%2F7VA%3D,MCT06030C4752FP500,Vishay,,Mouser,594-MCT06030C4752FP5,1%,Thin Film Resistors,75 V,,,,,,,,,,,Device,R
+R5,19.1,https://www.mouser.com/ProductDetail/Panasonic/ERJ-3EKF19R1V?qs=sGAEpiMZZMtlubZbdhIBIEpCgapuOP%252BoMyfc91zKsbA%3D,ERJ-3EKF19R1V,Panasonic,AEC-Q200,Mouser,667-ERJ-3EKF19R1V,1%,Thick Film Resistors,75 V,,,,,,,,,,,Device,R
+R6,1k,https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT0603MD1001BP500?qs=sGAEpiMZZMtlubZbdhIBIGdRHMDLYLBRm8iT5mwvY8c%3D,MCT0603MD1001BP500,Vishay,,Mouser,594-MCT0603MD1001BP5,0.1%,Thin Film Resistor,75 V,,,,,,,,,,,Device,R
+R7,15m,https://www.mouser.com/ProductDetail/ARCOL-Ohmite/LVT06R0150FER?qs=sGAEpiMZZMtlleCFQhR%2FzXAGiOCRCr1IB8pf%2FYi7WAUxpUrOMCh%2FQw%3D%3D,LVT06R0150FER,Ohmite,,Mouser,588-LVT06R0150FER,1%,Current Sense Resistors,,,,,,,,,,,,Device,R
+C7,150pF,Device,C
+C10,470nF,https://www.mouser.com/ProductDetail/KEMET/C0603C474J4RACAUTO?qs=sGAEpiMZZMsh%252B1woXyUXj9e0zSR89uozDCspkCU7Qa4%3D,C0603C474J4RACAUTO,KEMET,AEC-Q200,Mouser,80-C0603C474J4RAUTO,5%,Ceramic X7R,16 VDC,,,,,,,,,,,Device,C
+R2,1.13k,https://www.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/RQ73C1J1K13BTDF?qs=sGAEpiMZZMtlubZbdhIBIMLPczR3K4UeWlKQFF5oy5A%3D,RQ73C1J1K13BTDF,TE Connectivity,AEC-Q200,Mouser,279-RQ73C1J1K13BTDF,0.1%,Thin Film Resistor,,,,,,,,,,,,Device,R
+C13,2.2uF,https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R61H225KE11D?qs=sGAEpiMZZMs0AnBnWHyRQKFZIQ7b73cd5p1cvIMBXrTOTAbV%2F8mfyA%3D%3D,GRM188R61H225KE11D,Murata,,Mouser,81-GRM188R61H225KE1D,,Ceramic X5R Capacitor,50 VDC,,,,,,,,,,,Device,C
+U1,TPS40210DGQR,https://www.mouser.com/ProductDetail/Texas-Instruments/TPS40210DGQR?qs=QyYHynRG50ogLWTwJPy3Rw%3D%3D,TPS40210DGQR,Texas Instruments,,Mouser,595-TPS40210DGQR,,,,Antenna Boost IC,,,,,,,,,,Team-FIRE,TPS40210DGQR
+C16,0.1uF,https://www.mouser.com/ProductDetail/KEMET/C0603C104K5RAC3121?qs=sGAEpiMZZMsh%252B1woXyUXj43ra3vb5rmC4HvwNgfLi7o%3D,C0603C104K5RAC3121,KEMET,AEC-Q200,Mouser,80-C603C104K5RAC3121,10%,Ceramic X7R Capacitor,50 VDC,,,,,,,,,,,Device,C
+C12,1uF,https://www.mouser.com/ProductDetail/Taiyo-Yuden/TMK107BLD105KA-T?qs=sGAEpiMZZMsh%252B1woXyUXj0ABNAb8d%252BWQAuxWHnwdgyA%3D,TMK107BLD105KA-T,Taiyo Yuden,,Mouser,963-TMK107BLD105KA-T,10%,Ceramic X5R Capacitor,25 VDC,,,,,,,,,,,Device,C
+C14,10uF,https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R61E106KA73D?qs=sGAEpiMZZMsh%252B1woXyUXj%252BPOAS4JE4Y%252Bzpwpuo4MIOw%3D,GRM188R61E106KA73D,Murata,,Mouser,81-GRM188R61E106KA73D,10%,Ceramic X5R Capacitor,25 VDC,,,,,,,,,,,Device,C
+C11,39uF,https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEE-FK1H390SV/P124697CT-ND/10290639,EEE-FK1H390SV,Panasonic,,Digikey,667-EEE-FK1H390SV,20%,Aluminum Electrolytic Capacitor,50 VDC,,,,,,,,,,,Team-FIRE,EEE-FK1H390SV
+CR1,B260-13-F,https://www.digikey.ca/product-detail/en/diodes-incorporated/B260-13-F/B260-FDICT-ND/815329,B260-13-F,Diodes Incorporated,,Digikey,B260-FDICT-ND,,Schottky Diode,60 V,,,,,,,2 A,,,,Team-FIRE,B260-13-F
+L1,24uH,https://www.digikey.com/product-detail/en/vishay-dale/IHLP6767GZER220M11/541-1288-1-ND/2139414,IHLP6767GZER220M11,Vishay Dale,,Digikey,541-1288-1-ND,20%,Fixed shielded inductor,,,,,,,,12 A,,,,Team-FIRE,IHLP6767GZER220M11
+J1,47388-2001,https://www.mouser.com/ProductDetail/Molex/47388-2001?qs=sGAEpiMZZMvacfJXZtNRXyLSMBkfuhye,47388-2001,Molex,,Mouser,538-47388-2001,,,,SIM Card Mount,,,,,,500 mA,,,,Team-FIRE,47388-2001
+Q1,CSD18543Q3AT,https://www.mouser.com/ProductDetail/Texas-Instruments/CSD18543Q3A?qs=34RfhUjJmKdfuflvn5YUjA%3D%3D,CSD18543Q3AT,Texas Instruments,,Mouser,595-CSD18543Q3A,,MOSFET,,Boost MOSFET,,,,,,,,,,Team-FIRE,CSD18543Q3AT
+D2,Blue,https://www.mouser.com/ProductDetail/OSRAM-Opto-Semiconductors/KB-DELPS212-QHRI-24-Z555-10-S?qs=sGAEpiMZZMseGfSY3csMkXiJOH5X%252BfXwwcjMMWonTAhZIqH765egag%3D%3D,KB DELPS2.12-QHRI-24-Z555-10-S,Osram Opto Semiconductor,,Mouser,720-KBDELPS212A6350,,,,Blue I2 LED,,,,,,,,,,Device,LED_Small
+D3,Green,https://www.mouser.com/ProductDetail/OSRAM-Opto-Semiconductors/KG-DELMS122-PHQI-24-E6L6?qs=sGAEpiMZZMseGfSY3csMkXiJOH5X%252BfXw2hz5dPhSTuoMKPqIbYvs3A%3D%3D,KG DELMS1.22-PHQI-24-E6L6,Osram Opto Semiconductor,,Mouser,720-KGDELMS122A4854,,,,Green SYS LED,,,,,,,,,,Device,LED_Small
+D4,Orange,https://www.mouser.com/ProductDetail/OSRAM-Opto-Semiconductors/KO-DELLS122-KHLI-24?qs=sGAEpiMZZMseGfSY3csMkXiJOH5X%252BfXw2C8037rquCtxGfEHciPG%252Bg%3D%3D,KO DELLS1.22-KHLI-24,Osram Opto Semiconductor,,Mouser,720-KODELLS122A4850,,,,Orange TX LED,,,,,,,,,,Device,LED_Small
+D5,Yellow,https://www.mouser.com/ProductDetail/OSRAM-Opto-Semiconductors/KY-DELLS122-KGLH-26?qs=sGAEpiMZZMseGfSY3csMkXiJOH5X%252BfXwv1i%252BFa1JJszqEvno6qOTvg%3D%3D,KY DELLS1.22-KGLH-26,Osram Opto Semiconductor,,Mouser,720-KYDELLS122A4853,,,,Yellow RX LED,,,,,,,,,,Device,LED_Small
+R13,330,https://www.mouser.com/ProductDetail/Yageo/SR0603FR-7T330RL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdAr1tt8LFCas%3D,SR0603FR-7T330RL,Yageo,,Mouser,603-SR0603FR-7T330RL,1%,Thick Film Resistor,75 V,,,,,,,,,,,Device,R
+R10,10k,https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT06030E1002BP100?qs=sGAEpiMZZMtlubZbdhIBIHIEm3drdiPa32EPxwxqfD0%3D,MCT06030E1002BP100,Vishay,,Mouser,594-MCT06030E1002BP1,0.1%,Thin Film Resistor,75 V,,,,,,,,,,,Device,R
+U7,TXB0104RUT,https://www.mouser.com/ProductDetail/Texas-Instruments/TXB0104RUTR?qs=EuM%2FBx4ov4Sspadi61aUCA%3D%3D,TXB0104RUTR,Texas Instruments,,Mouser,595-TXB0104RUTR,,,1.2/1.65 V to 5.5 V,5V or 3V voltage shifter,,,,,,,,,,Logic_LevelTranslator,TXB0104RUT
+JP2,SolderJumper_3_Bridged12,Jumper,SolderJumper_3_Bridged12
+C20,0.1uF,https://www.mouser.com/ProductDetail/KEMET/C0603C104K5RAC3121?qs=sGAEpiMZZMsh%252B1woXyUXj43ra3vb5rmC4HvwNgfLi7o%3D,C0603C104K5RAC3121,KEMET,AEC-Q200,Mouser,80-C603C104K5RAC3121,10%,Ceramic X7R Capacitor,50 VDC,,,,,,,,,,,Device,C
+C19,0.1uF,https://www.mouser.com/ProductDetail/KEMET/C0603C104K5RAC3121?qs=sGAEpiMZZMsh%252B1woXyUXj43ra3vb5rmC4HvwNgfLi7o%3D,C0603C104K5RAC3121,KEMET,AEC-Q200,Mouser,80-C603C104K5RAC3121,10%,Ceramic X7R Capacitor,50 VDC,,,,,,,,,,,Device,C
+C18,0.1uF,https://www.mouser.com/ProductDetail/KEMET/C0603C104K5RAC3121?qs=sGAEpiMZZMsh%252B1woXyUXj43ra3vb5rmC4HvwNgfLi7o%3D,C0603C104K5RAC3121,KEMET,AEC-Q200,Mouser,80-C603C104K5RAC3121,10%,Ceramic X7R Capacitor,50 VDC,,,,,,,,,,,Device,C
+C17,0.1uF,https://www.mouser.com/ProductDetail/KEMET/C0603C104K5RAC3121?qs=sGAEpiMZZMsh%252B1woXyUXj43ra3vb5rmC4HvwNgfLi7o%3D,C0603C104K5RAC3121,KEMET,AEC-Q200,Mouser,80-C603C104K5RAC3121,10%,Ceramic X7R Capacitor,50 VDC,,,,,,,,,,,Device,C
+J5,Conn_ARM_JTAG_SWD_10,https://www.digikey.ca/product-detail/en/samtec-inc/FTSH-105-01-L-DV-K-TR/SAM13165CT-ND/8827920,FTSH-105-01-L-DV-K-TR,Samtec Inc.,,Digikey,SAM13165CT-ND,,,,,,,,,,3.4 A per contact,JTAG connector,,,Connector,Conn_ARM_JTAG_SWD_10
+R11,330,https://www.mouser.com/ProductDetail/Yageo/SR0603FR-7T330RL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdAr1tt8LFCas%3D,SR0603FR-7T330RL,Yageo,,Mouser,603-SR0603FR-7T330RL,1%,Thick Film Resistor,75 V,,,,,,,,,,,Device,R
+R12,330,https://www.mouser.com/ProductDetail/Yageo/SR0603FR-7T330RL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdAr1tt8LFCas%3D,SR0603FR-7T330RL,Yageo,,Mouser,603-SR0603FR-7T330RL,1%,Thick Film Resistor,75 V,,,,,,,,,,,Device,R
+R14,330,https://www.mouser.com/ProductDetail/Yageo/SR0603FR-7T330RL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdAr1tt8LFCas%3D,SR0603FR-7T330RL,Yageo,,Mouser,603-SR0603FR-7T330RL,1%,Thick Film Resistor,75 V,,,,,,,,,,,Device,R
+J3,UX60-MB-5ST,,UX60-MB-5ST,Hirose,,Mouser,798-UX60-MB-5ST,,,,USB 2.0,,,,,,,,,,Team-FIRE,UX60-MB-5ST
+R9,10k,https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT06030E1002BP100?qs=sGAEpiMZZMtlubZbdhIBIHIEm3drdiPa32EPxwxqfD0%3D,MCT06030E1002BP100,Vishay,,Mouser,594-MCT06030E1002BP1,0.1%,Thin Film Resistor,75 V,,,,,,,,,,,Device,R
+U4,TXB0108DQSR,https://www.mouser.com/ProductDetail/Texas-Instruments/TXB0108DQSR?qs=%2Fha2pyFadujaOGhpga6aqWJB%2FOU4nmuuEFiHYX7W5oybuilijLXCBg%3D%3D,,Texas Instruments,,Mouser,595-TXB0108DQSR,,,1.2/1.65 V to 5.5 V,Voltage bus shifter,,,,,,,,,,Logic_LevelTranslator,TXB0108DQSR
+J4,Conn_01x03,https://www.digikey.com/product-detail/en/jst-sales-america-inc/S3B-PH-SM4-TB-LF-SN/455-1750-1-ND/926847,S3B-PH-SM4-TB(LF)(SN),JST Sales America Inc.,,Digikey,455-1750-1-ND,,,100 V,Voltage pin header,,,,,,2 A,,,,Connector_Generic_MountingPin,Conn_01x03_MountingPin
+R18,1k,https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT0603MD1001BP500?qs=sGAEpiMZZMtlubZbdhIBIGdRHMDLYLBRm8iT5mwvY8c%3D,MCT0603MD1001BP500,Vishay,,Mouser,594-MCT0603MD1001BP5,0.1%,Thin Film Resistor,75 V,,,,,,,,,,,Device,R
+C29,100nF,https://www.mouser.com/ProductDetail/KEMET/C0603X104K5RAC3316?qs=sGAEpiMZZMsh%252B1woXyUXj34sxNWs20QAoBWDPDKnR18%3D,C0603X104K5RAC3316,KEMET,,Mouser,80-C0603X104K5R3316,10%,Ceramic X7R Capacitor,50 VDC,,,,,,,,,,,Device,CP1
+SW1,RESET,https://www.mouser.com/ProductDetail/Panasonic/EVQ-Q2Y03W?qs=Ow%252BOiPmaljHytan%2FbFuZzg%3D%3D,EVQ-Q2Y03W,Panasonic,,Mouser,667-EVQ-Q2Y03W,,,15 VDC, 250 VAC,Reset button,,,,,,20 mA,,,,Switch,SW_Push
+R17,330,https://www.mouser.com/ProductDetail/Yageo/SR0603FR-7T330RL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdAr1tt8LFCas%3D,SR0603FR-7T330RL,Yageo,,Mouser,603-SR0603FR-7T330RL,1%,Thick Film Resistor,75 V,,,,,,,,,,,Device,R
+R15,10k,https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT06030E1002BP100?qs=sGAEpiMZZMtlubZbdhIBIHIEm3drdiPa32EPxwxqfD0%3D,MCT06030E1002BP100,Vishay,,Mouser,594-MCT06030E1002BP1,0.1%,Thin Film Resistor,75 V,,,,,,,,,,,Device,R
+U5,SAMD51,https://www.digikey.com/product-detail/en/microchip-technology/ATSAMD51N20A-AUT/ATSAMD51N20A-AUTCT-ND/7390168,ATSAMD51N20A-AUT,Microchip Technology,,Digikey,ATSAMD51N20A-AUTCT-ND,,IC MCU,,,1.2,,,,,,,,,Team-FIRE,SAMD51
+R16,10k,https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT06030E1002BP100?qs=sGAEpiMZZMtlubZbdhIBIHIEm3drdiPa32EPxwxqfD0%3D,MCT06030E1002BP100,Vishay,,Mouser,594-MCT06030E1002BP1,0.1%,Thin Film Resistor,75 V,,,,,,,,,,,Device,R
+C21,10uF,https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R61E106KA73D?qs=sGAEpiMZZMsh%252B1woXyUXj%252BPOAS4JE4Y%252Bzpwpuo4MIOw%3D,GRM188R61E106KA73D,Murata,,Mouser,81-GRM188R61E106KA73D,10%,Ceramic X5R Capacitor,25 VDC,,,,,,,,,,,Device,C
+C22,10uF,https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R61E106KA73D?qs=sGAEpiMZZMsh%252B1woXyUXj%252BPOAS4JE4Y%252Bzpwpuo4MIOw%3D,GRM188R61E106KA73D,Murata,,Mouser,81-GRM188R61E106KA73D,10%,Ceramic X5R Capacitor,25 VDC,,,,,,,,,,,Device,C
+C23,10uF,https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R61E106KA73D?qs=sGAEpiMZZMsh%252B1woXyUXj%252BPOAS4JE4Y%252Bzpwpuo4MIOw%3D,GRM188R61E106KA73D,Murata,,Mouser,81-GRM188R61E106KA73D,10%,Ceramic X5R Capacitor,25 VDC,,,,,,,,,,,Device,C
+C24,10uF,https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R61E106KA73D?qs=sGAEpiMZZMsh%252B1woXyUXj%252BPOAS4JE4Y%252Bzpwpuo4MIOw%3D,GRM188R61E106KA73D,Murata,,Mouser,81-GRM188R61E106KA73D,10%,Ceramic X5R Capacitor,25 VDC,,,,,,,,,,,Device,C
+C25,10uF,https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R61E106KA73D?qs=sGAEpiMZZMsh%252B1woXyUXj%252BPOAS4JE4Y%252Bzpwpuo4MIOw%3D,GRM188R61E106KA73D,Murata,,Mouser,81-GRM188R61E106KA73D,10%,Ceramic X5R Capacitor,25 VDC,,,,,,,,,,,Device,C
+C26,100nF,https://www.mouser.com/ProductDetail/KEMET/C0603X104K5RAC3316?qs=sGAEpiMZZMsh%252B1woXyUXj34sxNWs20QAoBWDPDKnR18%3D,C0603X104K5RAC3316,KEMET,,Mouser,80-C0603X104K5R3316,10%,Ceramic X7R Capacitor,50 VDC,,,,,,,,,,,Device,CP1
+C27,4.7uF,https://www.mouser.com/ProductDetail/Taiyo-Yuden/GMK107BBJ475KA-T?qs=sGAEpiMZZMsh%252B1woXyUXj9e2R%2FOkAO5oFL2pFQb9rMo%3D,GMK107BBJ475KA-T,Taiyo Yuden,AEC-Q200,Mouser,963-GMK107BBJ475KA-T,10%,Ceramic X5R Capacitor,35 VDC,,,,,,,,,,,Device,C
+C28,100nF,https://www.mouser.com/ProductDetail/KEMET/C0603X104K5RAC3316?qs=sGAEpiMZZMsh%252B1woXyUXj34sxNWs20QAoBWDPDKnR18%3D,C0603X104K5RAC3316,KEMET,,Mouser,80-C0603X104K5R3316,10%,Ceramic X7R Capacitor,50 VDC,,,,,,,,,,,Device,CP1
+L2,10uH,https://www.mouser.com/ProductDetail/TDK/KLZ1608MHR100WTD25?qs=sGAEpiMZZMsg%252By3WlYCkU5FHiQf6D01S8yEZTpGxLIA%3D,KLZ1608MHR100WTD25,TDK,AEC-Q200,Mouser,810-KLZ1608MHR100WTD,20%,,,,,,,,,0.25 A,,,,Device,L
+U6,AT25DF041B-SSHN-T,https://www.digikey.ca/product-detail/en/adesto-technologies/AT25DF041B-SSHN-T/1265-1228-1-ND/6124884,AT25DF041B-SSHN-T,,,Digikey,1265-1228-1-ND,,,1.65 - 3.6 V,4 Mb non-volative SPI flash memory,,,,,,,,Adesto Technologies,,Memory_Flash,AT25SF081-SSHF-X
+IC2,BTS500601TEAAUMA2,,BTS500601TEAAUMA2,Infineon,,Mouser,726-BTS500601TEAAUMA,,,,INFINEON - BTS500601TEAAUMA2 - Power Load Switch, AEC-Q100, High Side, 1 Output, 13.5 V, 60 A/0.0068 ohm out, TO-252-5,2.4,,,,,,,,,Team-FIRE,BTS500601TEAAUMA2
+TP1,TestPoint,Connector,TestPoint
+J6,Conn_01x03,https://www.digikey.ca/product-detail/en/jst-sales-america-inc/SM03B-SRSS-TB-LF-SN/455-1803-1-ND/926874,SM03B-SRSS-TB(LF)(SN),JST Sales America Inc.,,Digikey,455-1803-1-ND,,,,TES TX/RX Header,,,,,,,,,,Connector_Generic,Conn_01x03
+J10,PCB.MMCX.F.ST.SMT.JACK.HT,,PCB.MMCX.F.ST.SMT.JACK.HT,Taoglas,,,960-PCBMMCXFSTJACKHT,,,,RF Connectors / Coaxial Connectors MMCX Straight SMT Mount for PCB,,,,,,,,,,Team-FIRE,PCB.MMCX.F.ST.SMT.JACK.HT
+J8,Conn_01x02,https://www.digikey.ca/product-detail/en/molex/0436500200/WM1860-ND/268989,43650-0200,,,Mouser,WM1860-ND,,,,TES VBAT/TES-GPS Header,,,,,,,,,,Connector_Generic,Conn_01x02
+R21,523k,https://www.mouser.com/ProductDetail/Panasonic/ERJ-PB6D5233V?qs=sGAEpiMZZMtlubZbdhIBIMNI7sOfyRuJE91T2zj14Hc%3D,ERJ-PB6D5233V,,AEC-Q200,Panasonic,667-ERJ-PB6D5233V,0.5%,Thick Film Resistor,,,,,,,,,,,150 V,Device,R
+C34,430pF,https://www.mouser.com/ProductDetail/AVX/06035C431JAT2A?qs=sGAEpiMZZMs0AnBnWHyRQKdiqyDPVQdAOQ1UneW5Kw0%3D,06035C431JAT2A,AVX,,Mouser,581-06035C431JAT2A,5%,Ceramic X7R Capacitor,50 VDC,,,,,,,,,,,Device,C
+C33,47uF,https://www.mouser.com/ProductDetail/Taiyo-Yuden/JMK107BBJ476MA-RE?qs=sGAEpiMZZMsh%252B1woXyUXj9e2R%2FOkAO5oyxgxlW2XlPo%3D,JMK107BBJ476MA-RE,Taiyo Yuden,AEC-Q200,Mouser,963-JMK107BBJ476MARE,20%,Ceramic X5R Capacitor,6.3 VDC,,,,,,,,,,,Device,C
+U8,TPS82140,https://www.mouser.com/ProductDetail/Texas-Instruments/TPS82140SILR?qs=sGAEpiMZZMve4%2FbfQkoj%252BAPKSi1ytnKBw6P4VZUTx40%3D,TPS82140SILR,Texas Instruments,,Mouser,595-TPS82140SILR,,,3 to 17 V,8 to 5V IC switching regulator,,,,,,2 A,,,,Regulator_Switching,TPS82140
+IC1,MCP1826T-3302E_DC,,MCP1826T-3302E/DC,Microchip,,,579-MCP1826T-3302EDC,,,,LDO Regulator 1A 3.3V PG SOT223-5 MCP1826T-3302E/DC, Low Dropout Voltage Regulator, 1A, 3.3 V +/-2%, 2.3  6 Vin, 6-Pin SOT-223,,,,,,,,,,Team-FIRE,MCP1826T-3302E_DC
+J9,U.FL-R-SMT_10_,https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT10?qs=Ux3WWAnHpjBT1CWD8UMEMQ%3D%3D,U.FL-R-SMT(10),Hirose,,Mouser,798-U.FL-R-SMT10,,,,RF Connectors / Coaxial Connectors U.FL RECEPTACLE SMT GLD M CONT REEL,,,,,,,,,,Team-FIRE,U.FL-R-SMT_10_
+J7,Conn_01x03,https://www.digikey.ca/product-detail/en/jst-sales-america-inc/SM03B-SRSS-TB-LF-SN/455-1803-1-ND/926874,SM03B-SRSS-TB(LF)(SN),JST Sales America Inc.,,Digikey,455-1803-1-ND,,,,TES GPS/EN Header,,,,,,,,,,Connector_Generic,Conn_01x03
+R23,1k,https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT0603MD1001BP500?qs=sGAEpiMZZMtlubZbdhIBIGdRHMDLYLBRm8iT5mwvY8c%3D,MCT0603MD1001BP500,Vishay,,Mouser,594-MCT0603MD1001BP5,0.1%,Thin Film Resistor,75 V,,,,,,,,,,,Device,R
+C35,1uF,https://www.mouser.com/ProductDetail/Taiyo-Yuden/TMK107BLD105KA-T?qs=sGAEpiMZZMsh%252B1woXyUXj0ABNAb8d%252BWQAuxWHnwdgyA%3D,TMK107BLD105KA-T,Taiyo Yuden,,Mouser,963-TMK107BLD105KA-T,10%,Ceramic X5R Capacitor,25 VDC,,,,,,,,,,,Device,C
+R22,10k,https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT06030E1002BP100?qs=sGAEpiMZZMtlubZbdhIBIHIEm3drdiPa32EPxwxqfD0%3D,MCT06030E1002BP100,Vishay,,Mouser,594-MCT06030E1002BP1,0.1%,Thin Film Resistor,75 V,,,,,,,,,,,Device,R
+R20,10k,https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT06030E1002BP100?qs=sGAEpiMZZMtlubZbdhIBIHIEm3drdiPa32EPxwxqfD0%3D,MCT06030E1002BP100,Vishay,,Mouser,594-MCT06030E1002BP1,0.1%,Thin Film Resistor,75 V,,,,,,,,,,,Device,R
+C32,10uF,https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R61E106KA73D?qs=sGAEpiMZZMsh%252B1woXyUXj%252BPOAS4JE4Y%252Bzpwpuo4MIOw%3D,GRM188R61E106KA73D,Murata,,Mouser,81-GRM188R61E106KA73D,10%,Ceramic X5R Capacitor,25 VDC,,,,,,,,,,,Device,C
+R19,100k,https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT06030E1003BP500?qs=sGAEpiMZZMtlubZbdhIBIMaW%252B%252BFUwNK9zJsnREcnCo8%3D,MCT06030E1003BP500,Vishay,,Mouser,594-MCT06030E1003BP5,0.1%,Thin Film Resistors,75 V,,,,,,,,,,,Device,R
+R24,100k,https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT06030E1003BP500?qs=sGAEpiMZZMtlubZbdhIBIMaW%252B%252BFUwNK9zJsnREcnCo8%3D,MCT06030E1003BP500,Vishay,,Mouser,594-MCT06030E1003BP5,0.1%,Thin Film Resistors,75 V,,,,,,,,,,,Device,R
+R25,1k,https://www.mouser.com/ProductDetail/Vishay-Beyschlag/MCT0603MD1001BP500?qs=sGAEpiMZZMtlubZbdhIBIGdRHMDLYLBRm8iT5mwvY8c%3D,MCT0603MD1001BP500,Vishay,,Mouser,594-MCT0603MD1001BP5,0.1%,Thin Film Resistor,75 V,,,,,,,,,,,Device,R
+TP3,TestPoint,Connector,TestPoint
+TP5,TestPoint,Connector,TestPoint
+TP7,TestPoint,Connector,TestPoint
+TP2,TestPoint,Connector,TestPoint
+TP4,TestPoint,Connector,TestPoint
+TP6,TestPoint,Connector,TestPoint
+TP8,TestPoint,Connector,TestPoint

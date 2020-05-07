@@ -1804,7 +1804,12 @@
     (model "/Users/CollinHeist/Documents/Academia/AgMEQ Lab/KiCad Libraries/kicad-packages3D-5.1.4/TerminalBlock_Altech.3dshapes/Altech_AK300_1x04_P5.00mm_45-Degree.wrl"
       (offset (xyz 10.541 0 0))
       (scale (xyz 0.7 0.7 0.7))
-      (rotate (xyz 0 0 180))
+      (rotate (xyz 0 -5 180))
+    )
+    (model "/Users/CollinHeist/Documents/Academia/AgMEQ Lab/KiCad Libraries/kicad-packages3D-5.1.4/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1.4 0.9))
+      (rotate (xyz 0 0 -90))
     )
   )
 

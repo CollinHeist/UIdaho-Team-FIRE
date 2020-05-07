@@ -662,22 +662,22 @@ Wire Wire Line
 $Comp
 L Device:R R3
 U 1 1 5EB0327A
-P 3000 1200
+P 2800 1200
 AR Path="/5E4D0D8F/5EB0327A" Ref="R3"  Part="1" 
 AR Path="/5E759307/5EB0327A" Ref="R?"  Part="1" 
-F 0 "R3" V 3100 1150 50  0000 L CNN
-F 1 "301k" V 2900 1100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2930 1200 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/crcwhpe3-1713858.pdf" H 3000 1200 50  0001 C CNN
-F 4 "CRCW0603301KFKEAHP" V 3000 1200 50  0001 C CNN "MPN"
-F 5 "Thick Film Resistors" V 3000 1200 50  0001 C CNN "Type"
-F 6 "75 V" V 3000 1200 50  0001 C CNN "Voltage Rating"
-F 7 "Vishay" V 3000 1200 50  0001 C CNN "Manufacturer"
-F 8 "Mouser" V 3000 1200 50  0001 C CNN "Supplier"
-F 9 "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603301KFKEAHP?qs=sGAEpiMZZMtlubZbdhIBILDMOtf4qnQoMDmfFrlZC70%3D" V 3000 1200 50  0001 C CNN "Link"
-F 10 "1%" V 3000 1200 50  0001 C CNN "Tolerance"
-F 11 "AEC-Q200" V 3000 1200 50  0001 C CNN "Qualification"
-	1    3000 1200
+F 0 "R3" V 2900 1150 50  0000 L CNN
+F 1 "301k" V 2700 1100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2730 1200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/crcwhpe3-1713858.pdf" H 2800 1200 50  0001 C CNN
+F 4 "CRCW0603301KFKEAHP" V 2800 1200 50  0001 C CNN "MPN"
+F 5 "Thick Film Resistors" V 2800 1200 50  0001 C CNN "Type"
+F 6 "75 V" V 2800 1200 50  0001 C CNN "Voltage Rating"
+F 7 "Vishay" V 2800 1200 50  0001 C CNN "Manufacturer"
+F 8 "Mouser" V 2800 1200 50  0001 C CNN "Supplier"
+F 9 "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603301KFKEAHP?qs=sGAEpiMZZMtlubZbdhIBILDMOtf4qnQoMDmfFrlZC70%3D" V 2800 1200 50  0001 C CNN "Link"
+F 10 "1%" V 2800 1200 50  0001 C CNN "Tolerance"
+F 11 "AEC-Q200" V 2800 1200 50  0001 C CNN "Qualification"
+	1    2800 1200
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1002,8 +1002,8 @@ $Comp
 L Team-FIRE:TPS40210DGQR U1
 U 1 1 5EAFAF05
 P 1800 1800
-F 0 "U1" H 2800 2187 60  0000 C CNN
-F 1 "TPS40210DGQR" H 2800 2081 60  0000 C CNN
+F 0 "U1" H 2200 1950 60  0000 C CNN
+F 1 "TPS40210DGQR" H 3150 1950 60  0000 C CNN
 F 2 "Team-FIRE:TPS40210DGQR" H 2900 2000 60  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps40210" H 2800 2081 60  0001 C CNN
 F 4 "TPS40210DGQR" H 1800 1800 50  0001 C CNN "MPN"
@@ -1051,13 +1051,11 @@ Wire Wire Line
 Wire Wire Line
 	1800 1800 1700 1800
 Wire Wire Line
-	1700 1200 2850 1200
+	1700 1200 2650 1200
 Wire Wire Line
 	3800 1800 3900 1800
 Wire Wire Line
 	3900 1800 3900 1200
-Wire Wire Line
-	3900 1200 3150 1200
 Wire Wire Line
 	3800 1900 4150 1900
 Wire Wire Line
@@ -1232,66 +1230,48 @@ Wire Notes Line
 	6850 800  6850 4150
 Wire Notes Line
 	750  4150 750  800 
-Connection ~ 5000 1200
 Wire Notes Line
 	6850 4150 750  4150
-Wire Wire Line
-	5800 1750 5550 1750
-Wire Wire Line
-	6200 1750 6400 1750
-Connection ~ 6400 1750
 $Comp
 L Team-FIRE:B260-13-F CR1
 U 1 1 5EB38CCA
-P 5800 1750
-F 0 "CR1" H 6000 2013 60  0000 C CNN
-F 1 "B260-13-F" H 6000 1907 60  0000 C CNN
-F 2 "Team-FIRE:DIOM5336X250N" H 6000 1390 60  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds13004.pdf" H 5800 1750 60  0001 C CNN
-F 4 "B260-13-F" H 6050 1500 50  0001 C CNN "MPN"
-F 5 "Diodes Incorporated" H 6200 1300 50  0001 C CNN "Manufacturer"
-F 6 "Digikey" H 5950 1100 50  0001 C CNN "Supplier"
-F 7 "B260-FDICT-ND" H 6150 1200 50  0001 C CNN "Supplier PN"
-F 8 "https://www.digikey.ca/product-detail/en/diodes-incorporated/B260-13-F/B260-FDICT-ND/815329" H 7800 1000 50  0001 C CNN "Link"
-F 9 "Schottky Diode" H 6100 700 50  0001 C CNN "Type"
-F 10 "60 V" H 5900 900 50  0001 C CNN "Voltage Rating"
-F 11 "2 A" H 5900 800 50  0001 C CNN "Current Rating"
-	1    5800 1750
+P 5950 1750
+F 0 "CR1" H 6050 2000 60  0000 C CNN
+F 1 "B260-13-F" H 6250 1900 60  0000 C CNN
+F 2 "Team-FIRE:DIOM5336X250N" H 6150 1390 60  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds13004.pdf" H 5950 1750 60  0001 C CNN
+F 4 "B260-13-F" H 6200 1500 50  0001 C CNN "MPN"
+F 5 "Diodes Incorporated" H 6350 1300 50  0001 C CNN "Manufacturer"
+F 6 "Digikey" H 6100 1100 50  0001 C CNN "Supplier"
+F 7 "B260-FDICT-ND" H 6300 1200 50  0001 C CNN "Supplier PN"
+F 8 "https://www.digikey.ca/product-detail/en/diodes-incorporated/B260-13-F/B260-FDICT-ND/815329" H 7950 1000 50  0001 C CNN "Link"
+F 9 "Schottky Diode" H 6250 700 50  0001 C CNN "Type"
+F 10 "60 V" H 6050 900 50  0001 C CNN "Voltage Rating"
+F 11 "2 A" H 6050 800 50  0001 C CNN "Current Rating"
+	1    5950 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Team-FIRE:IHLP6767GZER220M11 L1
 U 1 1 5EB4A6BF
-P 5550 1050
-F 0 "L1" V 5800 1200 60  0000 L CNN
-F 1 "24uH" V 5900 1200 60  0000 L CNN
-F 2 "Team-FIRE:IHLP6767GZER220M11" H 6350 950 60  0001 C CNN
-F 3 "http://www.vishay.com/docs/34282/ihlp-6767gz-11.pdf" H 5550 1050 60  0001 C CNN
-F 4 "IHLP6767GZER220M11" H 6000 750 50  0001 C CNN "MPN"
-F 5 "Vishay Dale" H 5800 850 50  0001 C CNN "Manufacturer"
-F 6 "Digikey" H 5700 650 50  0001 C CNN "Supplier"
-F 7 "541-1288-1-ND" H 5900 550 50  0001 C CNN "Supplier PN"
-F 8 "https://www.digikey.com/product-detail/en/vishay-dale/IHLP6767GZER220M11/541-1288-1-ND/2139414" H 7650 450 50  0001 C CNN "Link"
-F 9 "Fixed shielded inductor" H 6000 350 50  0001 C CNN "Type"
-F 10 "20%" H 5650 250 50  0001 C CNN "Tolerance"
-F 11 "12 A" H 5650 150 50  0001 C CNN "Current Rating"
-	1    5550 1050
-	0    1    1    0   
+P 5100 1200
+F 0 "L1" V 5350 1350 60  0000 L CNN
+F 1 "24uH" V 5450 1350 60  0000 L CNN
+F 2 "Team-FIRE:IHLP6767GZER220M11" H 5900 1100 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/34282/ihlp-6767gz-11.pdf" H 5100 1200 60  0001 C CNN
+F 4 "IHLP6767GZER220M11" H 5550 900 50  0001 C CNN "MPN"
+F 5 "Vishay Dale" H 5350 1000 50  0001 C CNN "Manufacturer"
+F 6 "Digikey" H 5250 800 50  0001 C CNN "Supplier"
+F 7 "541-1288-1-ND" H 5450 700 50  0001 C CNN "Supplier PN"
+F 8 "https://www.digikey.com/product-detail/en/vishay-dale/IHLP6767GZER220M11/541-1288-1-ND/2139414" H 7200 600 50  0001 C CNN "Link"
+F 9 "Fixed shielded inductor" H 5550 500 50  0001 C CNN "Type"
+F 10 "20%" H 5200 400 50  0001 C CNN "Tolerance"
+F 11 "12 A" H 5200 300 50  0001 C CNN "Current Rating"
+	1    5100 1200
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5550 1650 5550 1750
-Wire Wire Line
-	5550 1050 5550 950 
-Wire Wire Line
-	5550 950  5000 950 
-Wire Wire Line
-	5000 950  5000 1200
-Wire Wire Line
-	2100 2550 1700 2550
-Wire Wire Line
-	1700 2550 1700 2450
-Wire Wire Line
-	2100 2550 2100 3000
+	2100 2700 1700 2700
 Connection ~ 1700 2450
 Wire Wire Line
 	2600 3000 2700 3000
@@ -1398,8 +1378,8 @@ $Comp
 L Team-FIRE:CSD18543Q3AT Q1
 U 1 1 5EBA2567
 P 4800 2100
-F 0 "Q1" H 5300 2365 50  0000 C CNN
-F 1 "CSD18543Q3AT" H 5300 2274 50  0000 C CNN
+F 0 "Q1" H 5300 2250 50  0000 C CNN
+F 1 "CSD18543Q3AT" H 5300 1550 50  0000 C CNN
 F 2 "Team-FIRE:CSD18543Q3AT" H 5650 2200 50  0001 L CNN
 F 3 "http://www.ti.com/lit/gpn/csd18543q3a" H 5650 2100 50  0001 L CNN
 F 4 "Boost MOSFET" H 5650 2000 50  0001 L CNN "Description"
@@ -1428,13 +1408,6 @@ Wire Wire Line
 Wire Wire Line
 	5900 2100 5900 2200
 Connection ~ 5900 2200
-Wire Wire Line
-	5550 1750 5550 1850
-Wire Wire Line
-	5550 1850 5900 1850
-Wire Wire Line
-	5900 1850 5900 2100
-Connection ~ 5550 1750
 Connection ~ 5900 2100
 Wire Wire Line
 	4450 2500 4550 2500
@@ -1468,4 +1441,25 @@ Wire Wire Line
 	4600 2450 4600 2200
 Wire Wire Line
 	4600 2200 4550 2200
+Wire Wire Line
+	2100 2700 2100 3000
+Wire Wire Line
+	1700 2450 1700 2700
+Wire Wire Line
+	5100 1200 5000 1200
+Connection ~ 5000 1200
+Wire Wire Line
+	2950 1200 3900 1200
+Wire Wire Line
+	6350 1750 6400 1750
+Connection ~ 6400 1750
+Wire Wire Line
+	5950 1750 5900 1750
+Wire Wire Line
+	5900 1750 5900 1200
+Connection ~ 5900 1750
+Wire Wire Line
+	5700 1200 5900 1200
+Wire Wire Line
+	5900 1750 5900 2100
 $EndSCHEMATC
