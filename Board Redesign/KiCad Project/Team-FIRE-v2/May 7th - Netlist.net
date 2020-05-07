@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/Users/CollinHeist/Documents/GitHub/UIdaho-Team-FIRE/Board Redesign/KiCad Project/Team-FIRE-v2/Team-FIRE-v2.sch")
-    (date "Wednesday, May 06, 2020 at 11:50:32 PM")
+    (date "Thursday, May 07, 2020 at 12:35:50 AM")
     (tool "Eeschema (5.1.4-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

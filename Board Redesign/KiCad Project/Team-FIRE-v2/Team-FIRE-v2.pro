@@ -1,4 +1,4 @@
-update=Wednesday, May 06, 2020 at 12:22:05 PM
+update=Thursday, May 07, 2020 at 01:35:00 AM
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=May 6th - Netlist.net
+LastNetListRead=May 7th - Netlist.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
@@ -72,7 +72,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -242,7 +242,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.127
+Clearance=0.075
 TrackWidth=0.127
 ViaDiameter=0.4572
 ViaDrill=0.254

@@ -223,25 +223,6 @@ F 3 "" H 2750 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J4
-U 1 1 5E58B8FE
-P 2950 3650
-F 0 "J4" V 3050 3700 50  0000 R CNN
-F 1 "Conn_01x03" V 3050 3800 50  0001 R CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x03_P2.00mm_Horizontal" H 2950 3650 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 2950 3650 50  0001 C CNN
-F 4 "S3B-PH-SM4-TB(LF)(SN)" V 2950 3650 50  0001 C CNN "MPN"
-F 5 "JST Sales America Inc." V 2950 3650 50  0001 C CNN "Manufacturer"
-F 6 "Digikey" V 2950 3650 50  0001 C CNN "Supplier"
-F 7 "455-1750-1-ND" V 2950 3650 50  0001 C CNN "Supplier PN"
-F 8 "https://www.digikey.com/product-detail/en/jst-sales-america-inc/S3B-PH-SM4-TB-LF-SN/455-1750-1-ND/926847" V 2950 3650 50  0001 C CNN "Link"
-F 9 "100 V" V 2950 3650 50  0001 C CNN "Voltage Rating"
-F 10 "2 A" V 2950 3650 50  0001 C CNN "Current Rating"
-F 11 "PA6T voltage pin header" V 2950 3650 50  0001 C CNN "Description"
-	1    2950 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR0142
 U 1 1 5E561068
 P 2000 3550
@@ -762,11 +743,10 @@ F 1 "UX60-MB-5ST" H 4825 2624 50  0000 C CNN
 F 2 "Team-FIRE:HIROSE-UX60-MB-5ST" H 5550 2500 50  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/1824852.pdf" H 5200 2350 50  0001 L CNN
 F 4 "USB 2.0" H 5200 2250 50  0001 L CNN "Description"
-F 5 "3.95" H 5200 2150 50  0001 L CNN "Height"
-F 6 "Hirose" H 5200 2050 50  0001 L CNN "Manufacturer_Name"
-F 7 "UX60-MB-5ST" H 5550 2050 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "798-UX60-MB-5ST" H 5550 1950 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/UX60-MB-5ST?qs=XQjbzJWzFPVhtlRA%252Bm3eew%3D%3D" H 5550 1850 50  0001 L CNN "Mouser Price/Stock"
+F 5 "Hirose" H 5200 2050 50  0001 L CNN "Manufacturer"
+F 6 "UX60-MB-5ST" H 5550 2050 50  0001 L CNN "MPN"
+F 7 "798-UX60-MB-5ST" H 5550 1950 50  0001 L CNN "Supplier PN"
+F 8 "Mouser" H 4300 2450 50  0001 C CNN "Supplier"
 	1    4300 2450
 	1    0    0    -1  
 $EndComp
@@ -892,4 +872,34 @@ Text GLabel 2600 4350 2    39   Input ~ 0
 TES-RX
 Text GLabel 2600 4150 2    39   Input ~ 0
 TES-TX
+$Comp
+L Connector_Generic_MountingPin:Conn_01x03_MountingPin J4
+U 1 1 5E58B8FE
+P 2950 3650
+F 0 "J4" V 3050 3700 50  0000 R CNN
+F 1 "Conn_01x03" V 3050 3800 50  0001 R CNN
+F 2 "Team-FIRE:JST_S3B-PH-SM4-TB(LF)(SN)" H 2950 3650 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 2950 3650 50  0001 C CNN
+F 4 "S3B-PH-SM4-TB(LF)(SN)" V 2950 3650 50  0001 C CNN "MPN"
+F 5 "JST Sales America Inc." V 2950 3650 50  0001 C CNN "Manufacturer"
+F 6 "Digikey" V 2950 3650 50  0001 C CNN "Supplier"
+F 7 "455-1750-1-ND" V 2950 3650 50  0001 C CNN "Supplier PN"
+F 8 "https://www.digikey.com/product-detail/en/jst-sales-america-inc/S3B-PH-SM4-TB-LF-SN/455-1750-1-ND/926847" V 2950 3650 50  0001 C CNN "Link"
+F 9 "100 V" V 2950 3650 50  0001 C CNN "Voltage Rating"
+F 10 "2 A" V 2950 3650 50  0001 C CNN "Current Rating"
+F 11 "Voltage pin header" V 2950 3650 50  0001 C CNN "Description"
+	1    2950 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5ED1910A
+P 2950 3950
+F 0 "#PWR0105" H 2950 3700 50  0001 C CNN
+F 1 "GND" H 3200 3900 50  0000 R CNN
+F 2 "" H 2950 3950 50  0001 C CNN
+F 3 "" H 2950 3950 50  0001 C CNN
+	1    2950 3950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

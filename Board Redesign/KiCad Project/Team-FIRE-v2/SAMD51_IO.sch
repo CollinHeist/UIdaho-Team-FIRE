@@ -816,24 +816,6 @@ Wire Wire Line
 	4650 1200 4650 1100
 Wire Wire Line
 	4650 1100 4700 1100
-$Comp
-L Team-FIRE:SAMD51 U5
-U 1 1 5EE1E0DF
-P 1400 2400
-F 0 "U5" H 1400 4000 98  0000 L CNN
-F 1 "SAMD51" H 1728 2369 98  0001 L CNN
-F 2 "Package_QFP:TQFP-100_14x14mm_P0.5mm" H 550 250 28  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf" V 1510 2280 28  0001 C CNN
-F 4 "1.2" H 600 350 28  0001 C CNN "Height"
-F 5 "ATSAMD51N20A-AUT" H 300 350 28  0001 C CNN "MPN"
-F 6 "Microchip Technology" H 1200 -50 50  0001 C CNN "Manufacturer"
-F 7 "Digikey" H 900 50  50  0001 C CNN "Supplier"
-F 8 "ATSAMD51N20A-AUTCT-ND" H 950 1050 50  0001 C CNN "Supplier PN"
-F 9 "https://www.digikey.com/product-detail/en/microchip-technology/ATSAMD51N20A-AUT/ATSAMD51N20A-AUTCT-ND/7390168" H -150 850 50  0001 C CNN "Link"
-F 10 "IC MCU" H 1300 150 50  0001 C CNN "Type"
-	1    1400 2400
-	1    0    0    -1  
-$EndComp
 NoConn ~ 3400 1100
 NoConn ~ 3400 1000
 $Comp
@@ -961,6 +943,24 @@ F 8 "https://www.digikey.ca/product-detail/en/adesto-technologies/AT25DF041B-SSH
 F 9 "1.65 - 3.6 V" H 7250 1600 50  0001 C CNN "Voltage Rating"
 F 10 "4 Mb non-volative SPI flash memory" H 7250 1600 50  0001 C CNN "Description"
 	1    7250 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Team-FIRE:SAMD51 U5
+U 1 1 5EE1E0DF
+P 1400 2400
+F 0 "U5" H 1400 4000 98  0000 L CNN
+F 1 "SAMD51" H 1728 2369 98  0001 L CNN
+F 2 "Package_QFP:TQFP-100_14x14mm_P0.5mm" H 550 250 28  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf" V 1510 2280 28  0001 C CNN
+F 4 "1.2" H 600 350 28  0001 C CNN "Height"
+F 5 "ATSAMD51N20A-AUT" H 300 350 28  0001 C CNN "MPN"
+F 6 "Microchip Technology" H 1200 -50 50  0001 C CNN "Manufacturer"
+F 7 "Digikey" H 900 50  50  0001 C CNN "Supplier"
+F 8 "ATSAMD51N20A-AUTCT-ND" H 950 1050 50  0001 C CNN "Supplier PN"
+F 9 "https://www.digikey.com/product-detail/en/microchip-technology/ATSAMD51N20A-AUT/ATSAMD51N20A-AUTCT-ND/7390168" H -150 850 50  0001 C CNN "Link"
+F 10 "IC MCU" H 1300 150 50  0001 C CNN "Type"
+	1    1400 2400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

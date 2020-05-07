@@ -38,10 +38,10 @@ F 2 "Team-FIRE:BTS500601TEAAUMA2" H 2950 1300 50  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-BTS50060-1TEA-DS-v01_02-EN.pdf?fileId=5546d46259d9a4bf015a8518bd3f7781" H 2950 1200 50  0001 L CNN
 F 4 "INFINEON - BTS500601TEAAUMA2 - Power Load Switch, AEC-Q100, High Side, 1 Output, 13.5 V, 60 A/0.0068 ohm out, TO-252-5" H 2950 1100 50  0001 L CNN "Description"
 F 5 "2.4" H 2950 1000 50  0001 L CNN "Height"
-F 6 "Infineon" H 2950 900 50  0001 L CNN "Manufacturer_Name"
+F 6 "Infineon" H 2950 900 50  0001 L CNN "Manufacturer"
 F 7 "BTS500601TEAAUMA2" H 2950 800 50  0001 L CNN "MPN"
-F 8 "726-BTS500601TEAAUMA" H 2950 700 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=726-BTS500601TEAAUMA" H 2950 600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "726-BTS500601TEAAUMA" H 2950 700 50  0001 L CNN "Supplier PN"
+F 9 "Mouser" H 2950 600 50  0001 L CNN "Supplier"
 	1    2100 1200
 	1    0    0    -1  
 $EndComp
@@ -51,7 +51,7 @@ U 1 1 5EA85276
 P 4050 2900
 F 0 "TP1" V 4050 3100 50  0000 L CNN
 F 1 "TestPoint" V 4095 3088 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4250 2900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4250 2900 50  0001 C CNN
 F 3 "~" H 4250 2900 50  0001 C CNN
 	1    4050 2900
 	0    1    1    0   
@@ -385,65 +385,10 @@ F 3 "" H 2850 3000 50  0001 C CNN
 $EndComp
 Text GLabel 3950 2900 0    39   Input ~ 0
 EN_IR_BUS
-$Comp
-L Connector:TestPoint TP2
-U 1 1 5EAE78B2
-P 4050 3200
-F 0 "TP2" V 4050 3400 50  0000 L CNN
-F 1 "TestPoint" V 4095 3388 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4250 3200 50  0001 C CNN
-F 3 "~" H 4250 3200 50  0001 C CNN
-	1    4050 3200
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP4
-U 1 1 5EAE8FA8
-P 4050 3500
-F 0 "TP4" V 4050 3700 50  0000 L CNN
-F 1 "TestPoint" V 4095 3688 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4250 3500 50  0001 C CNN
-F 3 "~" H 4250 3500 50  0001 C CNN
-	1    4050 3500
-	0    1    1    0   
-$EndComp
 Text GLabel 3950 3200 0    39   Input ~ 0
 TX_ACTIVE
 Text GLabel 3950 3500 0    39   Input ~ 0
 BOOST_EN
-$Comp
-L Connector:TestPoint TP3
-U 1 1 5EB00868
-P 5000 3000
-F 0 "TP3" V 5000 3200 50  0000 L CNN
-F 1 "TestPoint" V 5045 3188 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 5200 3000 50  0001 C CNN
-F 3 "~" H 5200 3000 50  0001 C CNN
-	1    5000 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP6
-U 1 1 5EB00870
-P 4050 3800
-F 0 "TP6" V 4050 4000 50  0000 L CNN
-F 1 "TestPoint" V 4095 3988 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4250 3800 50  0001 C CNN
-F 3 "~" H 4250 3800 50  0001 C CNN
-	1    4050 3800
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP7
-U 1 1 5EB00877
-P 5000 3800
-F 0 "TP7" V 5000 4000 50  0000 L CNN
-F 1 "TestPoint" V 5045 3988 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 5200 3800 50  0001 C CNN
-F 3 "~" H 5200 3800 50  0001 C CNN
-	1    5000 3800
-	0    1    1    0   
-$EndComp
 Text GLabel 4900 3800 0    39   Input ~ 0
 RF_EN
 $Comp
@@ -458,17 +403,6 @@ F 3 "" H 4900 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP5
-U 1 1 5EB07A7D
-P 5000 3350
-F 0 "TP5" V 5000 3550 50  0000 L CNN
-F 1 "TestPoint" V 5045 3538 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 5200 3350 50  0001 C CNN
-F 3 "~" H 5200 3350 50  0001 C CNN
-	1    5000 3350
-	0    1    1    0   
-$EndComp
-$Comp
 L power:+5V #PWR0176
 U 1 1 5EB0D55E
 P 4900 3250
@@ -481,17 +415,6 @@ F 3 "" H 4900 3250 50  0001 C CNN
 $EndComp
 Text GLabel 3950 3800 0    39   Input ~ 0
 IR_SIM_EN
-$Comp
-L Connector:TestPoint TP8
-U 1 1 5EB13EEF
-P 5000 3600
-F 0 "TP8" V 5000 3800 50  0000 L CNN
-F 1 "TestPoint" V 5045 3788 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 5200 3600 50  0001 C CNN
-F 3 "~" H 5200 3600 50  0001 C CNN
-	1    5000 3600
-	0    1    1    0   
-$EndComp
 Text GLabel 4900 3600 0    39   Input ~ 0
 PWR_EN
 $Comp
@@ -926,4 +849,81 @@ Wire Wire Line
 Connection ~ 2850 3100
 Wire Wire Line
 	2250 3100 2550 3100
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5ECCDBCF
+P 4050 3200
+F 0 "TP3" V 4050 3400 50  0000 L CNN
+F 1 "TestPoint" V 4095 3388 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4250 3200 50  0001 C CNN
+F 3 "~" H 4250 3200 50  0001 C CNN
+	1    4050 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5ECCDECD
+P 4050 3500
+F 0 "TP5" V 4050 3700 50  0000 L CNN
+F 1 "TestPoint" V 4095 3688 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4250 3500 50  0001 C CNN
+F 3 "~" H 4250 3500 50  0001 C CNN
+	1    4050 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5ECCE29C
+P 4050 3800
+F 0 "TP7" V 4050 4000 50  0000 L CNN
+F 1 "TestPoint" V 4095 3988 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4250 3800 50  0001 C CNN
+F 3 "~" H 4250 3800 50  0001 C CNN
+	1    4050 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5ECCE502
+P 5000 3000
+F 0 "TP2" V 5000 3200 50  0000 L CNN
+F 1 "TestPoint" V 5045 3188 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5200 3000 50  0001 C CNN
+F 3 "~" H 5200 3000 50  0001 C CNN
+	1    5000 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5ECCE885
+P 5000 3350
+F 0 "TP4" V 5000 3550 50  0000 L CNN
+F 1 "TestPoint" V 5045 3538 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5200 3350 50  0001 C CNN
+F 3 "~" H 5200 3350 50  0001 C CNN
+	1    5000 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5ECCEAEB
+P 5000 3600
+F 0 "TP6" V 5000 3800 50  0000 L CNN
+F 1 "TestPoint" V 5045 3788 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5200 3600 50  0001 C CNN
+F 3 "~" H 5200 3600 50  0001 C CNN
+	1    5000 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5ECCEDE9
+P 5000 3800
+F 0 "TP8" V 5000 4000 50  0000 L CNN
+F 1 "TestPoint" V 5045 3988 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5200 3800 50  0001 C CNN
+F 3 "~" H 5200 3800 50  0001 C CNN
+	1    5000 3800
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

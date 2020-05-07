@@ -143,9 +143,9 @@ PWR_EN
 Text GLabel 7750 2600 0    39   Input ~ 0
 RF_EN
 Text GLabel 7750 2500 0    39   Input ~ 0
-IR_SIM_RST
+IR_SIM_RESET
 Text GLabel 7750 2400 0    39   Input ~ 0
-IR_SIM_CLK
+IR_SIM_CLOCK
 Text GLabel 7750 2300 0    39   Input ~ 0
 DTR
 Text GLabel 7750 2200 0    39   Input ~ 0
@@ -327,7 +327,7 @@ SIM_IO
 Text GLabel 1400 5350 0    39   Input ~ 0
 IR_SIM_RESET
 Text GLabel 1400 5450 0    39   Input ~ 0
-IR_SIM_CLK
+IR_SIM_CLOCK
 Text GLabel 1400 5550 0    39   Input ~ 0
 IR_SIM_IO
 Wire Wire Line

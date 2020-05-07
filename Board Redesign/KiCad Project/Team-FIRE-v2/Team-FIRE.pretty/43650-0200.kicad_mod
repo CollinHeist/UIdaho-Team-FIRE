@@ -1,4 +1,4 @@
-(module 43650-0200 (layer F.Cu) (tedit 5EA65E42)
+(module 43650-0200 (layer F.Cu) (tedit 5EB3A4ED)
   (descr 43650-0200)
   (tags Connector)
   (fp_text reference J** (at 0 0) (layer F.SilkS)
@@ -25,5 +25,10 @@
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/43650-0200/43650-0200.stp
+    (offset (xyz -1.4 -4 2))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
   )
 )
