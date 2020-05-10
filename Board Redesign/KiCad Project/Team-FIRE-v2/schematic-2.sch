@@ -34,143 +34,64 @@ USB_D+
 Text GLabel 4200 2550 0    39   Input ~ 0
 USB_D-
 $Comp
-L Device:LED_Small D2
-U 1 1 5E707545
-P 7600 2950
-F 0 "D2" V 7550 2800 50  0000 L CNN
-F 1 "Blue" H 7500 3100 50  0000 L CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 7600 2950 50  0001 C CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-5455914/KB%20DELPS2.12_EN.pdf" V 7600 2950 50  0001 C CNN
-F 4 "KB DELPS2.12-QHRI-24-Z555-10-S" V 7600 2950 50  0001 C CNN "MPN"
-F 5 "Osram Opto Semiconductor" V 7600 2950 50  0001 C CNN "Manufacturer"
-F 6 "Mouser" V 7600 2950 50  0001 C CNN "Supplier"
-F 7 "720-KBDELPS212A6350" V 7600 2950 50  0001 C CNN "Supplier PN"
-F 8 "https://www.mouser.com/ProductDetail/OSRAM-Opto-Semiconductors/KB-DELPS212-QHRI-24-Z555-10-S?qs=sGAEpiMZZMseGfSY3csMkXiJOH5X%252BfXwwcjMMWonTAhZIqH765egag%3D%3D" V 7600 2950 50  0001 C CNN "Link"
-F 9 "Blue I2 LED" V 7600 2950 50  0001 C CNN "Description"
-	1    7600 2950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED_Small D3
-U 1 1 5E7081BA
-P 8100 2950
-F 0 "D3" V 8050 2800 50  0000 L CNN
-F 1 "Green" H 7950 3100 50  0000 L CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 8100 2950 50  0001 C CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-5667035/KG%20DELMS1.22_EN.pdf" V 8100 2950 50  0001 C CNN
-F 4 "KG DELMS1.22-PHQI-24-E6L6" V 8100 2950 50  0001 C CNN "MPN"
-F 5 "Osram Opto Semiconductor" V 8100 2950 50  0001 C CNN "Manufacturer"
-F 6 "Mouser" V 8100 2950 50  0001 C CNN "Supplier"
-F 7 "720-KGDELMS122A4854" V 8100 2950 50  0001 C CNN "Supplier PN"
-F 8 "https://www.mouser.com/ProductDetail/OSRAM-Opto-Semiconductors/KG-DELMS122-PHQI-24-E6L6?qs=sGAEpiMZZMseGfSY3csMkXiJOH5X%252BfXw2hz5dPhSTuoMKPqIbYvs3A%3D%3D" V 8100 2950 50  0001 C CNN "Link"
-F 9 "Green SYS LED" V 8100 2950 50  0001 C CNN "Description"
-	1    8100 2950
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:LED_Small D4
 U 1 1 5E7085D2
-P 8600 2950
-F 0 "D4" V 8550 2900 50  0000 R CNN
-F 1 "Orange" H 8700 3100 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 8600 2950 50  0001 C CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-5667035/KG%20DELMS1.22_EN.pdf" V 8600 2950 50  0001 C CNN
-F 4 "KO DELLS1.22-KHLI-24" V 8600 2950 50  0001 C CNN "MPN"
-F 5 "Osram Opto Semiconductor" V 8600 2950 50  0001 C CNN "Manufacturer"
-F 6 "Mouser" V 8600 2950 50  0001 C CNN "Supplier"
-F 7 "720-KODELLS122A4850" V 8600 2950 50  0001 C CNN "Supplier PN"
-F 8 "https://www.mouser.com/ProductDetail/OSRAM-Opto-Semiconductors/KO-DELLS122-KHLI-24?qs=sGAEpiMZZMseGfSY3csMkXiJOH5X%252BfXw2C8037rquCtxGfEHciPG%252Bg%3D%3D" V 8600 2950 50  0001 C CNN "Link"
-F 9 "Orange TX LED" V 8600 2950 50  0001 C CNN "Description"
-	1    8600 2950
+P 7450 2900
+F 0 "D4" V 7400 2850 50  0000 R CNN
+F 1 "Orange" H 7550 3050 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 7450 2900 50  0001 C CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-5667035/KG%20DELMS1.22_EN.pdf" V 7450 2900 50  0001 C CNN
+F 4 "KO DELLS1.22-KHLI-24" V 7450 2900 50  0001 C CNN "MPN"
+F 5 "Osram Opto Semiconductor" V 7450 2900 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" V 7450 2900 50  0001 C CNN "Supplier"
+F 7 "720-KODELLS122A4850" V 7450 2900 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/OSRAM-Opto-Semiconductors/KO-DELLS122-KHLI-24?qs=sGAEpiMZZMseGfSY3csMkXiJOH5X%252BfXw2C8037rquCtxGfEHciPG%252Bg%3D%3D" V 7450 2900 50  0001 C CNN "Link"
+F 9 "Orange TX LED" V 7450 2900 50  0001 C CNN "Description"
+	1    7450 2900
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED_Small D5
 U 1 1 5E709852
-P 9100 2950
-F 0 "D5" V 9050 2900 50  0000 R CNN
-F 1 "Yellow" H 9200 3100 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 9100 2950 50  0001 C CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-5452388/KY%20DELLS1.22_EN.pdf" V 9100 2950 50  0001 C CNN
-F 4 "KY DELLS1.22-KGLH-26" V 9100 2950 50  0001 C CNN "MPN"
-F 5 "Osram Opto Semiconductor" V 9100 2950 50  0001 C CNN "Manufacturer"
-F 6 "Mouser" V 9100 2950 50  0001 C CNN "Supplier"
-F 7 "720-KYDELLS122A4853" V 9100 2950 50  0001 C CNN "Supplier PN"
-F 8 "https://www.mouser.com/ProductDetail/OSRAM-Opto-Semiconductors/KY-DELLS122-KGLH-26?qs=sGAEpiMZZMseGfSY3csMkXiJOH5X%252BfXwv1i%252BFa1JJszqEvno6qOTvg%3D%3D" V 9100 2950 50  0001 C CNN "Link"
-F 9 "Yellow RX LED" V 9100 2950 50  0001 C CNN "Description"
-	1    9100 2950
+P 7950 2900
+F 0 "D5" V 7900 2850 50  0000 R CNN
+F 1 "Yellow" H 8050 3050 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 7950 2900 50  0001 C CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-5452388/KY%20DELLS1.22_EN.pdf" V 7950 2900 50  0001 C CNN
+F 4 "KY DELLS1.22-KGLH-26" V 7950 2900 50  0001 C CNN "MPN"
+F 5 "Osram Opto Semiconductor" V 7950 2900 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" V 7950 2900 50  0001 C CNN "Supplier"
+F 7 "720-KYDELLS122A4853" V 7950 2900 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/OSRAM-Opto-Semiconductors/KY-DELLS122-KGLH-26?qs=sGAEpiMZZMseGfSY3csMkXiJOH5X%252BfXwv1i%252BFa1JJszqEvno6qOTvg%3D%3D" V 7950 2900 50  0001 C CNN "Link"
+F 9 "Yellow RX LED" V 7950 2900 50  0001 C CNN "Description"
+	1    7950 2900
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3.3V #PWR0128
 U 1 1 5E709BE1
-P 8600 2550
-F 0 "#PWR0128" H 8600 2400 50  0001 C CNN
-F 1 "+3.3V" H 8500 2700 50  0000 L CNN
-F 2 "" H 8600 2550 50  0001 C CNN
-F 3 "" H 8600 2550 50  0001 C CNN
-	1    8600 2550
+P 7450 2500
+F 0 "#PWR0128" H 7450 2350 50  0001 C CNN
+F 1 "+3.3V" H 7350 2650 50  0000 L CNN
+F 2 "" H 7450 2500 50  0001 C CNN
+F 3 "" H 7450 2500 50  0001 C CNN
+	1    7450 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0129
 U 1 1 5E70A194
-P 9100 2550
-F 0 "#PWR0129" H 9100 2400 50  0001 C CNN
-F 1 "+3.3V" H 9000 2700 50  0000 L CNN
-F 2 "" H 9100 2550 50  0001 C CNN
-F 3 "" H 9100 2550 50  0001 C CNN
-	1    9100 2550
+P 7950 2500
+F 0 "#PWR0129" H 7950 2350 50  0001 C CNN
+F 1 "+3.3V" H 7850 2650 50  0000 L CNN
+F 2 "" H 7950 2500 50  0001 C CNN
+F 3 "" H 7950 2500 50  0001 C CNN
+	1    7950 2500
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0130
-U 1 1 5E70A4EC
-P 7600 3050
-F 0 "#PWR0130" H 7600 2800 50  0001 C CNN
-F 1 "GND" H 7600 2900 50  0000 C CNN
-F 2 "" H 7600 3050 50  0001 C CNN
-F 3 "" H 7600 3050 50  0001 C CNN
-	1    7600 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0131
-U 1 1 5E70B5A5
-P 8100 3050
-F 0 "#PWR0131" H 8100 2800 50  0001 C CNN
-F 1 "GND" H 8100 2900 50  0000 C CNN
-F 2 "" H 8100 3050 50  0001 C CNN
-F 3 "" H 8100 3050 50  0001 C CNN
-	1    8100 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R13
-U 1 1 5E70B7B8
-P 7600 2700
-F 0 "R13" H 7700 2750 50  0000 L CNN
-F 1 "330" H 7700 2650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7530 2700 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu-SR_D_F_tol_RoHS_L_4-1670154.pdf" H 7600 2700 50  0001 C CNN
-F 4 "SR0603FR-7T330RL" H 7600 2700 50  0001 C CNN "MPN"
-F 5 "Yageo" H 7600 2700 50  0001 C CNN "Manufacturer"
-F 6 "Mouser" H 7600 2700 50  0001 C CNN "Supplier"
-F 7 "603-SR0603FR-7T330RL" H 7600 2700 50  0001 C CNN "Supplier PN"
-F 8 "https://www.mouser.com/ProductDetail/Yageo/SR0603FR-7T330RL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdAr1tt8LFCas%3D" H 7600 2700 50  0001 C CNN "Link"
-F 9 "Thick Film Resistor" H 7600 2700 50  0001 C CNN "Type"
-F 10 "1%" H 7600 2700 50  0001 C CNN "Tolerance"
-F 11 "75 V" H 7600 2700 50  0001 C CNN "Voltage Rating"
-	1    7600 2700
-	-1   0    0    1   
-$EndComp
-Text GLabel 7500 2450 0    39   Input ~ 0
-I2_LED
-Text GLabel 8000 2450 0    39   Input ~ 0
-SYS_LED
-Text GLabel 8500 3150 0    39   Input ~ 0
+Text GLabel 7350 3100 0    39   Input ~ 0
 TX_LED
-Text GLabel 9000 3150 0    39   Input ~ 0
+Text GLabel 7850 3100 0    39   Input ~ 0
 RX_LED
 Text Notes 6000 1460 0    50   ~ 0
 SAMD51 Checklist:\n- From https://www.mouser.com/datasheet/2/268/60001507E-1660031.pdf#page=2096&zoom=100,0,0\n- Voltage of [1.71, 3.63] V must be applied to VDDIO and VDDANA.\n- Voltage VDDIOB must be lower or equal to VDDIO / VDDANA.\n- Verify the power supply is appropriately set for Switching / Linear mode.\n+ We need a pull-up resistor on the SWCLK pin\n+ We need a RC filter on ~RESET\n-  We need to eliminate or attenuate noise in\norder to avoid that it reaches supply pins, I/O pins and crystals.
@@ -662,76 +583,49 @@ Wire Wire Line
 Text GLabel 6800 3300 2    39   Input ~ 0
 RST
 Wire Wire Line
-	7500 2450 7600 2450
+	7450 3000 7450 3100
 Wire Wire Line
-	7600 2450 7600 2550
+	7450 3100 7350 3100
 Wire Wire Line
-	8000 2450 8100 2450
+	7950 3000 7950 3100
 Wire Wire Line
-	8100 2450 8100 2550
-Wire Wire Line
-	8600 3050 8600 3150
-Wire Wire Line
-	8600 3150 8500 3150
-Wire Wire Line
-	9100 3050 9100 3150
-Wire Wire Line
-	9100 3150 9000 3150
-$Comp
-L Device:R R11
-U 1 1 5EB62DF2
-P 8100 2700
-F 0 "R11" H 8200 2750 50  0000 L CNN
-F 1 "330" H 8200 2650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8030 2700 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu-SR_D_F_tol_RoHS_L_4-1670154.pdf" H 8100 2700 50  0001 C CNN
-F 4 "SR0603FR-7T330RL" H 8100 2700 50  0001 C CNN "MPN"
-F 5 "Yageo" H 8100 2700 50  0001 C CNN "Manufacturer"
-F 6 "Mouser" H 8100 2700 50  0001 C CNN "Supplier"
-F 7 "603-SR0603FR-7T330RL" H 8100 2700 50  0001 C CNN "Supplier PN"
-F 8 "https://www.mouser.com/ProductDetail/Yageo/SR0603FR-7T330RL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdAr1tt8LFCas%3D" H 8100 2700 50  0001 C CNN "Link"
-F 9 "Thick Film Resistor" H 8100 2700 50  0001 C CNN "Type"
-F 10 "1%" H 8100 2700 50  0001 C CNN "Tolerance"
-F 11 "75 V" H 8100 2700 50  0001 C CNN "Voltage Rating"
-	1    8100 2700
-	-1   0    0    1   
-$EndComp
+	7950 3100 7850 3100
 $Comp
 L Device:R R12
 U 1 1 5EB6329E
-P 8600 2700
-F 0 "R12" H 8700 2750 50  0000 L CNN
-F 1 "330" H 8700 2650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8530 2700 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu-SR_D_F_tol_RoHS_L_4-1670154.pdf" H 8600 2700 50  0001 C CNN
-F 4 "SR0603FR-7T330RL" H 8600 2700 50  0001 C CNN "MPN"
-F 5 "Yageo" H 8600 2700 50  0001 C CNN "Manufacturer"
-F 6 "Mouser" H 8600 2700 50  0001 C CNN "Supplier"
-F 7 "603-SR0603FR-7T330RL" H 8600 2700 50  0001 C CNN "Supplier PN"
-F 8 "https://www.mouser.com/ProductDetail/Yageo/SR0603FR-7T330RL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdAr1tt8LFCas%3D" H 8600 2700 50  0001 C CNN "Link"
-F 9 "Thick Film Resistor" H 8600 2700 50  0001 C CNN "Type"
-F 10 "1%" H 8600 2700 50  0001 C CNN "Tolerance"
-F 11 "75 V" H 8600 2700 50  0001 C CNN "Voltage Rating"
-	1    8600 2700
+P 7450 2650
+F 0 "R12" H 7550 2700 50  0000 L CNN
+F 1 "330" H 7550 2600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7380 2650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-SR_D_F_tol_RoHS_L_4-1670154.pdf" H 7450 2650 50  0001 C CNN
+F 4 "SR0603FR-7T330RL" H 7450 2650 50  0001 C CNN "MPN"
+F 5 "Yageo" H 7450 2650 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 7450 2650 50  0001 C CNN "Supplier"
+F 7 "603-SR0603FR-7T330RL" H 7450 2650 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Yageo/SR0603FR-7T330RL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdAr1tt8LFCas%3D" H 7450 2650 50  0001 C CNN "Link"
+F 9 "Thick Film Resistor" H 7450 2650 50  0001 C CNN "Type"
+F 10 "1%" H 7450 2650 50  0001 C CNN "Tolerance"
+F 11 "75 V" H 7450 2650 50  0001 C CNN "Voltage Rating"
+	1    7450 2650
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R14
 U 1 1 5EB6349E
-P 9100 2700
-F 0 "R14" H 9200 2750 50  0000 L CNN
-F 1 "330" H 9200 2650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 2700 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu-SR_D_F_tol_RoHS_L_4-1670154.pdf" H 9100 2700 50  0001 C CNN
-F 4 "SR0603FR-7T330RL" H 9100 2700 50  0001 C CNN "MPN"
-F 5 "Yageo" H 9100 2700 50  0001 C CNN "Manufacturer"
-F 6 "Mouser" H 9100 2700 50  0001 C CNN "Supplier"
-F 7 "603-SR0603FR-7T330RL" H 9100 2700 50  0001 C CNN "Supplier PN"
-F 8 "https://www.mouser.com/ProductDetail/Yageo/SR0603FR-7T330RL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdAr1tt8LFCas%3D" H 9100 2700 50  0001 C CNN "Link"
-F 9 "Thick Film Resistor" H 9100 2700 50  0001 C CNN "Type"
-F 10 "1%" H 9100 2700 50  0001 C CNN "Tolerance"
-F 11 "75 V" H 9100 2700 50  0001 C CNN "Voltage Rating"
-	1    9100 2700
+P 7950 2650
+F 0 "R14" H 8050 2700 50  0000 L CNN
+F 1 "330" H 8050 2600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7880 2650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-SR_D_F_tol_RoHS_L_4-1670154.pdf" H 7950 2650 50  0001 C CNN
+F 4 "SR0603FR-7T330RL" H 7950 2650 50  0001 C CNN "MPN"
+F 5 "Yageo" H 7950 2650 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 7950 2650 50  0001 C CNN "Supplier"
+F 7 "603-SR0603FR-7T330RL" H 7950 2650 50  0001 C CNN "Supplier PN"
+F 8 "https://www.mouser.com/ProductDetail/Yageo/SR0603FR-7T330RL?qs=sGAEpiMZZMtlubZbdhIBIMaxnMKvEBNdAr1tt8LFCas%3D" H 7950 2650 50  0001 C CNN "Link"
+F 9 "Thick Film Resistor" H 7950 2650 50  0001 C CNN "Type"
+F 10 "1%" H 7950 2650 50  0001 C CNN "Tolerance"
+F 11 "75 V" H 7950 2650 50  0001 C CNN "Voltage Rating"
+	1    7950 2650
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -779,13 +673,7 @@ Connection ~ 5450 2600
 Wire Wire Line
 	5450 2600 5450 2700
 Wire Notes Line
-	9350 2000 9350 3550
-Wire Notes Line
-	9350 3550 3800 3550
-Wire Notes Line
 	3800 3550 3800 2000
-Wire Notes Line
-	3800 2000 9350 2000
 Wire Wire Line
 	6700 3200 6700 3300
 $Comp
@@ -902,4 +790,10 @@ F 3 "" H 2950 3950 50  0001 C CNN
 	1    2950 3950
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	3800 2000 8200 2000
+Wire Notes Line
+	8200 2000 8200 3550
+Wire Notes Line
+	8200 3550 3800 3550
 $EndSCHEMATC
